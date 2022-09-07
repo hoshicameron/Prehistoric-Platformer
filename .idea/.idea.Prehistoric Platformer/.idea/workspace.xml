@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2df2dc8b-c693-4024-b44b-fb136113924c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Prehistoric Platformer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Prehistoric Platformer/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,10 +10,16 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="699" />
@@ -22,20 +27,10 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="UnityExplorer" proportions="" version="1">
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
-      </pane>
-      <pane id="FileSystemExplorer" />
-      <pane id="AssemblyExplorer" />
-      <pane id="UnityExplorer">
-        <option name="show-hidden-items" value="false" />
-        <option name="show-project-names" value="true" />
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
@@ -81,12 +76,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662479901939</updated>
-      <workItem from="1662479909947" duration="272000" />
+      <workItem from="1662479909947" duration="965000" />
+      <workItem from="1662534476621" duration="638000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="272000" />
+    <option name="totallyTimeSpent" value="1603000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -98,21 +94,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24962178" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="NuGet" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Unit Tests" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Performance Profiler" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -120,14 +108,53 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Errors In Solution" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Unit Tests Coverage" />
+      <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Performance Profiler" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Unity" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Unit Tests" order="13" />
+      <window_info anchor="bottom" id="Terminal" order="14" />
+      <window_info anchor="bottom" id="Event Log" order="15" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Errors In Solution" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="6" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Capture Tool" order="1" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="3" visible="true" weight="0.24962178" />
+      <window_info id="Structure" order="4" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="NuGet" order="0" />
+      <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unity" order="2" />
+      <window_info anchor="bottom" id="Unit Tests" order="3" />
+      <window_info anchor="bottom" id="Terminal" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Performance Profiler" order="8" />
+      <window_info anchor="bottom" id="Message" order="9" />
+      <window_info anchor="bottom" id="Find" order="10" />
+      <window_info anchor="bottom" id="Run" order="11" />
+      <window_info anchor="bottom" id="Debug" order="12" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="13" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="14" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="15" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="1" />
+      <window_info anchor="right" id="Errors In Solution" order="2" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="4" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="5" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -143,6 +170,106 @@
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="519">
+          <caret line="233" column="48" selection-start-line="233" selection-start-column="48" selection-end-line="233" selection-end-column="48" />
+          <folding>
+            <marker date="1628007924000" expanded="true" signature="0:77" ph="/* Author: Daniele Giardini - http://www.demigiant.com ... */" />
+            <marker date="1628007924000" expanded="true" signature="171:284" ph="/* ##if UNITY_2018_1_OR_NEWER &amp;&amp; (NET_4_6 || NET_STANDARD_2_0) ... */" />
+            <marker date="1628007924000" expanded="true" signature="336:17562" ph="{...}" />
+            <marker date="1628007924000" expanded="true" signature="343:507" ph="/// Shortcuts/functions that are not strictly related to specific Modules ... " />
+            <marker date="1628007924000" expanded="true" signature="554:14785" ph="{...}" />
+            <marker date="1628007924000" expanded="false" signature="658:3525" ph="Unity 4.3 or Newer" />
+            <marker date="1628007924000" expanded="false" signature="694:3505" ph="Material" />
+            <marker date="1628007924000" expanded="true" signature="720:1130" ph="///Tweens a Material's color using the given gradient ... " />
+            <marker date="1628007924000" expanded="true" signature="1234:2008" ph="{...}" />
+            <marker date="1628007924000" expanded="true" signature="1429:1943" ph="{...}" />
+            <marker date="1628007924000" expanded="true" signature="1522:1615" ph="{...}" />
+            <marker date="1628007924000" expanded="true" signature="2017:2568" ph="///Tweens a Material's named color property using the given gradient ... " />
+            <marker date="1628007924000" expanded="true" signature="2689:3485" ph="{...}" />
+            <marker date="1628007924000" expanded="true" signature="2884:3420" ph="{...}" />
+            <marker date="1628007924000" expanded="true" signature="2977:3082" ph="{...}" />
+            <marker date="1628007924000" expanded="false" signature="3590:8000" ph="Unity 5.3 or Newer" />
+            <marker date="1628007924000" expanded="false" signature="3626:7980" ph="CustomYieldInstructions" />
+            <marker date="1628007924000" expanded="true" signature="3667:3968" ph="/// Returns a &lt;see cref=&quot;CustomYieldInstruction&quot;/&gt; that waits until the tween is killed or complete. ... " />
+            <marker date="1628007924000" expanded="true" signature="4080:4313" ph="{...}" />
+            <marker date="1628007924000" expanded="true" signature="4118:4237" ph="{...}" />
+            <marker date="1628007924000" expanded="true" signature="4323:4616" ph="/// Returns a &lt;see cref=&quot;CustomYieldInstruction&quot;/&gt; that waits until the tween is killed or rewinded. ... " />
+            <marker date="1628007924000" expanded="true" signature="4724:4953" ph="{...}" />
+            <marker date="1628007924000" expanded="true" signature="4762:4881" ph="{...}" />
+            <marker date="1628007924000" expanded="true" signature="4963:5242" ph="/// Returns a &lt;see cref=&quot;CustomYieldInstruction&quot;/&gt; that waits until the tween is killed. ... " />
+            <marker date="1628007924000" expanded="true" signature="5348:5575" ph="{...}" />
+            <marker date="1628007924000" expanded="true" signature="5386:5505" ph="{...}" />
+            <marker date="1628007924000" expanded="true" signature="5585:5992" ph="/// Returns a &lt;see cref=&quot;CustomYieldInstruction&quot;/&gt; that waits until the tween is killed or has gone through the g ... " />
+            <marker date="1628007924000" expanded="true" signature="6124:6373" ph="{...}" />
+            <marker date="1628007924000" expanded="true" signature="6162:6281" ph="{...}" />
+            <marker date="1628007924000" expanded="true" signature="6383:6853" ph="/// Returns a &lt;see cref=&quot;CustomYieldInstruction&quot;/&gt; that waits until the tween is killed ... " />
+            <marker date="1628007924000" expanded="true" signature="6979:7220" ph="{...}" />
+            <marker date="1628007924000" expanded="true" signature="7017:7136" ph="{...}" />
+            <marker date="1628007924000" expanded="true" signature="7230:7625" ph="/// Returns a &lt;see cref=&quot;CustomYieldInstruction&quot;/&gt; that waits until the tween is killed or started ... " />
+            <marker date="1628007924000" expanded="true" signature="7732:7960" ph="{...}" />
+            <marker date="1628007924000" expanded="true" signature="7770:7889" ph="{...}" />
+            <marker date="1628007924000" expanded="true" signature="8043:14772" ph="Unity 2018.1 or Newer" />
+            <marker date="1628007924000" expanded="false" signature="8082:10263" ph="Material" />
+            <marker date="1628007924000" expanded="true" signature="8108:8579" ph="///Tweens a Material's named texture offset property with the given ID to the given value. ... " />
+            <marker date="1628007924000" expanded="true" signature="8727:9172" ph="{...}" />
+            <marker date="1628007924000" expanded="true" signature="8787:8926" ph="{...}" />
+            <marker date="1628007924000" expanded="true" signature="9182:9652" ph="///Tweens a Material's named texture scale property with the given ID to the given value. ... " />
+            <marker date="1628007924000" expanded="true" signature="9800:10243" ph="{...}" />
+            <marker date="1628007924000" expanded="true" signature="9860:9999" ph="{...}" />
+            <marker date="1628007924000" expanded="true" signature="10273:14752" ph=".NET 4.6 or Newer" />
+            <marker date="1628007924000" expanded="true" signature="10368:14725" ph="Async Instructions" />
+            <marker date="1628007924000" expanded="true" signature="10404:10702" ph="/// Returns an async &lt;see cref=&quot;System.Threading.Tasks.Task&quot;/&gt; that waits until the tween is killed or complete. ... " />
+            <marker date="1628007924000" expanded="true" signature="10795:11048" ph="{...}" />
+            <marker date="1628007924000" expanded="true" signature="10833:10947" ph="{...}" />
+            <marker date="1628007924000" expanded="true" signature="11058:11357" ph="/// Returns an async &lt;see cref=&quot;System.Threading.Tasks.Task&quot;/&gt; that waits until the tween is killed or rewinded. ... " />
+            <marker date="1628007924000" expanded="true" signature="11446:11744" ph="{...}" />
+            <marker date="1628007924000" expanded="true" signature="11484:11598" ph="{...}" />
+            <marker date="1628007924000" expanded="true" signature="11754:12039" ph="/// Returns an async &lt;see cref=&quot;System.Threading.Tasks.Task&quot;/&gt; that waits until the tween is killed. ... " />
+            <marker date="1628007924000" expanded="true" signature="12126:12360" ph="{...}" />
+            <marker date="1628007924000" expanded="true" signature="12164:12278" ph="{...}" />
+            <marker date="1628007924000" expanded="true" signature="12370:12782" ph="/// Returns an async &lt;see cref=&quot;System.Threading.Tasks.Task&quot;/&gt; that waits until the tween is killed or has gone t ... " />
+            <marker date="1628007924000" expanded="true" signature="12895:13166" ph="{...}" />
+            <marker date="1628007924000" expanded="true" signature="12933:13047" ph="{...}" />
+            <marker date="1628007924000" expanded="true" signature="13176:13678" ph="/// Returns an async &lt;see cref=&quot;System.Threading.Tasks.Task&quot;/&gt; that waits until the tween is killed or started ... " />
+            <marker date="1628007924000" expanded="true" signature="13785:14071" ph="{...}" />
+            <marker date="1628007924000" expanded="true" signature="13823:13937" ph="{...}" />
+            <marker date="1628007924000" expanded="true" signature="14081:14366" ph="/// Returns an async &lt;see cref=&quot;System.Threading.Tasks.Task&quot;/&gt; that waits until the tween is killed. ... " />
+            <marker date="1628007924000" expanded="true" signature="14454:14705" ph="{...}" />
+            <marker date="1628007924000" expanded="true" signature="14492:14606" ph="{...}" />
+            <marker date="1628007924000" expanded="true" signature="14791:15161" ph="/* ██████████████████████████████████████████████████████████████████████████████████████████████████████████████ ... */" />
+            <marker date="1628007924000" expanded="true" signature="15255:17553" ph="{...}" />
+            <marker date="1628007924000" expanded="true" signature="15325:15600" ph="{...}" />
+            <marker date="1628007924000" expanded="true" signature="15381:15455" ph="{...}" />
+            <marker date="1628007924000" expanded="true" signature="15387:15454" ph="{...}" />
+            <marker date="1628007924000" expanded="true" signature="15535:15590" ph="{...}" />
+            <marker date="1628007924000" expanded="true" signature="15661:15977" ph="{...}" />
+            <marker date="1628007924000" expanded="true" signature="15717:15836" ph="{...}" />
+            <marker date="1628007924000" expanded="true" signature="15723:15835" ph="{...}" />
+            <marker date="1628007924000" expanded="true" signature="15912:15967" ph="{...}" />
+            <marker date="1628007924000" expanded="true" signature="16036:16286" ph="{...}" />
+            <marker date="1628007924000" expanded="true" signature="16092:16147" ph="{...}" />
+            <marker date="1628007924000" expanded="true" signature="16098:16146" ph="{...}" />
+            <marker date="1628007924000" expanded="true" signature="16221:16276" ph="{...}" />
+            <marker date="1628007924000" expanded="true" signature="16353:16755" ph="{...}" />
+            <marker date="1628007924000" expanded="true" signature="16409:16501" ph="{...}" />
+            <marker date="1628007924000" expanded="true" signature="16415:16500" ph="{...}" />
+            <marker date="1628007924000" expanded="true" signature="16640:16745" ph="{...}" />
+            <marker date="1628007924000" expanded="true" signature="16818:17219" ph="{...}" />
+            <marker date="1628007924000" expanded="true" signature="16874:16981" ph="{...}" />
+            <marker date="1628007924000" expanded="true" signature="16880:16980" ph="{...}" />
+            <marker date="1628007924000" expanded="true" signature="17112:17209" ph="{...}" />
+            <marker date="1628007924000" expanded="true" signature="17279:17547" ph="{...}" />
+            <marker date="1628007924000" expanded="true" signature="17335:17407" ph="{...}" />
+            <marker date="1628007924000" expanded="true" signature="17341:17406" ph="{...}" />
+            <marker date="1628007924000" expanded="true" signature="17482:17537" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
