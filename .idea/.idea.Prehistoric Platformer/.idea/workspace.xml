@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2df2dc8b-c693-4024-b44b-fb136113924c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Prehistoric Platformer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Prehistoric Platformer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,7 +12,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -78,11 +79,12 @@
       <updated>1662479901939</updated>
       <workItem from="1662479909947" duration="965000" />
       <workItem from="1662534476621" duration="638000" />
+      <workItem from="1662552736937" duration="559000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1603000" />
+    <option name="totallyTimeSpent" value="2162000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
