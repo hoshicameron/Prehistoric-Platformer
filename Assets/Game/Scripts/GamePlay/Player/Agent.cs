@@ -7,23 +7,27 @@ namespace PrehistoricPlatformer.Player
         public Rigidbody2D rb2d;
         public PlayerInput playerInput;
         public AgentAnimation agentAnimation;
+        public AgentRenderer agentRenderer;
 
         private void Awake()
         {
             TryGetComponent<Rigidbody2D>(out rb2d);
             playerInput = GetComponentInParent<PlayerInput>();
             agentAnimation = GetComponentInChildren<AgentAnimation>();
+            agentRenderer = GetComponentInChildren<AgentRenderer>();
 
         }
 
         private void OnEnable()
         {
             playerInput.OnMovement += HandleMovement;
+            playerInput.OnMovement += agentRenderer.faceDirection;
         }
 
         private void OnDisable()
         {
             playerInput.OnMovement -= HandleMovement;
+            playerInput.OnMovement -= agentRenderer.faceDirection;
         }
 
         public void HandleMovement(Vector2 input)
