@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2df2dc8b-c693-4024-b44b-fb136113924c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Player/Agent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Player/Agent.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Prehistoric Platformer/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Prehistoric Platformer/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Prehistoric Platformer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Prehistoric Platformer/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/Scene_Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scenes/Scene_Level1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Sprites/background-elements/Tiles/tilemap_improved.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Sprites/background-elements/Tiles/tilemap_improved.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Tiles/Palettes/Rule Tiles.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Tiles/Palettes/Rule Tiles.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Sprites/characters/playable/caverman.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Sprites/characters/playable/caverman.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,15 +18,80 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Player/PlayerInput.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="211">
+              <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+              <folding>
+                <marker date="1662631946150" expanded="true" signature="6:118" ph="..." />
+                <marker date="1662631946150" expanded="true" signature="158:1954" ph="{...}" />
+                <marker date="1662631946150" expanded="true" signature="205:1945" ph="{...}" />
+                <marker date="1662631946150" expanded="true" signature="566:819" ph="{...}" />
+                <marker date="1662631946150" expanded="true" signature="612:780" ph="{...}" />
+                <marker date="1662631946150" expanded="true" signature="860:978" ph="{...}" />
+                <marker date="1662631946150" expanded="true" signature="1023:1136" ph="{...}" />
+                <marker date="1662631946150" expanded="true" signature="1173:1417" ph="{...}" />
+                <marker date="1662631946150" expanded="true" signature="1226:1295" ph="{...}" />
+                <marker date="1662631946150" expanded="true" signature="1337:1407" ph="{...}" />
+                <marker date="1662631946150" expanded="true" signature="1456:1585" ph="{...}" />
+                <marker date="1662631946150" expanded="true" signature="1511:1575" ph="{...}" />
+                <marker date="1662631946150" expanded="true" signature="1628:1767" ph="{...}" />
+                <marker date="1662631946150" expanded="true" signature="1687:1757" ph="{...}" />
+                <marker date="1662631946150" expanded="true" signature="1804:1939" ph="{...}" />
+                <marker date="1662631946150" expanded="true" signature="1857:1929" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Player/Agent.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="409">
+              <caret line="32" column="45" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
+              <folding>
+                <marker date="1662633172560" expanded="true" signature="58:876" ph="{...}" />
+                <marker date="1662633172560" expanded="true" signature="97:866" ph="{...}" />
+                <marker date="1662633172560" expanded="true" signature="206:337" ph="{...}" />
+                <marker date="1662633172560" expanded="true" signature="370:444" ph="{...}" />
+                <marker date="1662633172560" expanded="true" signature="478:552" ph="{...}" />
+                <marker date="1662633172560" expanded="true" signature="603:860" ph="{...}" />
+                <marker date="1662633172560" expanded="true" signature="653:753" ph="{...}" />
+                <marker date="1662633172560" expanded="true" signature="758:850" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.2d.tilemap@1.0.0/Editor/GridPaintPaletteClipboard.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/2d-extras-2020.3/2d-extras-2020.3/Runtime/Brushes/TintTextureGenerator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/2d-extras-2020.3/2d-extras-2020.3/Runtime/Tiles/AnimatedTile/AnimatedTile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/2d-extras-2020.3/2d-extras-2020.3/Editor/Brushes/PrefabBrushes/BasePrefabBrush.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/2d-extras-2020.3/2d-extras-2020.3/Editor/Brushes/PrefabBrushes/PrefabBrush/PrefabBrush.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/2d-extras-2020.3/2d-extras-2020.3/Runtime/Tiles/HexagonalRuleTile/HexagonalRuleTile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Player/Agent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/2d-extras-2020.3/2d-extras-2020.3/Runtime/Tiles/IsometricRuleTile/IsometricRuleTile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/2d-extras-2020.3/2d-extras-2020.3/Runtime/Tiles/RuleTile/RuleTile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Player/PlayerInput.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Player/PlayerInput.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Player/Agent.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="699" />
@@ -32,10 +99,55 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="UnityExplorer" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="UnityExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="Game" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="Game" type="1045f7f1:UnityExplorerNode" />
+              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="Game" type="1045f7f1:UnityExplorerNode" />
+              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
+              <item name="GamePlay" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="Game" type="1045f7f1:UnityExplorerNode" />
+              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
+              <item name="GamePlay" type="1045f7f1:UnityExplorerNode" />
+              <item name="Player" type="1045f7f1:UnityExplorerNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-hidden-items" value="false" />
+        <option name="show-project-names" value="true" />
+      </pane>
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="FileSystemExplorer" />
+      <pane id="AssemblyExplorer" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
@@ -85,11 +197,12 @@
       <workItem from="1662534476621" duration="638000" />
       <workItem from="1662552736937" duration="559000" />
       <workItem from="1662568325930" duration="767000" />
+      <workItem from="1662622992220" duration="4604000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2929000" />
+    <option name="totallyTimeSpent" value="7533000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -101,67 +214,38 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24962178" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Capture Tool" order="3" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Performance Profiler" order="8" />
-      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Unity" order="11" />
-      <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Unit Tests" order="13" />
-      <window_info anchor="bottom" id="Terminal" order="14" />
-      <window_info anchor="bottom" id="Event Log" order="15" side_tool="true" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="right" id="Errors In Solution" order="4" />
-      <window_info anchor="right" id="Database" order="5" />
-      <window_info anchor="right" id="Unit Tests Coverage" order="6" />
-    </layout>
-    <layout-to-restore>
       <window_info id="Image Layers" order="0" />
       <window_info id="Capture Tool" order="1" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="3" visible="true" weight="0.24962178" />
       <window_info id="Structure" order="4" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="NuGet" order="0" />
+      <window_info anchor="bottom" id="NuGet" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unity" order="2" />
       <window_info anchor="bottom" id="Unit Tests" order="3" />
       <window_info anchor="bottom" id="Terminal" order="4" />
       <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Performance Profiler" order="8" />
-      <window_info anchor="bottom" id="Message" order="9" />
-      <window_info anchor="bottom" id="Find" order="10" />
-      <window_info anchor="bottom" id="Run" order="11" />
-      <window_info anchor="bottom" id="Debug" order="12" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="13" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="14" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Find" order="7" />
+      <window_info anchor="bottom" id="Run" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
+      <window_info anchor="bottom" id="Performance Profiler" order="14" />
       <window_info anchor="bottom" id="TODO" order="15" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="right" id="Unit Tests Coverage" order="1" />
-      <window_info anchor="right" id="Errors In Solution" order="2" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="4" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="Ant Build" order="5" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
-    </layout-to-restore>
+    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -273,6 +357,424 @@
             <marker date="1628007924000" expanded="true" signature="17335:17407" ph="{...}" />
             <marker date="1628007924000" expanded="true" signature="17341:17406" ph="{...}" />
             <marker date="1628007924000" expanded="true" signature="17482:17537" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/2d-extras-2020.3/2d-extras-2020.3/Editor/Brushes/PrefabBrushes/BasePrefabBrush.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-77">
+          <caret line="48" column="150" selection-start-line="48" selection-start-column="150" selection-end-line="48" selection-end-column="150" />
+          <folding>
+            <marker date="1656650456000" expanded="false" signature="6:52" ph="..." />
+            <marker date="1656650456000" expanded="true" signature="84:4158" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="92:201" ph="/// This base class for PrefabBrushes that contains common functionality ... " />
+            <marker date="1656650456000" expanded="true" signature="246:2973" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="255:369" ph="/// Anchor Point of the Instantiated Prefab in the cell when painting ... " />
+            <marker date="1656650456000" expanded="true" signature="444:910" ph="/// Gets all children of the parent Transform which are within the given Grid's cell position. ... " />
+            <marker date="1656650456000" expanded="true" signature="1018:1796" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="1510:1758" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="1657:1744" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="1806:2232" ph="/// Instantiates a Prefab into the given Grid's cell position parented to the brush target. ... " />
+            <marker date="1656650456000" expanded="true" signature="2391:2967" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="2515:2957" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="2983:3065" ph="/// The Base Brush Editor for a Prefab Brush. ... " />
+            <marker date="1656650456000" expanded="true" signature="3123:4156" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="3184:3291" ph="/// SerializedObject representation of the target Prefab Brush ... " />
+            <marker date="1656650456000" expanded="true" signature="3356:3443" ph="/// OnEnable for the BasePrefabBrushEditor ... " />
+            <marker date="1656650456000" expanded="true" signature="3486:3666" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="3676:3898" ph="/// Callback for painting the inspector GUI for the PrefabBrush in the Tile Palette. ... " />
+            <marker date="1656650456000" expanded="true" signature="3949:4150" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/2d-extras-2020.3/2d-extras-2020.3/Editor/Brushes/PrefabBrushes/PrefabBrush/PrefabBrush.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+          <folding>
+            <marker date="1656650456000" expanded="false" signature="6:37" ph="..." />
+            <marker date="1656650456000" expanded="true" signature="69:7099" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="76:249" ph="/// This Brush instances and places a containing prefab onto the targeted location and parents the instanced obje ... " />
+            <marker date="1656650456000" expanded="true" signature="354:7097" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="406:492" ph="/// The selection of Prefab to paint from ... " />
+            <marker date="1656650456000" expanded="true" signature="635:928" ph="/// If true, erases any GameObjects that are in a given position within the selected layers with Erasing. ... " />
+            <marker date="1656650456000" expanded="true" signature="970:1195" ph="/// Rotates the brush in the given direction. ... " />
+            <marker date="1656650456000" expanded="true" signature="1290:1550" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="1560:2057" ph="/// Paints GameObject from containing Prefab into a given position within the selected layers. ... " />
+            <marker date="1656650456000" expanded="true" signature="2154:2582" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="2447:2572" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="2592:2994" ph="/// Paints the PrefabBrush instance's prefab into all positions specified by the box fill tool. ... " />
+            <marker date="1656650456000" expanded="true" signature="3090:3240" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="3338:3489" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="3499:4170" ph="/// If &quot;Erase Any Objects&quot; is true, erases any GameObjects that are in a given position within the selected layer ... " />
+            <marker date="1656650456000" expanded="true" signature="4267:4627" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="4375:4617" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="4504:4603" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="4637:4756" ph="/// Pick prefab from selected Tilemap, given the coordinates of the cells. ... " />
+            <marker date="1656650456000" expanded="true" signature="4879:5292" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="4926:4978" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="5091:5282" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="5139:5268" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="5302:5387" ph="/// The Brush Editor for a Prefab Brush. ... " />
+            <marker date="1656650456000" expanded="true" signature="5494:7091" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="5637:5728" ph="/// OnEnable for the PrefabBrushEditor ... " />
+            <marker date="1656650456000" expanded="true" signature="5775:5914" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="5928:6162" ph="/// Callback for painting the inspector GUI for the PrefabBrush in the Tile Palette. ... " />
+            <marker date="1656650456000" expanded="true" signature="6217:7081" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/2d-extras-2020.3/2d-extras-2020.3/Runtime/Brushes/TintTextureGenerator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+          <folding>
+            <marker date="1656650456000" expanded="false" signature="6:60" ph="..." />
+            <marker date="1656650456000" expanded="true" signature="62:138" ph="/// A helper class for tinting a Grid component ... " />
+            <marker date="1656650456000" expanded="true" signature="208:5480" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="215:285" ph="/// Size of the Tint map in cells ... " />
+            <marker date="1656650456000" expanded="true" signature="327:493" ph="/// Mapping scale for cells to Tint map texture ... " />
+            <marker date="1656650456000" expanded="true" signature="533:612" ph="/// Size of the Tint map texture in pixels ... " />
+            <marker date="1656650456000" expanded="true" signature="723:871" ph="/// Callback when the TintTextureGenerator is loaded. ... " />
+            <marker date="1656650456000" expanded="true" signature="895:971" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="1019:1099" ph="/// Tint texture generated from Grid values ... " />
+            <marker date="1656650456000" expanded="true" signature="1132:1719" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="1150:1713" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="1246:1669" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="1725:1859" ph="/// Refreshes the tint color of the Grid ... " />
+            <marker date="1656650456000" expanded="true" signature="1894:2459" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="2097:2424" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="2147:2414" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="2465:2683" ph="/// Refreshes the color of a position on a Grid ... " />
+            <marker date="1656650456000" expanded="true" signature="2739:3495" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="3273:3460" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="3339:3450" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="3501:3772" ph="/// Get the color of a position on a Grid ... " />
+            <marker date="1656650456000" expanded="true" signature="3830:3993" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="3999:4261" ph="/// Set the color of a position on a Grid ... " />
+            <marker date="1656650456000" expanded="true" signature="4331:4502" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="4555:4761" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="4808:5013" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="5064:5306" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="5344:5478" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/2d-extras-2020.3/2d-extras-2020.3/Runtime/Tiles/AnimatedTile/AnimatedTile.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-99">
+          <caret line="148" column="22" selection-start-line="148" selection-start-column="22" selection-end-line="148" selection-end-column="22" />
+          <folding>
+            <marker date="1656650456000" expanded="false" signature="6:130" ph="..." />
+            <marker date="1656650456000" expanded="true" signature="169:16624" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="176:302" ph="/// Animated Tiles are tiles which run through and display a list of sprites in sequence. ... " />
+            <marker date="1656650456000" expanded="true" signature="495:4176" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="510:650" ph="/// The List of Sprites set for the Animated Tile. ... " />
+            <marker date="1656650456000" expanded="true" signature="702:917" ph="/// The minimum possible speed at which the Animation of the Tile will be played. ... " />
+            <marker date="1656650456000" expanded="true" signature="964:1179" ph="/// The maximum possible speed at which the Animation of the Tile will be played. ... " />
+            <marker date="1656650456000" expanded="true" signature="1226:1470" ph="/// The starting time of this Animated Tile. ... " />
+            <marker date="1656650456000" expanded="true" signature="1522:1787" ph="/// The starting frame of this Animated Tile. ... " />
+            <marker date="1656650456000" expanded="true" signature="1842:1932" ph="/// The Collider Shape generated by the Tile. ... " />
+            <marker date="1656650456000" expanded="true" signature="1995:2327" ph="/// Retrieves any tile rendering data from the scripted tile. ... " />
+            <marker date="1656650456000" expanded="true" signature="2430:2791" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="2610:2781" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="2801:3219" ph="/// Retrieves any tile animation data from the scripted tile. ... " />
+            <marker date="1656650456000" expanded="true" signature="3349:4170" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="3405:4134" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="3756:4091" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="4280:16615" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="4322:5973" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="6334:6940" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="6986:7072" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="7161:7677" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="7260:7667" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="7728:7862" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="7919:8487" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="8146:8374" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="8391:8477" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="8547:8895" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="8688:8885" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="8956:9106" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="9198:9614" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="9654:9824" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="9680:9814" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="9873:10030" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="10108:10543" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="10353:10504" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="10404:10490" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="10620:11260" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="10728:11223" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="10777:10860" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="10903:11209" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="11097:11191" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="11314:12951" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="11497:12714" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="11710:11920" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="12877:12941" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="12961:13050" ph="/// Draws an Inspector for the AnimatedTile. ... " />
+            <marker date="1656650456000" expanded="true" signature="13096:16418" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="13640:14408" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="14450:14835" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="14954:16229" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="15786:15952" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="16274:16408" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="16484:16609" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/2d-extras-2020.3/2d-extras-2020.3/Runtime/Tiles/HexagonalRuleTile/HexagonalRuleTile.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="29" column="44" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
+          <folding>
+            <marker date="1656650456000" expanded="true" signature="36:7860" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="43:377" ph="/// Generic visual tile for creating different tilesets like terrain, pipeline, random or animated tiles. ... " />
+            <marker date="1656650456000" expanded="true" signature="435:626" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="450:555" ph="/// Returns the Neighbor Rule Class type for this Rule Tile. ... " />
+            <marker date="1656650456000" expanded="true" signature="632:812" ph="/// Generic visual tile for creating different tilesets like terrain, pipeline, random or animated tiles. ... " />
+            <marker date="1656650456000" expanded="true" signature="1006:7858" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="1021:1145" ph="/// Angle in which the HexagonalRuleTile is rotated by for matching in Degrees. ... " />
+            <marker date="1656650456000" expanded="true" signature="1246:1523" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="1573:1850" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="1900:2172" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="2222:2494" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="2505:2595" ph="/// Whether this is a flat top Hexagonal Tile ... " />
+            <marker date="1656650456000" expanded="true" signature="2740:2961" ph="/// Converts a Tilemap Position to World Position. ... " />
+            <marker date="1656650456000" expanded="true" signature="3050:3331" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="3341:3560" ph="/// Converts a World Position to Tilemap Position. ... " />
+            <marker date="1656650456000" expanded="true" signature="3647:4094" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="4104:4394" ph="/// Get the offset for the given position with the given offset. ... " />
+            <marker date="1656650456000" expanded="true" signature="4487:4700" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="4710:5018" ph="/// Get the reversed offset for the given position with the given offset. ... " />
+            <marker date="1656650456000" expanded="true" signature="5118:5219" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="5229:5550" ph="/// Gets a rotated position given its original position and the rotation in degrees.  ... " />
+            <marker date="1656650456000" expanded="true" signature="5639:6642" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="5680:6603" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="5851:6172" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="6193:6514" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="6652:7033" ph="/// Gets a mirrored position given its original position and the mirroring axii. ... " />
+            <marker date="1656650456000" expanded="true" signature="7137:7852" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="7183:7813" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="7311:7507" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="7528:7724" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/2d-extras-2020.3/2d-extras-2020.3/Runtime/Tiles/IsometricRuleTile/IsometricRuleTile.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="15" column="51" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
+          <folding>
+            <marker date="1656650456000" expanded="true" signature="36:1073" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="43:377" ph="/// Generic visual tile for creating different tilesets like terrain, pipeline, random or animated tiles. ... " />
+            <marker date="1656650456000" expanded="true" signature="435:626" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="450:555" ph="/// Returns the Neighbor Rule Class type for this Rule Tile. ... " />
+            <marker date="1656650456000" expanded="true" signature="632:812" ph="/// Generic visual tile for creating different tilesets like terrain, pipeline, random or animated tiles. ... " />
+            <marker date="1656650456000" expanded="true" signature="1006:1071" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/2d-extras-2020.3/2d-extras-2020.3/Runtime/Tiles/RuleTile/RuleTile.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-319">
+          <caret line="485" column="28" selection-start-line="485" selection-start-column="28" selection-end-line="485" selection-end-column="28" />
+          <folding>
+            <marker date="1656650456000" expanded="false" signature="6:152" ph="..." />
+            <marker date="1656650456000" expanded="true" signature="175:36366" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="182:477" ph="/// Generic visual tile for creating different tilesets like terrain, pipeline, random or animated tiles. ... " />
+            <marker date="1656650456000" expanded="true" signature="517:708" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="532:637" ph="/// Returns the Neighbor Rule Class type for this Rule Tile. ... " />
+            <marker date="1656650456000" expanded="true" signature="714:856" ph="/// Generic visual tile for creating different tilesets like terrain, pipeline, random or animated tiles. ... " />
+            <marker date="1656650456000" expanded="true" signature="1041:36364" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="1056:1150" ph="/// Returns the default Neighbor Rule Class type. ... " />
+            <marker date="1656650456000" expanded="true" signature="1241:1338" ph="/// The Default Sprite set when creating a new Rule. ... " />
+            <marker date="1656650456000" expanded="true" signature="1386:1487" ph="/// The Default GameObject set when creating a new Rule. ... " />
+            <marker date="1656650456000" expanded="true" signature="1543:1647" ph="/// The Default Collider Type set when creating a new Rule. ... " />
+            <marker date="1656650456000" expanded="true" signature="1740:1855" ph="/// Angle in which the RuleTile is rotated by for matching in Degrees. ... " />
+            <marker date="1656650456000" expanded="true" signature="1915:2028" ph="/// Number of rotations the RuleTile can be rotated by for matching. ... " />
+            <marker date="1656650456000" expanded="true" signature="2099:2251" ph="/// The data structure holding the Rule information for matching Rule Tiles with ... " />
+            <marker date="1656650456000" expanded="true" signature="2312:6284" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="2335:2409" ph="/// Id for this Rule. ... " />
+            <marker date="1656650456000" expanded="true" signature="2451:2541" ph="/// The output Sprites for this Rule. ... " />
+            <marker date="1656650456000" expanded="true" signature="2609:2702" ph="/// The output GameObject for this Rule. ... " />
+            <marker date="1656650456000" expanded="true" signature="2759:2865" ph="/// The output minimum Animation Speed for this Rule. ... " />
+            <marker date="1656650456000" expanded="true" signature="2984:3090" ph="/// The output maximum Animation Speed for this Rule. ... " />
+            <marker date="1656650456000" expanded="true" signature="3209:3304" ph="/// The perlin scale factor for this Rule. ... " />
+            <marker date="1656650456000" expanded="true" signature="3364:3451" ph="/// The output type for this Rule. ... " />
+            <marker date="1656650456000" expanded="true" signature="3528:3624" ph="/// The output Collider Type for this Rule. ... " />
+            <marker date="1656650456000" expanded="true" signature="3717:3820" ph="/// The randomized transform output for this Rule. ... " />
+            <marker date="1656650456000" expanded="true" signature="3882:4002" ph="/// The enumeration for matching Neighbors when matching Rule Tiles ... " />
+            <marker date="1656650456000" expanded="true" signature="4036:4627" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="4067:4284" ph="/// The Rule Tile will check if the contents of the cell in that direction is an instance of this Rule Tile. ... " />
+            <marker date="1656650456000" expanded="true" signature="4344:4567" ph="/// The Rule Tile will check if the contents of the cell in that direction is not an instance of this Rule Tile. ... " />
+            <marker date="1656650456000" expanded="true" signature="4641:4767" ph="/// The enumeration for the transform rule used when matching Rule Tiles. ... " />
+            <marker date="1656650456000" expanded="true" signature="4801:5677" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="4832:4965" ph="/// The Rule Tile will match Tiles exactly as laid out in its neighbors. ... " />
+            <marker date="1656650456000" expanded="true" signature="5005:5120" ph="/// The Rule Tile will rotate and match its neighbors. ... " />
+            <marker date="1656650456000" expanded="true" signature="5162:5291" ph="/// The Rule Tile will mirror in the X axis and match its neighbors. ... " />
+            <marker date="1656650456000" expanded="true" signature="5333:5462" ph="/// The Rule Tile will mirror in the Y axis and match its neighbors. ... " />
+            <marker date="1656650456000" expanded="true" signature="5504:5638" ph="/// The Rule Tile will mirror in the X or Y axis and match its neighbors. ... " />
+            <marker date="1656650456000" expanded="true" signature="5691:5793" ph="/// The Output for the Tile which fits this Rule. ... " />
+            <marker date="1656650456000" expanded="true" signature="5830:6274" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="5861:5957" ph="/// A Single Sprite will be output. ... " />
+            <marker date="1656650456000" expanded="true" signature="5998:6094" ph="/// A Random Sprite will be output. ... " />
+            <marker date="1656650456000" expanded="true" signature="6135:6234" ph="/// A Sprite Animation will be output. ... " />
+            <marker date="1656650456000" expanded="true" signature="6294:6446" ph="/// The data structure holding the Rule information for matching Rule Tiles with ... " />
+            <marker date="1656650456000" expanded="true" signature="6520:10353" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="6543:6663" ph="/// The matching Rule conditions for each of its neighboring Tiles. ... " />
+            <marker date="1656650456000" expanded="true" signature="6736:6903" ph="/// * Preset this list to RuleTile backward compatible, but not support for HexagonalRuleTile backward compatible ... " />
+            <marker date="1656650456000" expanded="true" signature="6997:7346" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="7360:7459" ph="/// The transform matching Rule for this Rule. ... " />
+            <marker date="1656650456000" expanded="true" signature="7519:7674" ph="/// This clones a copy of the TilingRule. ... " />
+            <marker date="1656650456000" expanded="true" signature="7712:8571" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="7792:8454" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="8597:8779" ph="/// Returns all neighbors of this Tile as a dictionary ... " />
+            <marker date="1656650456000" expanded="true" signature="8841:9149" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="9163:9364" ph="/// Applies the values from the given dictionary as this Tile's neighbors ... " />
+            <marker date="1656650456000" expanded="true" signature="9437:9575" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="9589:9763" ph="/// Gets the cell bounds of the TilingRule. ... " />
+            <marker date="1656650456000" expanded="true" signature="9804:10343" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="9958:10298" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="10363:10493" ph="/// Attribute which marks a property which cannot be overridden by a RuleOverrideTile ... " />
+            <marker date="1656650456000" expanded="true" signature="10553:10643" ph="/// A list of Tiling Rules for the Rule Tile. ... " />
+            <marker date="1656650456000" expanded="true" signature="10752:10857" ph="/// Returns a set of neighboring positions for this RuleTile ... " />
+            <marker date="1656650456000" expanded="true" signature="10910:11118" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="10936:11108" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="11214:11313" ph="/// Updates the neighboring positions of this RuleTile ... " />
+            <marker date="1656650456000" expanded="true" signature="11359:13232" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="11576:13222" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="11652:13208" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="11927:12200" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="12046:12178" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="12354:12646" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="12791:12918" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="13063:13190" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="13242:13668" ph="/// StartUp is called on the first frame of the running Scene. ... " />
+            <marker date="1656650456000" expanded="true" signature="13779:16073" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="13837:16037" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="14364:15153" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="14459:15135" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="15187:15707" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="16083:16415" ph="/// Retrieves any tile rendering data from the scripted tile. ... " />
+            <marker date="1656650456000" expanded="true" signature="16518:18172" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="16922:18162" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="17009:18148" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="17070:17925" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="18182:18598" ph="/// Returns a Perlin Noise value based on the given inputs. ... " />
+            <marker date="1656650456000" expanded="true" signature="18689:18809" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="19220:20029" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="19808:19992" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="20147:21356" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="20621:21144" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="21391:21645" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="21471:21609" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="21526:21595" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="21709:22330" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="21922:22070" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="22098:22320" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="22340:22758" ph="/// Retrieves any tile animation data from the scripted tile. ... " />
+            <marker date="1656650456000" expanded="true" signature="22888:23545" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="23007:23509" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="23099:23495" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="23194:23477" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="23555:23811" ph="/// This method is called when the tile is refreshed. ... " />
+            <marker date="1656650456000" expanded="true" signature="23891:25004" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="24403:24994" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="25014:25503" ph="/// Does a Rule Match given a Tiling Rule and neighboring Tiles. ... " />
+            <marker date="1656650456000" expanded="true" signature="25624:28160" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="25691:25848" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="25988:26403" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="26091:26389" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="26178:26371" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="26541:27313" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="26625:26803" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="26874:27051" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="27122:27299" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="27442:27718" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="27527:27704" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="27847:28123" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="27932:28109" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="28170:28642" ph="/// Returns a random transform matrix given the random transform rule. ... " />
+            <marker date="1656650456000" expanded="true" signature="28789:29870" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="28900:29831" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="29880:30121" ph="/// Returns custom fields for this RuleTile ... " />
+            <marker date="1656650456000" expanded="true" signature="30189:30713" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="30723:31036" ph="/// Checks if there is a match given the neighbor matching rule and a Tile. ... " />
+            <marker date="1656650456000" expanded="true" signature="31104:31450" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="31234:31415" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="31460:31945" ph="/// Checks if there is a match given the neighbor matching rule and a Tile with a rotation angle. ... " />
+            <marker date="1656650456000" expanded="true" signature="32044:32624" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="32195:32589" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="32505:32575" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="32634:33187" ph="/// Checks if there is a match given the neighbor matching rule and a Tile with mirrored axii. ... " />
+            <marker date="1656650456000" expanded="true" signature="33303:33894" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="33453:33859" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="33775:33845" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="33904:34225" ph="/// Gets a rotated position given its original position and the rotation in degrees.  ... " />
+            <marker date="1656650456000" expanded="true" signature="34313:34772" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="34353:34733" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="34782:35163" ph="/// Gets a mirrored position given its original position and the mirroring axii. ... " />
+            <marker date="1656650456000" expanded="true" signature="35266:35433" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="35443:35733" ph="/// Get the offset for the given position with the given offset. ... " />
+            <marker date="1656650456000" expanded="true" signature="35825:35883" ph="{...}" />
+            <marker date="1656650456000" expanded="true" signature="35893:36201" ph="/// Get the reversed offset for the given position with the given offset. ... " />
+            <marker date="1656650456000" expanded="true" signature="36300:36358" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.2d.tilemap@1.0.0/Editor/GridPaintPaletteClipboard.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="346" selection-start-line="346" selection-end-line="346" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Player/PlayerInput.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding>
+            <marker date="1662631946150" expanded="true" signature="6:118" ph="..." />
+            <marker date="1662631946150" expanded="true" signature="158:1954" ph="{...}" />
+            <marker date="1662631946150" expanded="true" signature="205:1945" ph="{...}" />
+            <marker date="1662631946150" expanded="true" signature="566:819" ph="{...}" />
+            <marker date="1662631946150" expanded="true" signature="612:780" ph="{...}" />
+            <marker date="1662631946150" expanded="true" signature="860:978" ph="{...}" />
+            <marker date="1662631946150" expanded="true" signature="1023:1136" ph="{...}" />
+            <marker date="1662631946150" expanded="true" signature="1173:1417" ph="{...}" />
+            <marker date="1662631946150" expanded="true" signature="1226:1295" ph="{...}" />
+            <marker date="1662631946150" expanded="true" signature="1337:1407" ph="{...}" />
+            <marker date="1662631946150" expanded="true" signature="1456:1585" ph="{...}" />
+            <marker date="1662631946150" expanded="true" signature="1511:1575" ph="{...}" />
+            <marker date="1662631946150" expanded="true" signature="1628:1767" ph="{...}" />
+            <marker date="1662631946150" expanded="true" signature="1687:1757" ph="{...}" />
+            <marker date="1662631946150" expanded="true" signature="1804:1939" ph="{...}" />
+            <marker date="1662631946150" expanded="true" signature="1857:1929" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Player/Agent.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="32" column="45" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
+          <folding>
+            <marker date="1662633172560" expanded="true" signature="58:876" ph="{...}" />
+            <marker date="1662633172560" expanded="true" signature="97:866" ph="{...}" />
+            <marker date="1662633172560" expanded="true" signature="206:337" ph="{...}" />
+            <marker date="1662633172560" expanded="true" signature="370:444" ph="{...}" />
+            <marker date="1662633172560" expanded="true" signature="478:552" ph="{...}" />
+            <marker date="1662633172560" expanded="true" signature="603:860" ph="{...}" />
+            <marker date="1662633172560" expanded="true" signature="653:753" ph="{...}" />
+            <marker date="1662633172560" expanded="true" signature="758:850" ph="{...}" />
           </folding>
         </state>
       </provider>
