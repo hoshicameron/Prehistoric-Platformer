@@ -10,8 +10,13 @@
             <e p="GamePlay" t="Include">
               <e p="Player" t="Include">
                 <e p="Agent.cs" t="Include" />
+                <e p="AgentAnimation.cs" t="Include" />
+                <e p="AnimationType.cs" t="Include" />
                 <e p="PlayerInput.cs" t="Include" />
               </e>
+            </e>
+            <e p="Utilities" t="Include">
+              <e p="GameConstants.cs" t="Include" />
             </e>
           </e>
         </e>
