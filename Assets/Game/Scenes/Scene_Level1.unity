@@ -202,6 +202,7 @@ GameObject:
   - component: {fileID: 181670454}
   - component: {fileID: 181670453}
   - component: {fileID: 181670455}
+  - component: {fileID: 181670456}
   m_Layer: 0
   m_Name: Agent
   m_TagString: Untagged
@@ -274,6 +275,23 @@ MonoBehaviour:
   agentInput: {fileID: 0}
   agentAnimation: {fileID: 0}
   agentRenderer: {fileID: 0}
+  idleState: {fileID: 1190896425}
+  stateName: 
+--- !u!114 &181670456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 181670451}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68d57cb54dd3476d84105d101d44bfcd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  horizontalMovementDirection: 0
+  currentSpeed: 0
+  currentVelocity: {x: 0, y: 0}
 --- !u!1 &274538736
 GameObject:
   m_ObjectHideFlags: 0
@@ -806,6 +824,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1190896424}
   - component: {fileID: 1190896425}
+  - component: {fileID: 1190896426}
   m_Layer: 0
   m_Name: States
   m_TagString: Untagged
@@ -845,7 +864,30 @@ MonoBehaviour:
   OnExit:
     m_PersistentCalls:
       m_Calls: []
-  moveState: {fileID: 0}
+  moveState: {fileID: 1190896426}
+--- !u!114 &1190896426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1190896423}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8558c7973036482881b8676031a845d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  OnExit:
+    m_PersistentCalls:
+      m_Calls: []
+  movementData: {fileID: 0}
+  idleState: {fileID: 1190896425}
+  acceleration: 50
+  deacceleration: 40
+  maxSpeed: 6
 --- !u!1 &1271888159
 GameObject:
   m_ObjectHideFlags: 0
