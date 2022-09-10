@@ -5,6 +5,7 @@ namespace PrehistoricPlatformer.StatePattern
 {
     public abstract class State:MonoBehaviour
     {
+        [SerializeField] protected State jumpState;
         protected Agent.Agent agent;
         public UnityEvent OnEnter, OnExit;
 
@@ -30,7 +31,18 @@ namespace PrehistoricPlatformer.StatePattern
         protected virtual void HandleWeaponChange(){}
         protected virtual void HandleJumpReleased(){}
 
-        protected virtual void HandleJumpPressed(){}
+        protected virtual void HandleJumpPressed()
+        {
+            TestJumpTransition();
+        }
+
+        private void TestJumpTransition()
+        {
+            if (agent.GroundDetector.isGrounded)
+            {
+                agent.TransitionToState(jumpState);
+            }
+        }
 
         protected virtual void HandleMovement(Vector2 input){}
 
