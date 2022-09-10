@@ -1,4 +1,4 @@
-namespace PrehistoricPlatformer.Player
+namespace PrehistoricPlatformer.Agent
 {
     public enum AnimationType
     {

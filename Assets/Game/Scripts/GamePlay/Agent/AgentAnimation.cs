@@ -2,7 +2,7 @@ using System;
 using PrehistoricPlatformer.Utilities;
 using UnityEngine;
 
-namespace PrehistoricPlatformer.Player
+namespace PrehistoricPlatformer.Agent
 {
     public class AgentAnimation:MonoBehaviour
     {
@@ -37,8 +37,6 @@ namespace PrehistoricPlatformer.Player
                     break;
                 case AnimationType.Land:
                     break;
-                default:
-                    throw new ArgumentOutOfRangeException(nameof(animationType), animationType, null);
             }
         }
 

@@ -1,18 +1,18 @@
 using UnityEngine;
 
-namespace PrehistoricPlatformer.Player
+namespace PrehistoricPlatformer.Agent
 {
     public class Agent:MonoBehaviour
     {
         public Rigidbody2D rb2d;
-        public PlayerInput playerInput;
+        public AgentInput agentInput;
         public AgentAnimation agentAnimation;
         public AgentRenderer agentRenderer;
 
         private void Awake()
         {
             TryGetComponent<Rigidbody2D>(out rb2d);
-            playerInput = GetComponentInParent<PlayerInput>();
+            agentInput = GetComponentInParent<AgentInput>();
             agentAnimation = GetComponentInChildren<AgentAnimation>();
             agentRenderer = GetComponentInChildren<AgentRenderer>();
 
@@ -20,14 +20,14 @@ namespace PrehistoricPlatformer.Player
 
         private void OnEnable()
         {
-            playerInput.OnMovement += HandleMovement;
-            playerInput.OnMovement += agentRenderer.faceDirection;
+            agentInput.OnMovement += HandleMovement;
+            agentInput.OnMovement += agentRenderer.faceDirection;
         }
 
         private void OnDisable()
         {
-            playerInput.OnMovement -= HandleMovement;
-            playerInput.OnMovement -= agentRenderer.faceDirection;
+            agentInput.OnMovement -= HandleMovement;
+            agentInput.OnMovement -= agentRenderer.faceDirection;
         }
 
         public void HandleMovement(Vector2 input)

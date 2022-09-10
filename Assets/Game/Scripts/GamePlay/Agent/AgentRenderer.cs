@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace PrehistoricPlatformer.Player
+namespace PrehistoricPlatformer.Agent
 {
     public class AgentRenderer:MonoBehaviour
     {

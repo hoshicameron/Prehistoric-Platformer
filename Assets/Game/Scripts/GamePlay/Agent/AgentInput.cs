@@ -4,9 +4,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace PrehistoricPlatformer.Player
+namespace PrehistoricPlatformer.Agent
 {
-    public class PlayerInput : MonoBehaviour
+    public class AgentInput : MonoBehaviour
     {
         [field:SerializeField]
         public Vector2 MovementVector { get; private set; }
