@@ -32,7 +32,7 @@ namespace PrehistoricPlatformer.StatePattern
 
         protected virtual void HandleJumpPressed(){}
 
-        protected virtual void HandleMovement(Vector2 obj){}
+        protected virtual void HandleMovement(Vector2 input){}
 
         protected virtual void HandleAttack(){}
 

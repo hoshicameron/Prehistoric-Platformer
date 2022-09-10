@@ -1,3 +1,4 @@
+using PrehistoricPlatformer.StatePattern;
 using UnityEngine;
 
 namespace PrehistoricPlatformer.Agent
@@ -47,6 +48,11 @@ namespace PrehistoricPlatformer.Agent
                 }
                 rb2d.velocity = new Vector2(0,rb2d.velocity.y);
             }
+        }
+
+        public void Transition(State toState, State fromState)
+        {
+
         }
     }// class
 }// namespace
