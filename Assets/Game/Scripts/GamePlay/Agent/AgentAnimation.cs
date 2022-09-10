@@ -30,8 +30,10 @@ namespace PrehistoricPlatformer.Agent
                     Play(GameConstants.RunAnimation);
                     break;
                 case AnimationType.Jump:
+                    Play(GameConstants.JumpAnimation);
                     break;
                 case AnimationType.Fall:
+                    Play(GameConstants.FallAnimation);
                     break;
                 case AnimationType.Climb:
                     break;
