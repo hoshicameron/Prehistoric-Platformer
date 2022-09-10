@@ -50,7 +50,7 @@ namespace PrehistoricPlatformer.Agent
             }
         }
 
-        public void Transition(State toState, State fromState)
+        public void TransitionToState(State desireState, State callingState)
         {
 
         }

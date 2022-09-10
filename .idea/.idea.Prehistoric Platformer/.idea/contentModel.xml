@@ -17,6 +17,8 @@
               </e>
               <e p="StatePattern" t="Include">
                 <e p="IdleState.cs" t="Include" />
+                <e p="MovementData.cs" t="Include" />
+                <e p="MovementState.cs" t="Include" />
                 <e p="State.cs" t="Include" />
               </e>
             </e>
