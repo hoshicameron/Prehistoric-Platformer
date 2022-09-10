@@ -15,9 +15,9 @@ namespace PrehistoricPlatformer.StatePattern
         {
             if (Mathf.Abs(input.x) > 0)
             {
-                agent.TransitionToState(moveState, this);
+                agent.TransitionToState(moveState);
             }
         }
-    }
+    }// class
 
-}
+}// namespace

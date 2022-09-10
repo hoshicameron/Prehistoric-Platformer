@@ -10,6 +10,10 @@ namespace PrehistoricPlatformer.Agent
         public AgentAnimation agentAnimation;
         public AgentRenderer agentRenderer;
 
+        private State currentState = null, previousState = null;
+        public State idleState;
+
+        [Header("State Debugging")] public string stateName = string.Empty;
         private void Awake()
         {
             TryGetComponent<Rigidbody2D>(out rb2d);
@@ -17,42 +21,58 @@ namespace PrehistoricPlatformer.Agent
             agentAnimation = GetComponentInChildren<AgentAnimation>();
             agentRenderer = GetComponentInChildren<AgentRenderer>();
 
+            State[] states = GetComponentsInChildren<State>();
+            foreach (State state in states)
+            {
+                state.InitializeState(this);
+            }
+
         }
 
         private void OnEnable()
         {
-            agentInput.OnMovement += HandleMovement;
-            agentInput.OnMovement += agentRenderer.faceDirection;
+           agentInput.OnMovement += agentRenderer.faceDirection;
+        }
+
+        private void Start()
+        {
+            TransitionToState(idleState);
         }
 
         private void OnDisable()
         {
-            agentInput.OnMovement -= HandleMovement;
             agentInput.OnMovement -= agentRenderer.faceDirection;
         }
 
-        public void HandleMovement(Vector2 input)
+        public void TransitionToState(State desireState)
         {
-            if (Mathf.Abs(input.x) > 0)
+            if(desireState==null)    return;
+
+            if(currentState!=null)    currentState.Exit();
+
+            previousState = currentState;
+            currentState = desireState;
+            currentState.Enter();
+
+            DisplayState();
+        }
+
+        private void DisplayState()
+        {
+            if (previousState == null || previousState.GetType() != currentState.GetType())
             {
-                if (Mathf.Abs(rb2d.velocity.x) < 0.01f)
-                {
-                    agentAnimation.PlayAnimation(AnimationType.Run);
-                }
-                rb2d.velocity = new Vector2(input.x*5,rb2d.velocity.y);
-            } else
-            {
-                if (Mathf.Abs(rb2d.velocity.x) > 0f)
-                {
-                    agentAnimation.PlayAnimation(AnimationType.Idle);
-                }
-                rb2d.velocity = new Vector2(0,rb2d.velocity.y);
+                stateName = currentState.GetType().ToString();
             }
         }
 
-        public void TransitionToState(State desireState, State callingState)
+        private void Update()
         {
+            currentState.StateUpdate();
+        }
 
+        private void FixedUpdate()
+        {
+            currentState.StateFixedUpdate();
         }
     }// class
 }// namespace

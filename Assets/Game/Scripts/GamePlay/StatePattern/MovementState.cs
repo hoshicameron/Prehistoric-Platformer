@@ -26,14 +26,14 @@ namespace PrehistoricPlatformer.StatePattern
             ;
         }
 
-        protected override void StateUpdate()
+        public override void StateFixedUpdate()
         {
             base.StateUpdate();
             CalculateVelocity();
             SetAgentVelocity();
             if (Mathf.Abs(agent.rb2d.velocity.x) < 0.01f)
             {
-                agent.TransitionToState(idleState,this);
+                agent.TransitionToState(idleState);
             }
         }
         private void CalculateVelocity()
@@ -74,5 +74,7 @@ namespace PrehistoricPlatformer.StatePattern
         {
             agent.rb2d.velocity = movementData.currentVelocity;
         }
-    }
-}
+
+
+    }// class
+}// namespace

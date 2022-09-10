@@ -35,7 +35,8 @@ namespace PrehistoricPlatformer.StatePattern
         protected virtual void HandleMovement(Vector2 input){}
 
         protected virtual void HandleAttack(){}
-        protected virtual void StateUpdate(){}
+        public virtual void StateUpdate(){}
+        public virtual void StateFixedUpdate(){}
 
         public void Exit()
         {
@@ -50,5 +51,6 @@ namespace PrehistoricPlatformer.StatePattern
         }
 
         protected virtual void ExitState(){}
-    }
-}
+
+    }// class
+}// namespace

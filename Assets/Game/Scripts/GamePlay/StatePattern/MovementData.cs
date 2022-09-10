@@ -7,5 +7,5 @@ namespace PrehistoricPlatformer.StatePattern
         public int horizontalMovementDirection;
         public float currentSpeed;
         public Vector2 currentVelocity;
-    }
-}
+    }// class
+}// namespace
