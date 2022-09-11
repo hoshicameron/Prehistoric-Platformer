@@ -5,6 +5,10 @@ namespace PrehistoricPlatformer.Agent
 {
     public class Agent:MonoBehaviour
     {
+        [Header("Data")]
+        public AgentDataSO agentData;
+
+        [Header("Component's Reference")]
         public Rigidbody2D rb2d;
         public AgentInput agentInput;
         public AgentAnimation agentAnimation;
@@ -12,6 +16,8 @@ namespace PrehistoricPlatformer.Agent
         public GroundDetector GroundDetector;
 
         private State currentState = null, previousState = null;
+
+        [Header("Starting State")]
         public State idleState;
 
         [Header("State Debugging")] public string stateName = string.Empty;

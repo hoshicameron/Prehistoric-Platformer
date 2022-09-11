@@ -5,16 +5,13 @@ namespace PrehistoricPlatformer.StatePattern
 {
     public class JumpState:MovementState
     {
-        public float jumpForce;
-        public float lowJumpMultiplier = 2;
-
         private bool jumpPressed = false;
         protected override void EnterState()
         {
             agent.agentAnimation.PlayAnimation(AnimationType.Jump);
 
             movementData.currentVelocity = agent.rb2d.velocity;
-            movementData.currentVelocity.y = jumpForce;
+            movementData.currentVelocity.y = agent.agentData.jumpForce;
             agent.rb2d.velocity = movementData.currentVelocity;
 
             jumpPressed = true;
@@ -47,7 +44,7 @@ namespace PrehistoricPlatformer.StatePattern
             if (!jumpPressed)
             {
                 movementData.currentVelocity = agent.rb2d.velocity;
-                movementData.currentVelocity.y += lowJumpMultiplier * Physics2D.gravity.y * Time.fixedDeltaTime;
+                movementData.currentVelocity.y += agent.agentData.lowJumpMultiplier * Physics2D.gravity.y * Time.fixedDeltaTime;
                 agent.rb2d.velocity = movementData.currentVelocity;
             }
         }

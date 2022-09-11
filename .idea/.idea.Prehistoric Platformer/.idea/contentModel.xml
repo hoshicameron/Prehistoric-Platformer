@@ -25,6 +25,9 @@
                 <e p="State.cs" t="Include" />
               </e>
             </e>
+            <e p="ScriptableObjects" t="Include">
+              <e p="AgentDataSO.cs" t="Include" />
+            </e>
             <e p="Utilities" t="Include">
               <e p="GameConstants.cs" t="Include" />
             </e>
