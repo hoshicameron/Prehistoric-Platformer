@@ -44,8 +44,17 @@ TagManager:
   - name: Background
     uniqueID: 194196599
     locked: 0
+  - name: GroundInBack
+    uniqueID: 1988448209
+    locked: 0
+  - name: Platform
+    uniqueID: 3688631157
+    locked: 0
   - name: Ground
     uniqueID: 1185352871
+    locked: 0
+  - name: ClimbingStuff
+    uniqueID: 202729959
     locked: 0
   - name: Details
     uniqueID: 4252650201

@@ -1018,13 +1018,13 @@ TextureImporter:
     second: tilemap_improved_337
   - first:
       213: 1014201213469995244
-    second: tilemap_improved_338
+    second: platform left
   - first:
       213: -532589783417006698
-    second: tilemap_improved_339
+    second: platform middle
   - first:
       213: -4799511484047157982
-    second: tilemap_improved_340
+    second: platform right
   - first:
       213: -2778536468113946834
     second: tilemap_improved_341
@@ -1099,7 +1099,7 @@ TextureImporter:
     second: tilemap_improved_364
   - first:
       213: 1135882387628471726
-    second: tilemap_improved_365
+    second: ladder top
   - first:
       213: -3973555021481649046
     second: tilemap_improved_366
@@ -1180,7 +1180,7 @@ TextureImporter:
     second: tilemap_improved_391
   - first:
       213: -761464218323261461
-    second: tilemap_improved_392
+    second: ladder middle
   - first:
       213: 7205528301644605510
     second: tilemap_improved_393
@@ -1264,7 +1264,7 @@ TextureImporter:
     second: tilemap_improved_419
   - first:
       213: 5391223170574467202
-    second: tilemap_improved_420
+    second: ladder bottom
   - first:
       213: 7317771755170355695
     second: tilemap_improved_421
@@ -8857,7 +8857,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap_improved_338
+      name: platform left
       rect:
         serializedVersion: 2
         x: 512
@@ -8878,7 +8878,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap_improved_339
+      name: platform middle
       rect:
         serializedVersion: 2
         x: 544
@@ -8899,7 +8899,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap_improved_340
+      name: platform right
       rect:
         serializedVersion: 2
         x: 576
@@ -9424,7 +9424,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap_improved_365
+      name: ladder top
       rect:
         serializedVersion: 2
         x: 448
@@ -9991,7 +9991,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap_improved_392
+      name: ladder middle
       rect:
         serializedVersion: 2
         x: 448
@@ -10579,7 +10579,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap_improved_420
+      name: ladder bottom
       rect:
         serializedVersion: 2
         x: 448
