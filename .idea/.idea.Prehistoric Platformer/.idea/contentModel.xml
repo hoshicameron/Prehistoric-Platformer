@@ -17,6 +17,7 @@
                 <e p="GroundDetector.cs" t="Include" />
               </e>
               <e p="StatePattern" t="Include">
+                <e p="FallState.cs" t="Include" />
                 <e p="IdleState.cs" t="Include" />
                 <e p="JumpState.cs" t="Include" />
                 <e p="MovementData.cs" t="Include" />

@@ -9,6 +9,8 @@ namespace PrehistoricPlatformer.StatePattern
         protected override void EnterState()
         {
             agent.agentAnimation.PlayAnimation(AnimationType.Idle);
+            if(agent.GroundDetector.isGrounded)
+                agent.rb2d.velocity=new Vector2(0,agent.rb2d.velocity.y);
         }
 
         protected override void HandleMovement(Vector2 input)

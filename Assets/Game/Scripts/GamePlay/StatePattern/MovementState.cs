@@ -23,12 +23,12 @@ namespace PrehistoricPlatformer.StatePattern
             movementData.horizontalMovementDirection = 0;
             movementData.currentSpeed = 0f;
             movementData.currentVelocity = Vector2.zero;
-            ;
         }
 
         public override void StateFixedUpdate()
         {
-            base.StateUpdate();
+            if(TestFallState())    return;
+
             CalculateVelocity();
             SetAgentVelocity();
             if (Mathf.Abs(agent.rb2d.velocity.x) < 0.01f)

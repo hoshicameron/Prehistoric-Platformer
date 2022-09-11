@@ -5,7 +5,6 @@ namespace PrehistoricPlatformer.StatePattern
 {
     public class JumpState:MovementState
     {
-        public State fallState;
         public float jumpForce;
         public float lowJumpMultiplier = 2;
 
