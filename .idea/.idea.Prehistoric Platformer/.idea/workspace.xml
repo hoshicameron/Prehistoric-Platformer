@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2df2dc8b-c693-4024-b44b-fb136113924c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Prehistoric Platformer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Prehistoric Platformer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/Scene_Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scenes/Scene_Level1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Agent/GroundDetector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Agent/GroundDetector.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,7 +28,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Agent/Agent.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="352">
@@ -50,20 +52,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Agent/GroundDetector.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="770">
-              <caret line="38" column="35" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
+            <state relative-caret-position="409">
+              <caret line="36" column="20" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
               <folding>
-                <marker date="1662829717205" expanded="true" signature="57:1626" ph="{...}" />
-                <marker date="1662829717205" expanded="true" signature="105:1624" ph="{...}" />
-                <marker date="1662829717205" expanded="true" signature="601:752" ph="{...}" />
-                <marker date="1662829717205" expanded="true" signature="650:742" ph="{...}" />
-                <marker date="1662829717205" expanded="true" signature="791:1251" ph="{...}" />
-                <marker date="1662829717205" expanded="true" signature="1109:1172" ph="{...}" />
-                <marker date="1662829717205" expanded="true" signature="1177:1241" ph="{...}" />
-                <marker date="1662829717205" expanded="true" signature="1288:1618" ph="{...}" />
+                <marker date="1662912082475" expanded="true" signature="57:1696" ph="{...}" />
+                <marker date="1662912082475" expanded="true" signature="105:1694" ph="{...}" />
+                <marker date="1662912082475" expanded="true" signature="601:752" ph="{...}" />
+                <marker date="1662912082475" expanded="true" signature="650:742" ph="{...}" />
+                <marker date="1662912082475" expanded="true" signature="791:1321" ph="{...}" />
+                <marker date="1662912082475" expanded="true" signature="1109:1242" ph="{...}" />
+                <marker date="1662912082475" expanded="true" signature="1247:1311" ph="{...}" />
+                <marker date="1662912082475" expanded="true" signature="1358:1688" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -203,7 +205,6 @@
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Agent/AgentInput.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/StatePattern/MovementData.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Agent/AgentAnimation.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Agent/GroundDetector.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/StatePattern/State.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/StatePattern/IdleState.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/AgentDataSO.cs" />
@@ -211,10 +212,11 @@
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/StatePattern/JumpState.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/StatePattern/FallState.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Agent/Agent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Agent/GroundDetector.cs" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="699" />
@@ -321,12 +323,12 @@
       <workItem from="1662795364342" duration="7041000" />
       <workItem from="1662812981906" duration="15015000" />
       <workItem from="1662877570225" duration="7070000" />
-      <workItem from="1662898407358" duration="587000" />
+      <workItem from="1662898407358" duration="617000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41027000" />
+    <option name="totallyTimeSpent" value="41057000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -338,7 +340,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Capture Tool" order="1" />
@@ -996,23 +999,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Agent/GroundDetector.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="770">
-          <caret line="38" column="35" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
-          <folding>
-            <marker date="1662829717205" expanded="true" signature="57:1626" ph="{...}" />
-            <marker date="1662829717205" expanded="true" signature="105:1624" ph="{...}" />
-            <marker date="1662829717205" expanded="true" signature="601:752" ph="{...}" />
-            <marker date="1662829717205" expanded="true" signature="650:742" ph="{...}" />
-            <marker date="1662829717205" expanded="true" signature="791:1251" ph="{...}" />
-            <marker date="1662829717205" expanded="true" signature="1109:1172" ph="{...}" />
-            <marker date="1662829717205" expanded="true" signature="1177:1241" ph="{...}" />
-            <marker date="1662829717205" expanded="true" signature="1288:1618" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/StatePattern/MovementState.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1034">
@@ -1090,6 +1076,23 @@
             <marker date="1662878639342" expanded="true" signature="1563:1769" ph="{...}" />
             <marker date="1662878639342" expanded="true" signature="1623:1732" ph="{...}" />
             <marker date="1662878639342" expanded="true" signature="1798:2187" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Agent/GroundDetector.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="36" column="20" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
+          <folding>
+            <marker date="1662912082475" expanded="true" signature="57:1696" ph="{...}" />
+            <marker date="1662912082475" expanded="true" signature="105:1694" ph="{...}" />
+            <marker date="1662912082475" expanded="true" signature="601:752" ph="{...}" />
+            <marker date="1662912082475" expanded="true" signature="650:742" ph="{...}" />
+            <marker date="1662912082475" expanded="true" signature="791:1321" ph="{...}" />
+            <marker date="1662912082475" expanded="true" signature="1109:1242" ph="{...}" />
+            <marker date="1662912082475" expanded="true" signature="1247:1311" ph="{...}" />
+            <marker date="1662912082475" expanded="true" signature="1358:1688" ph="{...}" />
           </folding>
         </state>
       </provider>
