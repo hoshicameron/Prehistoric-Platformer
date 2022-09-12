@@ -48,6 +48,16 @@ namespace PrehistoricPlatformer.Agent
             animator.Play(name,-1,0f);
         }
 
+        public void StopAnimation()
+        {
+            animator.enabled = false;
+        }
+
+        public void StartAnimation()
+        {
+            animator.enabled = true;
+        }
+
 
     }// class
 }// namespace

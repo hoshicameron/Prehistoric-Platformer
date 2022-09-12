@@ -374,7 +374,8 @@ MonoBehaviour:
   agentInput: {fileID: 0}
   agentAnimation: {fileID: 0}
   agentRenderer: {fileID: 0}
-  GroundDetector: {fileID: 0}
+  groundDetector: {fileID: 0}
+  climbingDetector: {fileID: 0}
   idleState: {fileID: 1190896425}
   stateName: 
 --- !u!114 &181670456
@@ -1766,6 +1767,7 @@ GameObject:
   - component: {fileID: 1190896426}
   - component: {fileID: 1190896427}
   - component: {fileID: 1190896428}
+  - component: {fileID: 1190896429}
   m_Layer: 0
   m_Name: States
   m_TagString: Untagged
@@ -1801,6 +1803,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   jumpState: {fileID: 1190896427}
   fallState: {fileID: 1190896428}
+  climbState: {fileID: 0}
   OnEnter:
     m_PersistentCalls:
       m_Calls: []
@@ -1822,6 +1825,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   jumpState: {fileID: 1190896427}
   fallState: {fileID: 1190896428}
+  climbState: {fileID: 0}
   OnEnter:
     m_PersistentCalls:
       m_Calls: []
@@ -1844,6 +1848,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   jumpState: {fileID: 0}
   fallState: {fileID: 1190896428}
+  climbState: {fileID: 0}
   OnEnter:
     m_PersistentCalls:
       m_Calls: []
@@ -1866,6 +1871,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   jumpState: {fileID: 1190896427}
   fallState: {fileID: 1190896428}
+  climbState: {fileID: 0}
   OnEnter:
     m_PersistentCalls:
       m_Calls: []
@@ -1873,6 +1879,28 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   movementData: {fileID: 0}
+  idleState: {fileID: 1190896425}
+--- !u!114 &1190896429
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1190896423}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da9a17914622460ca659a83a17c29dcd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jumpState: {fileID: 1190896427}
+  fallState: {fileID: 1190896428}
+  climbState: {fileID: 1190896429}
+  OnEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  OnExit:
+    m_PersistentCalls:
+      m_Calls: []
   idleState: {fileID: 1190896425}
 --- !u!1 &1271888159
 GameObject:

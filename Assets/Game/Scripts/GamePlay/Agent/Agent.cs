@@ -13,7 +13,8 @@ namespace PrehistoricPlatformer.Agent
         public AgentInput agentInput;
         public AgentAnimation agentAnimation;
         public AgentRenderer agentRenderer;
-        public GroundDetector GroundDetector;
+        public GroundDetector groundDetector;
+        public ClimbingDetector climbingDetector;
 
         private State currentState = null, previousState = null;
 
@@ -27,7 +28,8 @@ namespace PrehistoricPlatformer.Agent
             agentInput = GetComponentInParent<AgentInput>();
             agentAnimation = GetComponentInChildren<AgentAnimation>();
             agentRenderer = GetComponentInChildren<AgentRenderer>();
-            GroundDetector = GetComponentInChildren<GroundDetector>();
+            groundDetector = GetComponentInChildren<GroundDetector>();
+            climbingDetector = GetComponentInChildren<ClimbingDetector>();
 
             State[] states = GetComponentsInChildren<State>();
             foreach (State state in states)
@@ -80,7 +82,7 @@ namespace PrehistoricPlatformer.Agent
 
         private void FixedUpdate()
         {
-            GroundDetector.CheckIsGrounded();
+            groundDetector.CheckIsGrounded();
             currentState.StateFixedUpdate();
         }
     }// class

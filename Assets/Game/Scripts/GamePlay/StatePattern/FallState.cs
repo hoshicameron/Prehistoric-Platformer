@@ -21,9 +21,13 @@ namespace PrehistoricPlatformer.StatePattern
             ControlFallSpeed();
             CalculateVelocity();
             SetAgentVelocity();
-            if (agent.GroundDetector.isGrounded)
+            if (agent.groundDetector.isGrounded)
             {
                 agent.TransitionToState(idleState);
+            }
+            else if(agent.climbingDetector.CanClimb &&  Mathf.Abs(agent.agentInput.MovementVector.y) > 0)
+            {
+                agent.TransitionToState(climbState);
             }
         }
 

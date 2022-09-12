@@ -19,6 +19,7 @@
               </e>
               <e p="ParallaxEffect.cs" t="Include" />
               <e p="StatePattern" t="Include">
+                <e p="ClimbingState.cs" t="Include" />
                 <e p="FallState.cs" t="Include" />
                 <e p="IdleState.cs" t="Include" />
                 <e p="JumpState.cs" t="Include" />

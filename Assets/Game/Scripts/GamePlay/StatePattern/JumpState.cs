@@ -37,6 +37,10 @@ namespace PrehistoricPlatformer.StatePattern
             {
                 agent.TransitionToState(fallState);
             }
+            else if(agent.climbingDetector.CanClimb &&  Mathf.Abs(agent.agentInput.MovementVector.y) > 0)
+            {
+                agent.TransitionToState(climbState);
+            }
         }
 
         private void ControlJumpHeight()

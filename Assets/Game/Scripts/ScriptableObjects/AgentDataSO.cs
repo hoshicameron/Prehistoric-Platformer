@@ -15,5 +15,9 @@ namespace PrehistoricPlatformer
         public float lowJumpMultiplier = 2;
         public float gravityModifier = 0.5f;
 
+        [Header("Climb Data")] [Space]
+        public float ClimbHorizontalSpeed = 2f;
+        public float ClimbVerticalSpeed = 5f;
+
     }
 }
