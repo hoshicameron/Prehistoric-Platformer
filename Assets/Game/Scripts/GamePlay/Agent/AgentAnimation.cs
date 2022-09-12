@@ -36,6 +36,7 @@ namespace PrehistoricPlatformer.Agent
                     Play(GameConstants.FallAnimation);
                     break;
                 case AnimationType.Climb:
+                    Play(GameConstants.ClimbAnimation);
                     break;
                 case AnimationType.Land:
                     break;
