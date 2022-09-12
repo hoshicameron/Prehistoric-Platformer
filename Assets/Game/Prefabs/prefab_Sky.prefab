@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1573410687942127621}
   - component: {fileID: 1573410687942127618}
   m_Layer: 0
-  m_Name: Sky
+  m_Name: prefab_Sky
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

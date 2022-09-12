@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6057952668097755221}
   - component: {fileID: 6057952668097755220}
   m_Layer: 0
-  m_Name: Sea
+  m_Name: prefab_Sea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

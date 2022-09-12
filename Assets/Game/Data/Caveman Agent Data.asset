@@ -18,3 +18,5 @@ MonoBehaviour:
   jumpForce: 12
   lowJumpMultiplier: 2
   gravityModifier: 0.5
+  ClimbHorizontalSpeed: 2
+  ClimbVerticalSpeed: 5
