@@ -112,16 +112,16 @@ TextureImporter:
     second: caverman_35
   - first:
       213: 8077920407291115095
-    second: caverman_36
+    second: caverman_climb 1
   - first:
       213: -123003822617024280
-    second: caverman_37
+    second: caverman_climb 2
   - first:
       213: 8261670659704728416
-    second: caverman_38
+    second: caverman_climb 3
   - first:
       213: -8658144995847759999
-    second: caverman_39
+    second: caverman_climb 4
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -991,7 +991,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: caverman_36
+      name: caverman_climb 1
       rect:
         serializedVersion: 2
         x: 21
@@ -1012,7 +1012,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: caverman_37
+      name: caverman_climb 2
       rect:
         serializedVersion: 2
         x: 118
@@ -1033,7 +1033,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: caverman_38
+      name: caverman_climb 3
       rect:
         serializedVersion: 2
         x: 214
@@ -1054,7 +1054,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: caverman_39
+      name: caverman_climb 4
       rect:
         serializedVersion: 2
         x: 312
