@@ -1,35 +1,39 @@
 using PrehistoricPlatformer.StatePattern;
 using UnityEngine;
+using UnityEngine.Events;
 
 namespace PrehistoricPlatformer.Agent
 {
     public class Agent:MonoBehaviour
     {
-        [Header("Data")]
-        public AgentDataSO agentData;
-
-        [Header("Component's Reference")]
-        public Rigidbody2D rb2d;
-        public AgentInput agentInput;
-        public AgentAnimation agentAnimation;
-        public AgentRenderer agentRenderer;
-        public GroundDetector groundDetector;
-        public ClimbingDetector climbingDetector;
+        [field: Header("Data")]
+        [field:SerializeField]
+        public AgentDataSO AgentData { get; private set; }
+        public Rigidbody2D Rb2D { get; private set; }
+        public AgentInput AgentInput { get; private set; }
+        public AgentAnimation AgentAnimation { get; private set; }
+        public AgentRenderer AgentRenderer { get; private set; }
+        public GroundDetector GroundDetector { get; private set; }
+        public ClimbingDetector ClimbingDetector { get; private set; }
 
         private State currentState = null, previousState = null;
 
-        [Header("Starting State")]
-        public State idleState;
+        [Header("Starting State")][SerializeField]
+        private State idleState;
 
-        [Header("State Debugging")] public string stateName = string.Empty;
+        [Header("State Debugging")] [SerializeField]
+        private string stateName = string.Empty;
+
+        [field:SerializeField]
+        private UnityEvent OnRespawnRequired { get; set; }
         private void Awake()
         {
-            TryGetComponent<Rigidbody2D>(out rb2d);
-            agentInput = GetComponentInParent<AgentInput>();
-            agentAnimation = GetComponentInChildren<AgentAnimation>();
-            agentRenderer = GetComponentInChildren<AgentRenderer>();
-            groundDetector = GetComponentInChildren<GroundDetector>();
-            climbingDetector = GetComponentInChildren<ClimbingDetector>();
+            Rb2D = GetComponent<Rigidbody2D>();
+            AgentInput = GetComponentInParent<AgentInput>();
+            AgentAnimation = GetComponentInChildren<AgentAnimation>();
+            AgentRenderer = GetComponentInChildren<AgentRenderer>();
+            GroundDetector = GetComponentInChildren<GroundDetector>();
+            ClimbingDetector = GetComponentInChildren<ClimbingDetector>();
 
             State[] states = GetComponentsInChildren<State>();
             foreach (State state in states)
@@ -41,7 +45,7 @@ namespace PrehistoricPlatformer.Agent
 
         private void OnEnable()
         {
-           agentInput.OnMovement += agentRenderer.faceDirection;
+           AgentInput.OnMovement += AgentRenderer.faceDirection;
         }
 
         private void Start()
@@ -51,7 +55,7 @@ namespace PrehistoricPlatformer.Agent
 
         private void OnDisable()
         {
-            agentInput.OnMovement -= agentRenderer.faceDirection;
+            AgentInput.OnMovement -= AgentRenderer.faceDirection;
         }
 
         public void TransitionToState(State desireState)
@@ -82,13 +86,13 @@ namespace PrehistoricPlatformer.Agent
 
         private void FixedUpdate()
         {
-            groundDetector.CheckIsGrounded();
+            GroundDetector.CheckIsGrounded();
             currentState.StateFixedUpdate();
         }
 
         public void AgentDie()
         {
-            //
+            OnRespawnRequired?.Invoke();
         }
 
 

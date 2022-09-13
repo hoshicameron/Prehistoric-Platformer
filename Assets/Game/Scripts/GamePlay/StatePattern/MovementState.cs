@@ -17,7 +17,7 @@ namespace PrehistoricPlatformer.StatePattern
 
         protected override void EnterState()
         {
-            agent.agentAnimation.PlayAnimation(AnimationType.Run);
+            agent.AgentAnimation.PlayAnimation(AnimationType.Run);
 
             movementData.horizontalMovementDirection = 0;
             movementData.currentSpeed = 0f;
@@ -30,40 +30,40 @@ namespace PrehistoricPlatformer.StatePattern
 
             CalculateVelocity();
             SetAgentVelocity();
-            if (Mathf.Abs(agent.rb2d.velocity.x) < 0.01f)
+            if (Mathf.Abs(agent.Rb2D.velocity.x) < 0.01f)
             {
                 agent.TransitionToState(idleState);
             }
         }
         protected void CalculateVelocity()
         {
-            CalculateSpeed(agent.agentInput.MovementVector, movementData);
+            CalculateSpeed(agent.AgentInput.MovementVector, movementData);
             CalculateHorizontalDirection(movementData);
             movementData.currentVelocity =
                 Vector2.right * movementData.horizontalMovementDirection * movementData.currentSpeed;
-            movementData.currentVelocity.y = agent.rb2d.velocity.y;
+            movementData.currentVelocity.y = agent.Rb2D.velocity.y;
         }
 
         protected void CalculateSpeed(Vector2 movementVector, MovementData movementData)
         {
             if (Mathf.Abs(movementVector.x) > 0)
             {
-                movementData.currentSpeed += agent.agentData.acceleration * Time.deltaTime;
+                movementData.currentSpeed += agent.AgentData.acceleration * Time.deltaTime;
             } else
             {
-                movementData.currentSpeed -= agent.agentData.deacceleration * Time.deltaTime;
+                movementData.currentSpeed -= agent.AgentData.deacceleration * Time.deltaTime;
             }
 
-            movementData.currentSpeed = Mathf.Clamp(movementData.currentSpeed, 0, agent.agentData.maxSpeed);
+            movementData.currentSpeed = Mathf.Clamp(movementData.currentSpeed, 0, agent.AgentData.maxSpeed);
         }
 
         protected void CalculateHorizontalDirection(MovementData movementData)
         {
-            if (agent.agentInput.MovementVector.x > 0)
+            if (agent.AgentInput.MovementVector.x > 0)
             {
                 movementData.horizontalMovementDirection = 1;
             }
-            else if (agent.agentInput.MovementVector.x < 0)
+            else if (agent.AgentInput.MovementVector.x < 0)
             {
                 movementData.horizontalMovementDirection = -1;
             }
@@ -71,7 +71,7 @@ namespace PrehistoricPlatformer.StatePattern
 
         protected void SetAgentVelocity()
         {
-            agent.rb2d.velocity = movementData.currentVelocity;
+            agent.Rb2D.velocity = movementData.currentVelocity;
         }
 
 

@@ -7,7 +7,7 @@ namespace PrehistoricPlatformer.StatePattern
     {
         protected override void EnterState()
         {
-            agent.agentAnimation.PlayAnimation(AnimationType.Fall);
+            agent.AgentAnimation.PlayAnimation(AnimationType.Fall);
 
         }
 
@@ -21,11 +21,11 @@ namespace PrehistoricPlatformer.StatePattern
             ControlFallSpeed();
             CalculateVelocity();
             SetAgentVelocity();
-            if (agent.groundDetector.isGrounded)
+            if (agent.GroundDetector.isGrounded)
             {
                 agent.TransitionToState(idleState);
             }
-            else if(agent.climbingDetector.CanClimb &&  Mathf.Abs(agent.agentInput.MovementVector.y) > 0)
+            else if(agent.ClimbingDetector.CanClimb &&  Mathf.Abs(agent.AgentInput.MovementVector.y) > 0)
             {
                 agent.TransitionToState(climbState);
             }
@@ -33,9 +33,9 @@ namespace PrehistoricPlatformer.StatePattern
 
         private void ControlFallSpeed()
         {
-            movementData.currentVelocity = agent.rb2d.velocity;
-            movementData.currentVelocity.y += agent.agentData.gravityModifier *Physics2D.gravity.y *  Time.fixedDeltaTime;
-            agent.rb2d.velocity = movementData.currentVelocity;
+            movementData.currentVelocity = agent.Rb2D.velocity;
+            movementData.currentVelocity.y += agent.AgentData.gravityModifier *Physics2D.gravity.y *  Time.fixedDeltaTime;
+            agent.Rb2D.velocity = movementData.currentVelocity;
         }
     }
 }

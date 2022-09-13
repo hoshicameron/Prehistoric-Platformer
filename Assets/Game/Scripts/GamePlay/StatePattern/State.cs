@@ -16,11 +16,11 @@ namespace PrehistoricPlatformer.StatePattern
 
         public void Enter()
         {
-            agent.agentInput.OnAttack += HandleAttack;
-            agent.agentInput.OnMovement += HandleMovement;
-            agent.agentInput.OnJumpPressed += HandleJumpPressed;
-            agent.agentInput.OnJumpReleased += HandleJumpReleased;
-            agent.agentInput.OnWeaponChange += HandleWeaponChange;
+            agent.AgentInput.OnAttack += HandleAttack;
+            agent.AgentInput.OnMovement += HandleMovement;
+            agent.AgentInput.OnJumpPressed += HandleJumpPressed;
+            agent.AgentInput.OnJumpReleased += HandleJumpReleased;
+            agent.AgentInput.OnWeaponChange += HandleWeaponChange;
 
             OnEnter?.Invoke();
             EnterState();
@@ -38,7 +38,7 @@ namespace PrehistoricPlatformer.StatePattern
 
         private void TestJumpTransition()
         {
-            if (agent.groundDetector.isGrounded )
+            if (agent.GroundDetector.isGrounded )
             {
                 agent.TransitionToState(jumpState);
             }
@@ -59,7 +59,7 @@ namespace PrehistoricPlatformer.StatePattern
         }
         protected bool TestFallState()
         {
-            if (!agent.groundDetector.isGrounded)
+            if (!agent.GroundDetector.isGrounded)
             {
                 agent.TransitionToState(fallState);
                 return true;
@@ -71,11 +71,11 @@ namespace PrehistoricPlatformer.StatePattern
 
         public void Exit()
         {
-            agent.agentInput.OnAttack -= HandleAttack;
-            agent.agentInput.OnMovement -= HandleMovement;
-            agent.agentInput.OnJumpPressed -= HandleJumpPressed;
-            agent.agentInput.OnJumpReleased -= HandleJumpReleased;
-            agent.agentInput.OnWeaponChange -= HandleWeaponChange;
+            agent.AgentInput.OnAttack -= HandleAttack;
+            agent.AgentInput.OnMovement -= HandleMovement;
+            agent.AgentInput.OnJumpPressed -= HandleJumpPressed;
+            agent.AgentInput.OnJumpReleased -= HandleJumpReleased;
+            agent.AgentInput.OnWeaponChange -= HandleWeaponChange;
 
             OnExit?.Invoke();
             ExitState();

@@ -8,11 +8,11 @@ namespace PrehistoricPlatformer.StatePattern
         private bool jumpPressed = false;
         protected override void EnterState()
         {
-            agent.agentAnimation.PlayAnimation(AnimationType.Jump);
+            agent.AgentAnimation.PlayAnimation(AnimationType.Jump);
 
-            movementData.currentVelocity = agent.rb2d.velocity;
-            movementData.currentVelocity.y = agent.agentData.jumpForce;
-            agent.rb2d.velocity = movementData.currentVelocity;
+            movementData.currentVelocity = agent.Rb2D.velocity;
+            movementData.currentVelocity.y = agent.AgentData.jumpForce;
+            agent.Rb2D.velocity = movementData.currentVelocity;
 
             jumpPressed = true;
         }
@@ -33,11 +33,11 @@ namespace PrehistoricPlatformer.StatePattern
             CalculateVelocity();
             SetAgentVelocity();
 
-            if (agent.rb2d.velocity.y <= 0)
+            if (agent.Rb2D.velocity.y <= 0)
             {
                 agent.TransitionToState(fallState);
             }
-            else if(agent.climbingDetector.CanClimb &&  Mathf.Abs(agent.agentInput.MovementVector.y) > 0)
+            else if(agent.ClimbingDetector.CanClimb &&  Mathf.Abs(agent.AgentInput.MovementVector.y) > 0)
             {
                 agent.TransitionToState(climbState);
             }
@@ -47,9 +47,9 @@ namespace PrehistoricPlatformer.StatePattern
         {
             if (!jumpPressed)
             {
-                movementData.currentVelocity = agent.rb2d.velocity;
-                movementData.currentVelocity.y += agent.agentData.lowJumpMultiplier * Physics2D.gravity.y * Time.fixedDeltaTime;
-                agent.rb2d.velocity = movementData.currentVelocity;
+                movementData.currentVelocity = agent.Rb2D.velocity;
+                movementData.currentVelocity.y += agent.AgentData.lowJumpMultiplier * Physics2D.gravity.y * Time.fixedDeltaTime;
+                agent.Rb2D.velocity = movementData.currentVelocity;
             }
         }
     }// class

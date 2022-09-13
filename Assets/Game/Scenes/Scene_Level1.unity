@@ -299,11 +299,12 @@ GameObject:
   - component: {fileID: 181670452}
   - component: {fileID: 181670454}
   - component: {fileID: 181670453}
+  - component: {fileID: 181670457}
   - component: {fileID: 181670455}
   - component: {fileID: 181670456}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Agent
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -369,15 +370,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7c9dcb151e7486e846e49c1fa4afca3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  agentData: {fileID: 11400000, guid: 7afec0fb48371c74ea9642800e512253, type: 2}
-  rb2d: {fileID: 0}
-  agentInput: {fileID: 0}
-  agentAnimation: {fileID: 0}
-  agentRenderer: {fileID: 0}
-  groundDetector: {fileID: 0}
-  climbingDetector: {fileID: 0}
+  <AgentData>k__BackingField: {fileID: 11400000, guid: 7afec0fb48371c74ea9642800e512253, type: 2}
   idleState: {fileID: 1190896425}
   stateName: 
+  <OnRespawnRequired>k__BackingField:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 560521981}
+        m_TargetAssemblyTypeName: PrehistoricPlatformer.RespawnSystem.RespawnPointManager,
+          Assembly-CSharp
+        m_MethodName: Respawn
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 181670451}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &181670456
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -393,6 +404,22 @@ MonoBehaviour:
   horizontalMovementDirection: 0
   currentSpeed: 0
   currentVelocity: {x: 0, y: 0}
+--- !u!70 &181670457
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 181670451}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.053162515, y: -0.14821458}
+  m_Size: {x: 0.7764449, y: 1.4688175}
+  m_Direction: 0
 --- !u!1001 &226707138
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -914,6 +941,55 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mainCamera: {fileID: 0}
   speed: 0.15
+--- !u!1 &474290146
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 474290148}
+  - component: {fileID: 474290147}
+  m_Layer: 0
+  m_Name: PitCollider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &474290147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 474290146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f99281682575456facffe86f3f4c5f17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectToDestroyLayerMask:
+    serializedVersion: 2
+    m_Bits: 25608
+  size: {x: 100, y: 3}
+  gizmoColor: {r: 1, g: 0, b: 0, a: 1}
+  showGizmo: 1
+--- !u!4 &474290148
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 474290146}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 21.9, y: -12.6, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &560521979
 GameObject:
   m_ObjectHideFlags: 0
@@ -924,7 +1000,7 @@ GameObject:
   m_Component:
   - component: {fileID: 560521980}
   - component: {fileID: 560521981}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: ---RespawnPointsManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}

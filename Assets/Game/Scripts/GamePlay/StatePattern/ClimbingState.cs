@@ -9,36 +9,36 @@ namespace PrehistoricPlatformer.StatePattern
         private float previousGravity;
         protected override void EnterState()
         {
-            agent.agentAnimation.PlayAnimation(AnimationType.Climb);
-            agent.agentAnimation.StopAnimation();
+            agent.AgentAnimation.PlayAnimation(AnimationType.Climb);
+            agent.AgentAnimation.StopAnimation();
 
-            previousGravity = agent.rb2d.gravityScale;
+            previousGravity = agent.Rb2D.gravityScale;
 
-            agent.rb2d.gravityScale = 0;
-            agent.rb2d.velocity=Vector2.zero;
+            agent.Rb2D.gravityScale = 0;
+            agent.Rb2D.velocity=Vector2.zero;
 
         }
 
         protected override void ExitState()
         {
-            agent.rb2d.gravityScale = previousGravity;
+            agent.Rb2D.gravityScale = previousGravity;
         }
 
         public override void StateFixedUpdate()
         {
-            if (agent.agentInput.MovementVector.magnitude > 0)
+            if (agent.AgentInput.MovementVector.magnitude > 0)
             {
-                agent.agentAnimation.StartAnimation();
+                agent.AgentAnimation.StartAnimation();
 
-                agent.rb2d.velocity = new Vector2(
-                    agent.agentInput.MovementVector.x * agent.agentData.ClimbHorizontalSpeed,
-                    agent.agentInput.MovementVector.y * agent.agentData.ClimbVerticalSpeed);
+                agent.Rb2D.velocity = new Vector2(
+                    agent.AgentInput.MovementVector.x * agent.AgentData.ClimbHorizontalSpeed,
+                    agent.AgentInput.MovementVector.y * agent.AgentData.ClimbVerticalSpeed);
             } else
             {
-                agent.agentAnimation.StopAnimation();
-                agent.rb2d.velocity=Vector2.zero;
+                agent.AgentAnimation.StopAnimation();
+                agent.Rb2D.velocity=Vector2.zero;
             }
-            if (!agent.climbingDetector.CanClimb)
+            if (!agent.ClimbingDetector.CanClimb)
             {
                 agent.TransitionToState(idleState);
             }
@@ -46,7 +46,7 @@ namespace PrehistoricPlatformer.StatePattern
         protected override void HandleJumpPressed()
         {
             agent.TransitionToState(jumpState);
-            agent.agentAnimation.StartAnimation();
+            agent.AgentAnimation.StartAnimation();
         }
 
 
