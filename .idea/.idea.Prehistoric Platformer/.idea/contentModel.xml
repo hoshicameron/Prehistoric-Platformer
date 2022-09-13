@@ -37,6 +37,9 @@
                 <e p="PointsUI.cs" t="Include" />
               </e>
             </e>
+            <e p="RespawnSystem" t="Include">
+              <e p="RespawnPoint.cs" t="Include" />
+            </e>
             <e p="ScriptableObjects" t="Include">
               <e p="AgentDataSO.cs" t="Include" />
             </e>

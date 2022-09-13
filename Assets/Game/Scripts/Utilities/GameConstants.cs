@@ -11,5 +11,6 @@ namespace PrehistoricPlatformer.Utilities
         public const string FallAnimation = "Fall";
         public const string ClimbAnimation = "Climb";
         public const string LandAnimation = "Land";
+        public const string PlayerTag = "Player";
     }
 }
