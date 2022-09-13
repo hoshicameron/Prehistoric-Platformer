@@ -33,6 +33,7 @@
               <e p="UI" t="Include">
                 <e p="HealthUI.cs" t="Include" />
                 <e p="LifeElementUI.cs" t="Include" />
+                <e p="PointsUI.cs" t="Include" />
               </e>
             </e>
             <e p="ScriptableObjects" t="Include">
