@@ -16,7 +16,6 @@ namespace PrehistoricPlatformer.RespawnSystem
             {
                 respawnTarget = other.gameObject;
                 OnSpawnPointActivated?.Invoke();
-                GetComponent<Collider2D>().enabled = false;
             }
         }
 
@@ -25,7 +24,7 @@ namespace PrehistoricPlatformer.RespawnSystem
             respawnTarget.transform.position = transform.position;
         }
 
-        public void SetPlayerGo(GameObject player)
+        public void SetPlayerGO(GameObject player)
         {
             respawnTarget = player;
             GetComponent<Collider2D>().enabled = false;
@@ -33,7 +32,7 @@ namespace PrehistoricPlatformer.RespawnSystem
 
         public void DisableRespawnPoint()
         {
-            gameObject.SetActive(false);
+            GetComponent<Collider2D>().enabled = false;
         }
 
         public void ResetRespawnPoint()
@@ -41,5 +40,7 @@ namespace PrehistoricPlatformer.RespawnSystem
             respawnTarget = null;
             GetComponent<Collider2D>().enabled = true;
         }
+
+
     }// class
 }// namespace

@@ -923,6 +923,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 560521980}
+  - component: {fileID: 560521981}
   m_Layer: 0
   m_Name: ---RespawnPointsManager
   m_TagString: Untagged
@@ -945,6 +946,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &560521981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 560521979}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff2e6584e4e042d1b3dec518fab54bfd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &572146212 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6057952668097755221, guid: 2b3caa7beb2f3644b995e076d93a91ec, type: 3}
