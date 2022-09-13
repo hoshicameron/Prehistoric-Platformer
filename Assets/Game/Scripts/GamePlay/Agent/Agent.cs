@@ -85,5 +85,13 @@ namespace PrehistoricPlatformer.Agent
             groundDetector.CheckIsGrounded();
             currentState.StateFixedUpdate();
         }
+
+        public void AgentDie()
+        {
+            //
+        }
+
+
+
     }// class
 }// namespace
