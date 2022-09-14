@@ -6,6 +6,7 @@ namespace PrehistoricPlatformer.StatePattern
     public class JumpState:MovementState
     {
         private bool jumpPressed = false;
+
         protected override void EnterState()
         {
             agent.AgentAnimation.PlayAnimation(AnimationType.Jump);

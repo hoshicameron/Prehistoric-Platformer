@@ -19,6 +19,7 @@
                 <e p="AnimationType.cs" t="Include" />
                 <e p="ClimbingDetector.cs" t="Include" />
                 <e p="GroundDetector.cs" t="Include" />
+                <e p="IsGroundedCheck.cs" t="Include" />
               </e>
               <e p="AudioFeedback.cs" t="Include" />
               <e p="DestroyFallingObjects.cs" t="Include" />
