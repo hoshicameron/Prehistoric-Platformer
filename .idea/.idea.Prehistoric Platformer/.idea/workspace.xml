@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2df2dc8b-c693-4024-b44b-fb136113924c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/RespawnSystem/RespawnHelper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/RespawnSystem/RespawnHelper.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Prehistoric Platformer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Prehistoric Platformer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/Scene_Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scenes/Scene_Level1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/RespawnSystem/RespawnPoint.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/RespawnSystem/RespawnPoint.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Agent/AgentAnimation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Agent/AgentAnimation.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,7 +26,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Agent/Agent.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-31">
@@ -55,58 +51,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Game/Scripts/RespawnSystem/RespawnHelper.cs">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Agent/AgentAnimation.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+            <state relative-caret-position="277">
+              <caret line="78" column="37" lean-forward="true" selection-start-line="78" selection-start-column="37" selection-end-line="78" selection-end-column="37" />
               <folding>
-                <marker date="1663142226703" expanded="true" signature="65:499" ph="{...}" />
-                <marker date="1663142226703" expanded="true" signature="112:489" ph="{...}" />
-                <marker date="1663142226703" expanded="true" signature="193:276" ph="{...}" />
-                <marker date="1663142226703" expanded="true" signature="380:483" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Game/Scripts/RespawnSystem/RespawnPoint.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="15" column="72" selection-start-line="15" selection-start-column="72" selection-end-line="15" selection-end-column="72" />
-              <folding>
-                <marker date="1663141336118" expanded="false" signature="6:83" ph="..." />
-                <marker date="1663141336118" expanded="true" signature="130:1426" ph="{...}" />
-                <marker date="1663141336118" expanded="true" signature="176:1416" ph="{...}" />
-                <marker date="1663141336118" expanded="true" signature="358:517" ph="{...}" />
-                <marker date="1663141336118" expanded="true" signature="574:851" ph="{...}" />
-                <marker date="1663141336118" expanded="true" signature="654:841" ph="{...}" />
-                <marker date="1663141336118" expanded="true" signature="888:975" ph="{...}" />
-                <marker date="1663141336118" expanded="true" signature="1027:1139" ph="{...}" />
-                <marker date="1663141336118" expanded="true" signature="1182:1258" ph="{...}" />
-                <marker date="1663141336118" expanded="true" signature="1299:1408" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Game/Scripts/RespawnSystem/RespawnPointManager.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-              <folding>
-                <marker date="1663071535087" expanded="false" signature="6:66" ph="..." />
-                <marker date="1663071535087" expanded="true" signature="113:1357" ph="{...}" />
-                <marker date="1663071535087" expanded="true" signature="166:1347" ph="{...}" />
-                <marker date="1663071535087" expanded="true" signature="327:548" ph="{...}" />
-                <marker date="1663071535087" expanded="true" signature="387:485" ph="{...}" />
-                <marker date="1663071535087" expanded="true" signature="618:744" ph="{...}" />
-                <marker date="1663071535087" expanded="true" signature="801:915" ph="{...}" />
-                <marker date="1663071535087" expanded="true" signature="992:1089" ph="{...}" />
-                <marker date="1663071535087" expanded="true" signature="1131:1341" ph="{...}" />
-                <marker date="1663071535087" expanded="true" signature="1204:1280" ph="{...}" />
+                <marker date="1663156747163" expanded="false" signature="6:71" ph="..." />
+                <marker date="1663156747163" expanded="true" signature="136:2197" ph="{...}" />
+                <marker date="1663156747163" expanded="true" signature="184:2187" ph="{...}" />
+                <marker date="1663156747163" expanded="true" signature="432:495" ph="{...}" />
+                <marker date="1663156747163" expanded="true" signature="559:1529" ph="{...}" />
+                <marker date="1663156747163" expanded="true" signature="604:1519" ph="{...}" />
+                <marker date="1663156747163" expanded="true" signature="1568:1627" ph="{...}" />
+                <marker date="1663156747163" expanded="true" signature="1664:1722" ph="{...}" />
+                <marker date="1663156747163" expanded="true" signature="1760:1817" ph="{...}" />
+                <marker date="1663156747163" expanded="true" signature="1852:1973" ph="{...}" />
+                <marker date="1663156747163" expanded="true" signature="2018:2079" ph="{...}" />
+                <marker date="1663156747163" expanded="true" signature="2121:2179" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -170,7 +132,6 @@
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Agent/GroundDetector.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/ParallaxEffect.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Agent/ClimbingDetector.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Agent/AgentAnimation.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/ScriptableObjects/AgentDataSO.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/UI/LifeElementUI.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/UI/HealthUI.cs" />
@@ -188,6 +149,7 @@
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Agent/Agent.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/RespawnSystem/RespawnPoint.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/RespawnSystem/RespawnHelper.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Agent/AgentAnimation.cs" />
       </list>
     </option>
   </component>
@@ -240,7 +202,8 @@
               <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
               <item name="Game" type="1045f7f1:UnityExplorerNode" />
               <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
-              <item name="RespawnSystem" type="1045f7f1:UnityExplorerNode" />
+              <item name="GamePlay" type="1045f7f1:UnityExplorerNode" />
+              <item name="Agent" type="1045f7f1:UnityExplorerNode" />
             </path>
             <path>
               <item name="Project" type="e068e287:UnityExplorerRootNode" />
@@ -310,12 +273,12 @@
       <workItem from="1662898407358" duration="1208000" />
       <workItem from="1662967094421" duration="11711000" />
       <workItem from="1663050269972" duration="14045000" />
-      <workItem from="1663140551570" duration="2678000" />
+      <workItem from="1663140551570" duration="3847000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70082000" />
+    <option name="totallyTimeSpent" value="71251000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -956,24 +919,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Agent/AgentAnimation.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1100">
-          <caret line="58" column="9" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="9" />
-          <folding>
-            <marker date="1662989195431" expanded="false" signature="6:71" ph="..." />
-            <marker date="1662989195431" expanded="true" signature="110:1632" ph="{...}" />
-            <marker date="1662989195431" expanded="true" signature="158:1622" ph="{...}" />
-            <marker date="1662989195431" expanded="true" signature="229:292" ph="{...}" />
-            <marker date="1662989195431" expanded="true" signature="356:1326" ph="{...}" />
-            <marker date="1662989195431" expanded="true" signature="401:1316" ph="{...}" />
-            <marker date="1662989195431" expanded="true" signature="1365:1424" ph="{...}" />
-            <marker date="1662989195431" expanded="true" signature="1461:1519" ph="{...}" />
-            <marker date="1662989195431" expanded="true" signature="1557:1614" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/UI/LifeElementUI.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
@@ -1196,25 +1141,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Game/Scripts/RespawnSystem/RespawnPointManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-          <folding>
-            <marker date="1663071535087" expanded="false" signature="6:66" ph="..." />
-            <marker date="1663071535087" expanded="true" signature="113:1357" ph="{...}" />
-            <marker date="1663071535087" expanded="true" signature="166:1347" ph="{...}" />
-            <marker date="1663071535087" expanded="true" signature="327:548" ph="{...}" />
-            <marker date="1663071535087" expanded="true" signature="387:485" ph="{...}" />
-            <marker date="1663071535087" expanded="true" signature="618:744" ph="{...}" />
-            <marker date="1663071535087" expanded="true" signature="801:915" ph="{...}" />
-            <marker date="1663071535087" expanded="true" signature="992:1089" ph="{...}" />
-            <marker date="1663071535087" expanded="true" signature="1131:1341" ph="{...}" />
-            <marker date="1663071535087" expanded="true" signature="1204:1280" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Game/Scripts/RespawnSystem/RespawnPoint.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -1247,6 +1173,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Game/Scripts/RespawnSystem/RespawnPointManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+          <folding>
+            <marker date="1663071535087" expanded="false" signature="6:66" ph="..." />
+            <marker date="1663071535087" expanded="true" signature="113:1357" ph="{...}" />
+            <marker date="1663071535087" expanded="true" signature="166:1347" ph="{...}" />
+            <marker date="1663071535087" expanded="true" signature="327:548" ph="{...}" />
+            <marker date="1663071535087" expanded="true" signature="387:485" ph="{...}" />
+            <marker date="1663071535087" expanded="true" signature="618:744" ph="{...}" />
+            <marker date="1663071535087" expanded="true" signature="801:915" ph="{...}" />
+            <marker date="1663071535087" expanded="true" signature="992:1089" ph="{...}" />
+            <marker date="1663071535087" expanded="true" signature="1131:1341" ph="{...}" />
+            <marker date="1663071535087" expanded="true" signature="1204:1280" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Agent/Agent.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-31">
@@ -1266,6 +1211,27 @@
             <marker date="1663086113620" expanded="true" signature="2576:2636" ph="{...}" />
             <marker date="1663086113620" expanded="true" signature="2672:2783" ph="{...}" />
             <marker date="1663086113620" expanded="true" signature="2815:2876" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Agent/AgentAnimation.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="78" column="37" lean-forward="true" selection-start-line="78" selection-start-column="37" selection-end-line="78" selection-end-column="37" />
+          <folding>
+            <marker date="1663156747163" expanded="false" signature="6:71" ph="..." />
+            <marker date="1663156747163" expanded="true" signature="136:2197" ph="{...}" />
+            <marker date="1663156747163" expanded="true" signature="184:2187" ph="{...}" />
+            <marker date="1663156747163" expanded="true" signature="432:495" ph="{...}" />
+            <marker date="1663156747163" expanded="true" signature="559:1529" ph="{...}" />
+            <marker date="1663156747163" expanded="true" signature="604:1519" ph="{...}" />
+            <marker date="1663156747163" expanded="true" signature="1568:1627" ph="{...}" />
+            <marker date="1663156747163" expanded="true" signature="1664:1722" ph="{...}" />
+            <marker date="1663156747163" expanded="true" signature="1760:1817" ph="{...}" />
+            <marker date="1663156747163" expanded="true" signature="1852:1973" ph="{...}" />
+            <marker date="1663156747163" expanded="true" signature="2018:2079" ph="{...}" />
+            <marker date="1663156747163" expanded="true" signature="2121:2179" ph="{...}" />
           </folding>
         </state>
       </provider>

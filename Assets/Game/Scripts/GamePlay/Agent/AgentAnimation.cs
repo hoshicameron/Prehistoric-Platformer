@@ -1,12 +1,17 @@
 using System;
 using PrehistoricPlatformer.Utilities;
 using UnityEngine;
+using UnityEngine.Events;
 
 namespace PrehistoricPlatformer.Agent
 {
     public class AgentAnimation:MonoBehaviour
     {
         private Animator animator;
+        [field:SerializeField]
+        private UnityEvent OnAnimationAction { get; set; }
+        [field:SerializeField]
+        private UnityEvent OnAnimationEnd { get; set; }
 
         private void Awake()
         {
@@ -56,6 +61,22 @@ namespace PrehistoricPlatformer.Agent
         public void StartAnimation()
         {
             animator.enabled = true;
+        }
+
+        public void ResetEvents()
+        {
+            OnAnimationAction.RemoveAllListeners();
+            OnAnimationEnd.RemoveAllListeners();
+        }
+
+        public void InvokeAnimationAction()
+        {
+            OnAnimationAction?.Invoke();
+        }
+
+        public void InvokeAnimationEnd()
+        {
+            OnAnimationEnd?.Invoke();
         }
 
 
