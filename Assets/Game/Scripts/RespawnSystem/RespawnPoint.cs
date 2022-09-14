@@ -10,12 +10,19 @@ namespace PrehistoricPlatformer.RespawnSystem
 
         [field:SerializeField] private UnityEvent OnSpawnPointActivated { get; set; }
 
+        private void Start()
+        {
+            OnSpawnPointActivated.AddListener(() =>
+                GetComponentInParent<RespawnPointManager>().UpdateRespawnPoint(this));
+        }
+
         private void OnTriggerEnter2D(Collider2D other)
         {
             if (other.gameObject.CompareTag(GameConstants.PlayerTag))
             {
                 respawnTarget = other.gameObject;
                 OnSpawnPointActivated?.Invoke();
+                GetComponent<Collider2D>().enabled = false;
             }
         }
 

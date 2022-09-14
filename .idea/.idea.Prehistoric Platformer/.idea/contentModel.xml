@@ -39,6 +39,7 @@
               </e>
             </e>
             <e p="RespawnSystem" t="Include">
+              <e p="RespawnHelper.cs" t="Include" />
               <e p="RespawnPoint.cs" t="Include" />
               <e p="RespawnPointManager.cs" t="Include" />
             </e>
