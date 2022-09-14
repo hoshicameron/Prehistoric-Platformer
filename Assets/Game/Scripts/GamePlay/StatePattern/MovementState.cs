@@ -2,6 +2,7 @@ using System.Runtime.Serialization;
 using System.Security.Cryptography.X509Certificates;
 using PrehistoricPlatformer.Agent;
 using UnityEngine;
+using UnityEngine.Events;
 
 namespace PrehistoricPlatformer.StatePattern
 {
@@ -9,6 +10,9 @@ namespace PrehistoricPlatformer.StatePattern
     {
         [SerializeField] protected MovementData movementData;
         [SerializeField] protected State idleState;
+
+        [field:SerializeField]
+        private UnityEvent OnStep { get; set; }
 
         private void Awake()
         {
@@ -18,6 +22,7 @@ namespace PrehistoricPlatformer.StatePattern
         protected override void EnterState()
         {
             agent.AgentAnimation.PlayAnimation(AnimationType.Run);
+            agent.AgentAnimation.OnAnimationAction.AddListener(()=>OnStep?.Invoke());
 
             movementData.horizontalMovementDirection = 0;
             movementData.currentSpeed = 0f;
@@ -74,6 +79,9 @@ namespace PrehistoricPlatformer.StatePattern
             agent.Rb2D.velocity = movementData.currentVelocity;
         }
 
-
+        protected override void ExitState()
+        {
+            agent.AgentAnimation.ResetEvents(); // this will not remove callbacks that added from Inspector
+        }
     }// class
 }// namespace

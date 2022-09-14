@@ -9,9 +9,9 @@ namespace PrehistoricPlatformer.Agent
     {
         private Animator animator;
         [field:SerializeField]
-        private UnityEvent OnAnimationAction { get; set; }
+        public UnityEvent OnAnimationAction { get; set; }
         [field:SerializeField]
-        private UnityEvent OnAnimationEnd { get; set; }
+        public UnityEvent OnAnimationEnd { get; set; }
 
         private void Awake()
         {
