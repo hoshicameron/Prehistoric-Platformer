@@ -49,7 +49,13 @@ namespace PrehistoricPlatformer.StatePattern
 
         }
 
-        protected virtual void HandleAttack(){}
+        protected virtual void HandleAttack()
+        {
+            if (agent.agentWeapon.CanIUseWeapon(agent.GroundDetector.isGrounded))
+            {
+                agent.agentWeapon.GetCurrentWeapon().PerformAttack(agent,0,Vector3.right);
+            }
+        }
 
         public virtual void StateUpdate(){}
 

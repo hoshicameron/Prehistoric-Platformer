@@ -53,6 +53,7 @@
             </e>
             <e p="WeaponSystem" t="Include">
               <e p="AgentWeaponManager.cs" t="Include" />
+              <e p="GiveAgentAWeapon.cs" t="Include" />
               <e p="IHittable.cs" t="Include" />
               <e p="MeleeWeaponData.cs" t="Include" />
               <e p="WeaponData.cs" t="Include" />
