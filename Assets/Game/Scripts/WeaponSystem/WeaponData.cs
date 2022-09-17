@@ -1,15 +1,29 @@
+using System;
 using UnityEngine;
 
 namespace PrehistoricPlatformer.WeaponSystem
 {
-    public class WeaponData
+    [CreateAssetMenu(fileName = "Weapon", menuName = "WeaponData")]
+    public abstract class WeaponData : ScriptableObject,IEquatable<WeaponData>
     {
         public Sprite weaponSprite;
         public string weaponName;
+        public int weaponDamage = 1;
+        public AudioClip weaponSwingSound;
 
-        public bool CanBeUsed(bool value)
+        public abstract bool CanBeUsed(bool value);
+        public abstract void PerformAttack(Agent.Agent agent, LayerMask hittableMask, Vector3 direction);
+
+        public bool Equals(WeaponData other)
         {
-            //
+            if (ReferenceEquals(null, other)) return false;
+
+            return string.Equals(weaponName, other.weaponName);
         }
-    }
-}
+
+        public virtual void DrawWeaponGizmo(Vector3 origin, Vector3 direction)
+        {
+
+        }
+    }// calss
+}// namespace

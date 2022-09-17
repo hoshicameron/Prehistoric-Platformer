@@ -22,12 +22,14 @@ namespace PrehistoricPlatformer.WeaponSystem
             return weaponDataList[currentWeaponIndex];
         }
 
-        public void AddWeaponData(WeaponData weaponData)
+        public bool AddWeaponData(WeaponData weaponData)
         {
-            if(weaponDataList.Contains(weaponData))    return;
+            if(weaponDataList.Contains(weaponData))    return false;
 
             weaponDataList.Add(weaponData);
             currentWeaponIndex = weaponDataList.Count - 1;
+
+            return true;
         }
 
         public List<string> GetPlayerWeaponNames()

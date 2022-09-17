@@ -51,7 +51,7 @@ namespace PrehistoricPlatformer.WeaponSystem
 
         public void AddWeaponData(WeaponData weaponData)
         {
-            weaponStorage.AddWeaponData(weaponData);
+            if(!weaponStorage.AddWeaponData(weaponData))    return;
 
             if(weaponStorage.WeaponCount==2)    OnMultipleWeapons?.Invoke();
 
