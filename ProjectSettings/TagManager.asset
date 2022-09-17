@@ -68,6 +68,12 @@ TagManager:
   - name: Player
     uniqueID: 2925440529
     locked: 0
+  - name: Weapon
+    uniqueID: 3922371195
+    locked: 0
+  - name: Pickable
+    uniqueID: 2260647159
+    locked: 0
   - name: Foreground
     uniqueID: 3128307227
     locked: 0

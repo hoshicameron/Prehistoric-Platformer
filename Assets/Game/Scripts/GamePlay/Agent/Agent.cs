@@ -1,4 +1,5 @@
 using PrehistoricPlatformer.StatePattern;
+using PrehistoricPlatformer.WeaponSystem;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -15,6 +16,8 @@ namespace PrehistoricPlatformer.Agent
         public AgentRenderer AgentRenderer { get; private set; }
         public GroundDetector GroundDetector { get; private set; }
         public ClimbingDetector ClimbingDetector { get; private set; }
+        public AgentWeaponManager agentWeapon { get; private set; }
+
 
         private State currentState = null, previousState = null;
 
@@ -34,6 +37,7 @@ namespace PrehistoricPlatformer.Agent
             AgentRenderer = GetComponentInChildren<AgentRenderer>();
             GroundDetector = GetComponentInChildren<GroundDetector>();
             ClimbingDetector = GetComponentInChildren<ClimbingDetector>();
+            agentWeapon = GetComponentInChildren<AgentWeaponManager>();
 
             State[] states = GetComponentsInChildren<State>();
             foreach (State state in states)
