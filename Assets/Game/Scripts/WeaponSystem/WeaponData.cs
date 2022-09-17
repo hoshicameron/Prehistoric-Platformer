@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace PrehistoricPlatformer.WeaponSystem
 {
-    [CreateAssetMenu(fileName = "Weapon", menuName = "WeaponData")]
+
     public abstract class WeaponData : ScriptableObject,IEquatable<WeaponData>
     {
         public Sprite weaponSprite;
@@ -11,7 +11,7 @@ namespace PrehistoricPlatformer.WeaponSystem
         public int weaponDamage = 1;
         public AudioClip weaponSwingSound;
 
-        public abstract bool CanBeUsed(bool value);
+        public abstract bool CanBeUsed(bool isGrounded);
         public abstract void PerformAttack(Agent.Agent agent, LayerMask hittableMask, Vector3 direction);
 
         public bool Equals(WeaponData other)

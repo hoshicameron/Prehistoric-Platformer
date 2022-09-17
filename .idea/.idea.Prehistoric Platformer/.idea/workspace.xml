@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2df2dc8b-c693-4024-b44b-fb136113924c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/WeaponSystem/AgentWeaponManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/WeaponSystem/AgentWeaponManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/WeaponSystem/IHittable.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/WeaponSystem/IHittable.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/WeaponSystem/MeleeWeaponData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/WeaponSystem/MeleeWeaponData.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Prehistoric Platformer/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Prehistoric Platformer/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Prehistoric Platformer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Prehistoric Platformer/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/WeaponSystem/WeaponData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/WeaponSystem/WeaponData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/WeaponSystem/WeaponStorage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/WeaponSystem/WeaponStorage.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +39,6 @@
         <entry file="file://$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Agent/Agent.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret lean-forward="true" />
               <folding>
                 <marker date="1663406578578" expanded="false" signature="6:128" ph="..." />
                 <marker date="1663406578578" expanded="true" signature="167:3078" ph="{...}" />
@@ -80,16 +83,48 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Game/Scripts/WeaponSystem/WeaponData.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+            <state relative-caret-position="220">
+              <caret line="13" column="54" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
               <folding>
-                <marker date="1663409734937" expanded="true" signature="6:32" ph="..." />
-                <marker date="1663409734937" expanded="true" signature="78:749" ph="{...}" />
-                <marker date="1663409734937" expanded="true" signature="227:739" ph="{...}" />
-                <marker date="1663409734937" expanded="true" signature="588:733" ph="{...}" />
+                <marker date="1663410976800" expanded="true" signature="6:32" ph="..." />
+                <marker date="1663410976800" expanded="true" signature="78:788" ph="{...}" />
+                <marker date="1663410976800" expanded="true" signature="160:778" ph="{...}" />
+                <marker date="1663410976800" expanded="true" signature="526:671" ph="{...}" />
+                <marker date="1663410976800" expanded="true" signature="751:772" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Game/Scripts/WeaponSystem/MeleeWeaponData.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="365">
+              <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+              <folding>
+                <marker date="1663418979809" expanded="true" signature="64:1100" ph="{...}" />
+                <marker date="1663418979809" expanded="true" signature="205:1098" ph="{...}" />
+                <marker date="1663418979809" expanded="true" signature="308:367" ph="{...}" />
+                <marker date="1663418979809" expanded="true" signature="473:887" ph="{...}" />
+                <marker date="1663418979809" expanded="true" signature="662:877" ph="{...}" />
+                <marker date="1663418979809" expanded="true" signature="758:863" ph="{...}" />
+                <marker date="1663418979809" expanded="true" signature="968:1092" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Game/Scripts/WeaponSystem/IHittable.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+              <folding>
+                <marker date="1663418966875" expanded="true" signature="64:178" ph="{...}" />
+                <marker date="1663418966875" expanded="true" signature="97:176" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -144,6 +179,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/WeaponSystem/WeaponStorage.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/WeaponSystem/AgentWeaponManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/UI/LifeElementUI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/WeaponSystem/IHittable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Agent/IsGroundedCheck.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/WeaponSystem/WeaponData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/StatePattern/IdleState.cs" root0="FORCE_HIGHLIGHTING" />
@@ -153,6 +189,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/UI/HealthUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/RespawnSystem/RespawnHelper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/Utilities/GameConstants.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/WeaponSystem/MeleeWeaponData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Agent/ClimbingDetector.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/DestroyFallingObjects.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/2d-extras-2020.3/2d-extras-2020.3/Runtime/Tiles/RuleTile/RuleTile.cs" root0="FORCE_HIGHLIGHTING" />
@@ -201,6 +238,8 @@
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/WeaponSystem/AgentWeaponManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/WeaponSystem/WeaponStorage.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/WeaponSystem/WeaponData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/WeaponSystem/MeleeWeaponData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/WeaponSystem/IHittable.cs" />
       </list>
     </option>
   </component>
@@ -317,12 +356,12 @@
       <workItem from="1662967094421" duration="11711000" />
       <workItem from="1663050269972" duration="14045000" />
       <workItem from="1663140551570" duration="9133000" />
-      <workItem from="1663398087663" duration="8306000" />
+      <workItem from="1663398087663" duration="10512000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84843000" />
+    <option name="totallyTimeSpent" value="87049000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1288,7 +1327,6 @@
     <entry file="file://$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Agent/Agent.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret lean-forward="true" />
           <folding>
             <marker date="1663406578578" expanded="false" signature="6:128" ph="..." />
             <marker date="1663406578578" expanded="true" signature="167:3078" ph="{...}" />
@@ -1348,13 +1386,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Game/Scripts/WeaponSystem/WeaponData.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        <state relative-caret-position="220">
+          <caret line="13" column="54" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
           <folding>
-            <marker date="1663409734937" expanded="true" signature="6:32" ph="..." />
-            <marker date="1663409734937" expanded="true" signature="78:749" ph="{...}" />
-            <marker date="1663409734937" expanded="true" signature="227:739" ph="{...}" />
-            <marker date="1663409734937" expanded="true" signature="588:733" ph="{...}" />
+            <marker date="1663410976800" expanded="true" signature="6:32" ph="..." />
+            <marker date="1663410976800" expanded="true" signature="78:788" ph="{...}" />
+            <marker date="1663410976800" expanded="true" signature="160:778" ph="{...}" />
+            <marker date="1663410976800" expanded="true" signature="526:671" ph="{...}" />
+            <marker date="1663410976800" expanded="true" signature="751:772" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Game/Scripts/WeaponSystem/MeleeWeaponData.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+          <folding>
+            <marker date="1663418979809" expanded="true" signature="64:1100" ph="{...}" />
+            <marker date="1663418979809" expanded="true" signature="205:1098" ph="{...}" />
+            <marker date="1663418979809" expanded="true" signature="308:367" ph="{...}" />
+            <marker date="1663418979809" expanded="true" signature="473:887" ph="{...}" />
+            <marker date="1663418979809" expanded="true" signature="662:877" ph="{...}" />
+            <marker date="1663418979809" expanded="true" signature="758:863" ph="{...}" />
+            <marker date="1663418979809" expanded="true" signature="968:1092" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Game/Scripts/WeaponSystem/IHittable.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+          <folding>
+            <marker date="1663418966875" expanded="true" signature="64:178" ph="{...}" />
+            <marker date="1663418966875" expanded="true" signature="97:176" ph="{...}" />
           </folding>
         </state>
       </provider>
