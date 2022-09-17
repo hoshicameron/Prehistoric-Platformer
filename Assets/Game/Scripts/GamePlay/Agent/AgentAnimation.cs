@@ -30,6 +30,7 @@ namespace PrehistoricPlatformer.Agent
                     Play(GameConstants.IdleAnimation);
                     break;
                 case AnimationType.Attack:
+                    Play(GameConstants.AttackAnimation);
                     break;
                 case AnimationType.Run:
                     Play(GameConstants.RunAnimation);

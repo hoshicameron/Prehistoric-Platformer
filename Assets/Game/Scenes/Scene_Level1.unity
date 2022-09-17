@@ -1091,6 +1091,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &673262345 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1105439859339298790, guid: e77ed9bb50520544681ab5fbb9f31785, type: 3}
+  m_PrefabInstance: {fileID: 1105439859065431830}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &673262346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 673262345}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be06c68b80be4ccbb125c04807dcb30f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weaponDataList:
+  - {fileID: 11400000, guid: df1b455f97c02de4bba824d797ad9117, type: 2}
 --- !u!1 &720341117
 GameObject:
   m_ObjectHideFlags: 0
@@ -1161,7 +1180,7 @@ TilemapRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1166660069
-  m_SortingLayer: 10
+  m_SortingLayer: 12
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
@@ -11456,6 +11475,46 @@ PrefabInstance:
     - target: {fileID: 1105439859339298790, guid: e77ed9bb50520544681ab5fbb9f31785, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 3763952379288979053, guid: e77ed9bb50520544681ab5fbb9f31785, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3763952379288979053, guid: e77ed9bb50520544681ab5fbb9f31785, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3763952379288979053, guid: e77ed9bb50520544681ab5fbb9f31785, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3763952379288979053, guid: e77ed9bb50520544681ab5fbb9f31785, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3763952379288979053, guid: e77ed9bb50520544681ab5fbb9f31785, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7628533335243247800, guid: e77ed9bb50520544681ab5fbb9f31785, type: 3}
+      propertyPath: m_Size.x
+      value: 0.5625
+      objectReference: {fileID: 0}
+    - target: {fileID: 7628533335243247800, guid: e77ed9bb50520544681ab5fbb9f31785, type: 3}
+      propertyPath: m_Size.y
+      value: 1.15625
+      objectReference: {fileID: 0}
+    - target: {fileID: 7628533335243247800, guid: e77ed9bb50520544681ab5fbb9f31785, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7628533335243247800, guid: e77ed9bb50520544681ab5fbb9f31785, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7628533335243247800, guid: e77ed9bb50520544681ab5fbb9f31785, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8126279830435028650, guid: e77ed9bb50520544681ab5fbb9f31785, type: 3}
       propertyPath: m_AnchorMax.y

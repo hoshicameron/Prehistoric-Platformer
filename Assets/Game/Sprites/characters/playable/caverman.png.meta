@@ -79,16 +79,16 @@ TextureImporter:
     second: caverman_24
   - first:
       213: 2829645882208209993
-    second: caverman_25
+    second: caverman_attack_0
   - first:
       213: -576655442285043384
-    second: caverman_26
+    second: caverman_attack_1
   - first:
       213: 7869137637262679121
-    second: caverman_27
+    second: caverman_attack_2
   - first:
       213: 8600134819379199924
-    second: caverman_28
+    second: caverman_attack_3
   - first:
       213: 1116877239890916435
     second: caverman_29
@@ -760,7 +760,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: caverman_25
+      name: caverman_attack_0
       rect:
         serializedVersion: 2
         x: 110
@@ -781,7 +781,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: caverman_26
+      name: caverman_attack_1
       rect:
         serializedVersion: 2
         x: 229
@@ -802,7 +802,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: caverman_27
+      name: caverman_attack_2
       rect:
         serializedVersion: 2
         x: 327
@@ -823,7 +823,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: caverman_28
+      name: caverman_attack_3
       rect:
         serializedVersion: 2
         x: 424

@@ -16,4 +16,4 @@ MonoBehaviour:
   weaponName: Club
   weaponDamage: 1
   weaponSwingSound: {fileID: 8300000, guid: 273495dd73675de40b3353459bcd85e0, type: 3}
-  attackRange: 2
+  attackRange: 1.1
