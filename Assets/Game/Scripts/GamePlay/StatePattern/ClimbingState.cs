@@ -5,7 +5,6 @@ namespace PrehistoricPlatformer.StatePattern
 {
     public class ClimbingState:State
     {
-        [SerializeField] protected State idleState;
         private float previousGravity;
         protected override void EnterState()
         {
@@ -45,12 +44,12 @@ namespace PrehistoricPlatformer.StatePattern
             }
             if (!agent.ClimbingDetector.CanClimb)
             {
-                agent.TransitionToState(idleState);
+                agent.TransitionToState(agent.StateFactory.GetState(StateType.Idle));
             }
         }
         protected override void HandleJumpPressed()
         {
-            agent.TransitionToState(jumpState);
+            agent.TransitionToState(agent.StateFactory.GetState(StateType.Jump));
             agent.AgentAnimation.StartAnimation();
         }
 

@@ -5,7 +5,7 @@ namespace PrehistoricPlatformer.StatePattern
 {
     public class IdleState:State
     {
-        public State moveState;
+
         protected override void EnterState()
         {
             agent.AgentAnimation.PlayAnimation(AnimationType.Idle);
@@ -17,11 +17,11 @@ namespace PrehistoricPlatformer.StatePattern
         {
             if (agent.ClimbingDetector.CanClimb &&  Mathf.Abs(input.y) > 0)
             {
-                agent.TransitionToState(climbState);
+                agent.TransitionToState(agent.StateFactory.GetState(StateType.Climbing));
             }
             else if (Mathf.Abs(input.x) > 0)
             {
-                agent.TransitionToState(moveState);
+                agent.TransitionToState(agent.StateFactory.GetState(StateType.Move));
             }
         }
     }// class

@@ -6,7 +6,6 @@ namespace PrehistoricPlatformer.StatePattern
 {
     public class AttackState:State
     {
-        [SerializeField] protected State idleState;
         [SerializeField] private LayerMask hittableLayerMask;
 
         protected Vector2 direction;
@@ -40,9 +39,9 @@ namespace PrehistoricPlatformer.StatePattern
         {
             agent.AgentAnimation.OnAnimationEnd.RemoveListener(TransitionToIdleState);
             if (agent.GroundDetector.isGrounded)
-                agent.TransitionToState(idleState);
+                agent.TransitionToState(agent.StateFactory.GetState(StateType.Idle));
             else
-                agent.TransitionToState(fallState);
+                agent.TransitionToState(agent.StateFactory.GetState(StateType.Fall));
 
         }
 

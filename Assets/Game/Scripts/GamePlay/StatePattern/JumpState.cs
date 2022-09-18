@@ -36,11 +36,11 @@ namespace PrehistoricPlatformer.StatePattern
 
             if (agent.Rb2D.velocity.y <= 0)
             {
-                agent.TransitionToState(fallState);
+                agent.TransitionToState(agent.StateFactory.GetState(StateType.Fall));
             }
             else if(agent.ClimbingDetector.CanClimb &&  Mathf.Abs(agent.AgentInput.MovementVector.y) > 0)
             {
-                agent.TransitionToState(climbState);
+                agent.TransitionToState(agent.StateFactory.GetState(StateType.Climbing));
             }
         }
 

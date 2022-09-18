@@ -17,6 +17,7 @@ namespace PrehistoricPlatformer.Agent
         public GroundDetector GroundDetector { get; private set; }
         public ClimbingDetector ClimbingDetector { get; private set; }
         public AgentWeaponManager agentWeapon { get; private set; }
+        public StateFactory StateFactory { get; private set; }
 
 
         private State currentState = null, previousState = null;
@@ -38,12 +39,9 @@ namespace PrehistoricPlatformer.Agent
             GroundDetector = GetComponentInChildren<GroundDetector>();
             ClimbingDetector = GetComponentInChildren<ClimbingDetector>();
             agentWeapon = GetComponentInChildren<AgentWeaponManager>();
+            StateFactory = GetComponentInChildren<StateFactory>();
 
-            State[] states = GetComponentsInChildren<State>();
-            foreach (State state in states)
-            {
-                state.InitializeState(this);
-            }
+            StateFactory.InitializeStates(this);
 
         }
 

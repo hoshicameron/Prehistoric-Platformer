@@ -9,7 +9,7 @@ namespace PrehistoricPlatformer.StatePattern
     public class MovementState:State
     {
         [SerializeField] protected MovementData movementData;
-        [SerializeField] protected State idleState;
+
 
         [field:SerializeField]
         private UnityEvent OnStep { get; set; }
@@ -37,7 +37,7 @@ namespace PrehistoricPlatformer.StatePattern
             SetAgentVelocity();
             if (Mathf.Abs(agent.Rb2D.velocity.x) < 0.01f)
             {
-                agent.TransitionToState(idleState);
+                agent.TransitionToState(agent.StateFactory.GetState(StateType.Idle));
             }
         }
         protected void CalculateVelocity()

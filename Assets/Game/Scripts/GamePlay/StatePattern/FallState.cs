@@ -24,11 +24,11 @@ namespace PrehistoricPlatformer.StatePattern
             SetAgentVelocity();
             if (agent.GroundDetector.isGrounded)
             {
-                agent.TransitionToState(idleState);
+                agent.TransitionToState(agent.StateFactory.GetState(StateType.Idle));
             }
             else if(agent.ClimbingDetector.CanClimb &&  Mathf.Abs(agent.AgentInput.MovementVector.y) > 0)
             {
-                agent.TransitionToState(climbState);
+                agent.TransitionToState(agent.StateFactory.GetState(StateType.Climbing));
             }
         }
 

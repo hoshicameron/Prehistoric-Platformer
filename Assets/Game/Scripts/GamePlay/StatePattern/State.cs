@@ -5,7 +5,6 @@ namespace PrehistoricPlatformer.StatePattern
 {
     public abstract class State:MonoBehaviour
     {
-        [SerializeField] protected State jumpState, fallState,climbState,attackState;
         protected Agent.Agent agent;
         public UnityEvent OnEnter, OnExit;
 
@@ -40,7 +39,7 @@ namespace PrehistoricPlatformer.StatePattern
         {
             if (agent.GroundDetector.isGrounded )
             {
-                agent.TransitionToState(jumpState);
+                agent.TransitionToState(agent.StateFactory.GetState(StateType.Jump));
             }
         }
 
@@ -58,7 +57,7 @@ namespace PrehistoricPlatformer.StatePattern
         {
             if (agent.agentWeapon.CanIUseWeapon(agent.GroundDetector.isGrounded))
             {
-                agent.TransitionToState(attackState);
+                agent.TransitionToState(agent.StateFactory.GetState(StateType.Attack));
             }
         }
 
@@ -72,7 +71,7 @@ namespace PrehistoricPlatformer.StatePattern
         {
             if (!agent.GroundDetector.isGrounded)
             {
-                agent.TransitionToState(fallState);
+                agent.TransitionToState(agent.StateFactory.GetState(StateType.Fall));
                 return true;
             }
 

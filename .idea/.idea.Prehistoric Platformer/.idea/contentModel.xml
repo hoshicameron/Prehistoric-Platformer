@@ -36,6 +36,8 @@
                 <e p="MovementData.cs" t="Include" />
                 <e p="MovementState.cs" t="Include" />
                 <e p="State.cs" t="Include" />
+                <e p="StateFactory.cs" t="Include" />
+                <e p="StateType.cs" t="Include" />
               </e>
               <e p="UI" t="Include">
                 <e p="HealthUI.cs" t="Include" />
