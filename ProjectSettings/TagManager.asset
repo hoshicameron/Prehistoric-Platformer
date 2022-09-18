@@ -21,7 +21,7 @@ TagManager:
   - Pickable
   - Enemies
   - AgentCollider
-  - 
+  - Obstacle
   - 
   - 
   - 
@@ -53,6 +53,9 @@ TagManager:
   - name: Ground
     uniqueID: 1185352871
     locked: 0
+  - name: Obstacle
+    uniqueID: 4186679905
+    locked: 0
   - name: ClimbingStuff
     uniqueID: 202729959
     locked: 0
@@ -62,7 +65,7 @@ TagManager:
   - name: Details
     uniqueID: 4252650201
     locked: 0
-  - name: Enemy
+  - name: Agent
     uniqueID: 2275276067
     locked: 0
   - name: Player

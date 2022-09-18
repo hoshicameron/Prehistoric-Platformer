@@ -1036,7 +1036,7 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: bd43bb7a0b60f0643b3ad855f4fa304b, type: 3}
     - target: {fileID: 8272684920762425063, guid: 28d77faa16a6b6f4a80f967aea288bee, type: 3}
       propertyPath: hittableLayerMask.m_Bits
-      value: 16896
+      value: 82432
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 28d77faa16a6b6f4a80f967aea288bee, type: 3}
