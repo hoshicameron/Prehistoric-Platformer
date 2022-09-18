@@ -19,6 +19,11 @@ namespace PrehistoricPlatformer.StatePattern
 
         }
 
+        protected override void HandleAttack()
+        {
+            // Prevent Attack
+        }
+
         protected override void ExitState()
         {
             agent.Rb2D.gravityScale = previousGravity;

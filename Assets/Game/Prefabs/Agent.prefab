@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 281279605320641053}
   - component: {fileID: 281279605320641050}
   - component: {fileID: 281279605320641051}
+  - component: {fileID: 8272684920762425063}
   m_Layer: 0
   m_Name: States
   m_TagString: Untagged
@@ -34,6 +35,7 @@ Transform:
   m_Children:
   - {fileID: 5709024922724027119}
   - {fileID: 6002774831297270204}
+  - {fileID: 6292915533611386338}
   m_Father: {fileID: 281279606191643394}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -52,6 +54,7 @@ MonoBehaviour:
   jumpState: {fileID: 281279605320641053}
   fallState: {fileID: 281279605320641050}
   climbState: {fileID: 281279605320641051}
+  attackState: {fileID: 8272684920762425063}
   OnEnter:
     m_PersistentCalls:
       m_Calls: []
@@ -74,6 +77,7 @@ MonoBehaviour:
   jumpState: {fileID: 281279605320641053}
   fallState: {fileID: 281279605320641050}
   climbState: {fileID: 0}
+  attackState: {fileID: 8272684920762425063}
   OnEnter:
     m_PersistentCalls:
       m_Calls: []
@@ -112,6 +116,7 @@ MonoBehaviour:
   jumpState: {fileID: 0}
   fallState: {fileID: 281279605320641050}
   climbState: {fileID: 281279605320641051}
+  attackState: {fileID: 8272684920762425063}
   OnEnter:
     m_PersistentCalls:
       m_Calls: []
@@ -138,6 +143,7 @@ MonoBehaviour:
   jumpState: {fileID: 281279605320641053}
   fallState: {fileID: 281279605320641050}
   climbState: {fileID: 281279605320641051}
+  attackState: {fileID: 8272684920762425063}
   OnEnter:
     m_PersistentCalls:
       m_Calls: []
@@ -164,6 +170,7 @@ MonoBehaviour:
   jumpState: {fileID: 281279605320641053}
   fallState: {fileID: 281279605320641050}
   climbState: {fileID: 281279605320641051}
+  attackState: {fileID: 8272684920762425063}
   OnEnter:
     m_PersistentCalls:
       m_Calls: []
@@ -171,6 +178,48 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   idleState: {fileID: 281279605320641055}
+--- !u!114 &8272684920762425063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 281279605320641041}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0f77520aae3426e819c707c6df493fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jumpState: {fileID: 0}
+  fallState: {fileID: 281279605320641050}
+  climbState: {fileID: 0}
+  attackState: {fileID: 0}
+  OnEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  OnExit:
+    m_PersistentCalls:
+      m_Calls: []
+  idleState: {fileID: 281279605320641055}
+  hittableLayerMask:
+    serializedVersion: 2
+    m_Bits: 0
+  OnWeaponSound:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3814601338997594889}
+        m_TargetAssemblyTypeName: PrehistoricPlatformer.AudioFeedback, Assembly-CSharp
+        m_MethodName: PlaySpecificClip
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  showGizmos: 0
 --- !u!1 &281279605959961194
 GameObject:
   m_ObjectHideFlags: 0
@@ -643,6 +692,52 @@ MonoBehaviour:
   OnWeaponPickup:
     m_PersistentCalls:
       m_Calls: []
+--- !u!1 &2774023443793956000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6292915533611386338}
+  - component: {fileID: 3814601338997594889}
+  m_Layer: 0
+  m_Name: AttackFeedback
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6292915533611386338
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2774023443793956000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 281279605320641054}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3814601338997594889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2774023443793956000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b365b1e610f743fe8ca834d34bd3f860, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clip: {fileID: 0}
+  targetAudioSource: {fileID: 5890914874986298329}
+  volume: 1
 --- !u!1 &5167659878283868271
 GameObject:
   m_ObjectHideFlags: 0

@@ -19,7 +19,8 @@ namespace PrehistoricPlatformer
         public void PlaySpecificClip(AudioClip clipToPlay = null)
         {
             if (clipToPlay == null) clipToPlay = clip;
-            if (clip == null)    return;
+            if (clipToPlay == null)    return;
+
 
             targetAudioSource.volume = volume;
             targetAudioSource.PlayOneShot(clipToPlay);

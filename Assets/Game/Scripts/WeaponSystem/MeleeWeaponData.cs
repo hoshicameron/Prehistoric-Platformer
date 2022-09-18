@@ -13,7 +13,6 @@ namespace PrehistoricPlatformer.WeaponSystem
 
         public override void PerformAttack(Agent.Agent agent, LayerMask hittableMask, Vector3 direction)
         {
-            Debug.Log("Weapon Used:"+weaponName);
             RaycastHit2D hit =
                 Physics2D.Raycast(agent.agentWeapon.transform.position, direction, attackRange,hittableMask);
             if (hit.collider != null)
