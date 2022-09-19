@@ -2,24 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2df2dc8b-c693-4024-b44b-fb136113924c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/StatePattern/StateFactory.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/StatePattern/StateFactory.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/StatePattern/StateType.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/StatePattern/StateType.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Prehistoric Platformer/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Prehistoric Platformer/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Prehistoric Platformer/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Agent/Damagable.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Agent/Damagable.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Prehistoric Platformer/.idea/contentModel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Prehistoric Platformer/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Prehistoric Platformer/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Prehistoric Platformer/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Prehistoric Platformer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Prehistoric Platformer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj.DotSettings" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj.DotSettings" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Prehistoric Platformer/riderModule.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/Agent.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Prefabs/Agent.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Prefabs/Player.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Agent/Agent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Agent/Agent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/StatePattern/AttackState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/StatePattern/AttackState.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/StatePattern/ClimbingState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/StatePattern/ClimbingState.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/StatePattern/FallState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/StatePattern/FallState.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/StatePattern/IdleState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/StatePattern/IdleState.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/StatePattern/JumpState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/StatePattern/JumpState.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/StatePattern/MovementState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/StatePattern/MovementState.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/StatePattern/State.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/StatePattern/State.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/StatePattern/StateFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/StatePattern/StateFactory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,224 +38,56 @@
     <expand />
     <select />
   </component>
-  <component name="FavoritesManager">
-    <favorites_list name="Prehistoric Platformer" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/StatePattern/State.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="94">
-              <caret line="73" column="83" selection-start-line="73" selection-start-column="83" selection-end-line="73" selection-end-column="83" />
-              <folding>
-                <marker date="1663520819435" expanded="false" signature="6:44" ph="..." />
-                <marker date="1663520819435" expanded="true" signature="90:2602" ph="{...}" />
-                <marker date="1663520819435" expanded="true" signature="138:2592" ph="{...}" />
-                <marker date="1663520819435" expanded="true" signature="280:332" ph="{...}" />
-                <marker date="1663520819435" expanded="true" signature="361:753" ph="{...}" />
-                <marker date="1663520819435" expanded="true" signature="960:1014" ph="{...}" />
-                <marker date="1663520819435" expanded="true" signature="1057:1241" ph="{...}" />
-                <marker date="1663520819435" expanded="true" signature="1117:1231" ph="{...}" />
-                <marker date="1663520819435" expanded="true" signature="1303:1324" ph="{...}" />
-                <marker date="1663520819435" expanded="true" signature="1371:1427" ph="{...}" />
-                <marker date="1663520819435" expanded="true" signature="1482:1700" ph="{...}" />
-                <marker date="1663520819435" expanded="true" signature="1574:1690" ph="{...}" />
-                <marker date="1663520819435" expanded="true" signature="1793:1842" ph="{...}" />
-                <marker date="1663520819435" expanded="true" signature="1881:2121" ph="{...}" />
-                <marker date="1663520819435" expanded="true" signature="1941:2084" ph="{...}" />
-                <marker date="1663520819435" expanded="true" signature="2150:2539" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/StatePattern/MovementState.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="39" column="83" selection-start-line="39" selection-start-column="83" selection-end-line="39" selection-end-column="83" />
-              <folding>
-                <marker date="1663520819480" expanded="false" signature="6:168" ph="..." />
-                <marker date="1663520819480" expanded="true" signature="214:2881" ph="{...}" />
-                <marker date="1663520819480" expanded="true" signature="253:2871" ph="{...}" />
-                <marker date="1663520819480" expanded="true" signature="432:517" ph="{...}" />
-                <marker date="1663520819480" expanded="true" signature="563:896" ph="{...}" />
-                <marker date="1663520819480" expanded="true" signature="945:1246" ph="{...}" />
-                <marker date="1663520819480" expanded="true" signature="1122:1236" ph="{...}" />
-                <marker date="1663520819480" expanded="true" signature="1289:1653" ph="{...}" />
-                <marker date="1663520819480" expanded="true" signature="1743:2169" ph="{...}" />
-                <marker date="1663520819480" expanded="true" signature="1802:1922" ph="{...}" />
-                <marker date="1663520819480" expanded="true" signature="1927:2049" ph="{...}" />
-                <marker date="1663520819480" expanded="true" signature="2249:2565" ph="{...}" />
-                <marker date="1663520819480" expanded="true" signature="2314:2404" ph="{...}" />
-                <marker date="1663520819480" expanded="true" signature="2464:2555" ph="{...}" />
-                <marker date="1663520819480" expanded="true" signature="2608:2692" ph="{...}" />
-                <marker date="1663520819480" expanded="true" signature="2737:2865" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/StatePattern/JumpState.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="42" column="87" selection-start-line="42" selection-start-column="87" selection-end-line="42" selection-end-column="87" />
-              <folding>
-                <marker date="1663520819464" expanded="false" signature="6:53" ph="..." />
-                <marker date="1663520819464" expanded="true" signature="99:1721" ph="{...}" />
-                <marker date="1663520819464" expanded="true" signature="142:1711" ph="{...}" />
-                <marker date="1663520819464" expanded="true" signature="236:558" ph="{...}" />
-                <marker date="1663520819464" expanded="true" signature="611:663" ph="{...}" />
-                <marker date="1663520819464" expanded="true" signature="717:770" ph="{...}" />
-                <marker date="1663520819464" expanded="true" signature="819:1320" ph="{...}" />
-                <marker date="1663520819464" expanded="true" signature="972:1086" ph="{...}" />
-                <marker date="1663520819464" expanded="true" signature="1192:1310" ph="{...}" />
-                <marker date="1663520819464" expanded="true" signature="1362:1705" ph="{...}" />
-                <marker date="1663520819464" expanded="true" signature="1402:1695" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/StatePattern/IdleState.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="23" column="83" selection-start-line="23" selection-start-column="83" selection-end-line="23" selection-end-column="83" />
-              <folding>
-                <marker date="1663520819408" expanded="false" signature="6:53" ph="..." />
-                <marker date="1663520819408" expanded="true" signature="99:849" ph="{...}" />
-                <marker date="1663520819408" expanded="true" signature="134:838" ph="{...}" />
-                <marker date="1663520819408" expanded="true" signature="186:396" ph="{...}" />
-                <marker date="1663520819408" expanded="true" signature="459:832" ph="{...}" />
-                <marker date="1663520819408" expanded="true" signature="545:663" ph="{...}" />
-                <marker date="1663520819408" expanded="true" signature="708:822" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/StatePattern/FallState.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="604">
-              <caret line="30" column="87" selection-start-line="30" selection-start-column="87" selection-end-line="30" selection-end-column="87" />
-              <folding>
-                <marker date="1663520819419" expanded="false" signature="6:79" ph="..." />
-                <marker date="1663520819419" expanded="true" signature="125:1303" ph="{...}" />
-                <marker date="1663520819419" expanded="true" signature="168:1301" ph="{...}" />
-                <marker date="1663520819419" expanded="true" signature="219:308" ph="{...}" />
-                <marker date="1663520819419" expanded="true" signature="361:430" ph="{...}" />
-                <marker date="1663520819419" expanded="true" signature="479:983" ph="{...}" />
-                <marker date="1663520819419" expanded="true" signature="635:749" ph="{...}" />
-                <marker date="1663520819419" expanded="true" signature="855:973" ph="{...}" />
-                <marker date="1663520819419" expanded="true" signature="1024:1295" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/StatePattern/ClimbingState.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="51" column="79" selection-start-line="51" selection-start-column="79" selection-end-line="51" selection-end-column="79" />
-              <folding>
-                <marker date="1663520819449" expanded="false" signature="6:53" ph="..." />
-                <marker date="1663520819449" expanded="true" signature="99:1700" ph="{...}" />
-                <marker date="1663520819449" expanded="true" signature="138:1698" ph="{...}" />
-                <marker date="1663520819449" expanded="true" signature="228:512" ph="{...}" />
-                <marker date="1663520819449" expanded="true" signature="560:610" ph="{...}" />
-                <marker date="1663520819449" expanded="true" signature="655:730" ph="{...}" />
-                <marker date="1663520819449" expanded="true" signature="779:1485" ph="{...}" />
-                <marker date="1663520819449" expanded="true" signature="852:1174" ph="{...}" />
-                <marker date="1663520819449" expanded="true" signature="1179:1311" ph="{...}" />
-                <marker date="1663520819449" expanded="true" signature="1361:1475" ph="{...}" />
-                <marker date="1663520819449" expanded="true" signature="1537:1690" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/StatePattern/AttackState.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="43" column="83" selection-start-line="43" selection-start-column="83" selection-end-line="43" selection-end-column="83" />
-              <folding>
-                <marker date="1663520816511" expanded="false" signature="6:79" ph="..." />
-                <marker date="1663520816511" expanded="true" signature="125:2858" ph="{...}" />
-                <marker date="1663520816511" expanded="true" signature="162:2849" ph="{...}" />
-                <marker date="1663520816511" expanded="true" signature="450:1004" ph="{...}" />
-                <marker date="1663520816511" expanded="true" signature="1042:1334" ph="{...}" />
-                <marker date="1663520816511" expanded="true" signature="1380:1726" ph="{...}" />
-                <marker date="1663520816511" expanded="true" signature="1771:1852" ph="{...}" />
-                <marker date="1663520816511" expanded="true" signature="1889:2203" ph="{...}" />
-                <marker date="1663520816511" expanded="true" signature="2251:2304" ph="{...}" />
-                <marker date="1663520816511" expanded="true" signature="2357:2408" ph="{...}" />
-                <marker date="1663520816511" expanded="true" signature="2462:2518" ph="{...}" />
-                <marker date="1663520816511" expanded="true" signature="2581:2644" ph="{...}" />
-                <marker date="1663520816511" expanded="true" signature="2688:2738" ph="{...}" />
-                <marker date="1663520816511" expanded="true" signature="2787:2843" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Plugins/2d-extras-2020.3/2d-extras-2020.3/Runtime/Tiles/AnimatedTile/AnimatedTile.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/StatePattern/JumpState.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/StatePattern/AttackState.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/StatePattern/MovementState.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/RespawnSystem/RespawnPointManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Plugins/2d-extras-2020.3/2d-extras-2020.3/Runtime/Tiles/HexagonalRuleTile/HexagonalRuleTile.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/ScriptableObjects/AgentDataSO.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Agent/AnimationType.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Plugins/2d-extras-2020.3/2d-extras-2020.3/Runtime/Tiles/IsometricRuleTile/IsometricRuleTile.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/StatePattern/State.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Plugins/2d-extras-2020.3/2d-extras-2020.3/Runtime/Brushes/TintTextureGenerator.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/StatePattern/FallState.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Plugins/2d-extras-2020.3/2d-extras-2020.3/Editor/Brushes/PrefabBrushes/BasePrefabBrush.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/StatePattern/StateType.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Plugins/2d-extras-2020.3/2d-extras-2020.3/Editor/Brushes/PrefabBrushes/PrefabBrush/PrefabBrush.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/UI/PlayerUI.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Agent/AgentAnimation.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/AudioFeedback.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Agent/Agent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/StatePattern/ClimbingState.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/StatePattern/MovementData.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/RespawnSystem/RespawnPoint.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Agent/GroundDetector.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/WeaponSystem/WeaponStorage.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/WeaponSystem/AgentWeaponManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/UI/LifeElementUI.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/WeaponSystem/GiveAgentAWeapon.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/WeaponSystem/IHittable.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Agent/IsGroundedCheck.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/WeaponSystem/WeaponData.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/StatePattern/IdleState.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/UI/PointsUI.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/ParallaxEffect.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.2d.tilemap@1.0.0/Editor/GridPaintPaletteClipboard.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/UI/HealthUI.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/StatePattern/StateFactory.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/RespawnSystem/RespawnHelper.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/Utilities/GameConstants.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/WeaponSystem/MeleeWeaponData.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Agent/ClimbingDetector.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/DestroyFallingObjects.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Plugins/2d-extras-2020.3/2d-extras-2020.3/Runtime/Tiles/RuleTile/RuleTile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Agent/AgentAnimation.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Agent/AgentInput.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Agent/AgentRenderer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Agent/AnimationType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Agent/ClimbingDetector.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Agent/GroundDetector.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Agent/IsGroundedCheck.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/AudioFeedback.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/DestroyFallingObjects.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Obstacles/FragileBlock.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/ParallaxEffect.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/StatePattern/AttackState.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/StatePattern/ClimbingState.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/StatePattern/FallState.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/StatePattern/IdleState.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/StatePattern/JumpState.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/StatePattern/MovementData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/StatePattern/MovementState.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/StatePattern/State.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/StatePattern/StateFactory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/StatePattern/StateType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/UI/HealthUI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/UI/LifeElementUI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/UI/PlayerUI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/UI/PointsUI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/RespawnSystem/RespawnHelper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/RespawnSystem/RespawnPoint.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/RespawnSystem/RespawnPointManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/ScriptableObjects/AgentDataSO.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/Utilities/GameConstants.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/WeaponSystem/AgentWeaponManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/WeaponSystem/GiveAgentAWeapon.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/WeaponSystem/IHittable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/WeaponSystem/MeleeWeaponData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/WeaponSystem/WeaponData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/WeaponSystem/WeaponStorage.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/2d-extras-2020.3/2d-extras-2020.3/Editor/Brushes/PrefabBrushes/BasePrefabBrush.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/2d-extras-2020.3/2d-extras-2020.3/Editor/Brushes/PrefabBrushes/PrefabBrush/PrefabBrush.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/2d-extras-2020.3/2d-extras-2020.3/Runtime/Brushes/TintTextureGenerator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/2d-extras-2020.3/2d-extras-2020.3/Runtime/Tiles/AnimatedTile/AnimatedTile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/2d-extras-2020.3/2d-extras-2020.3/Runtime/Tiles/HexagonalRuleTile/HexagonalRuleTile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/2d-extras-2020.3/2d-extras-2020.3/Runtime/Tiles/IsometricRuleTile/IsometricRuleTile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/2d-extras-2020.3/2d-extras-2020.3/Runtime/Tiles/RuleTile/RuleTile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.2d.tilemap@1.0.0/Editor/GridPaintPaletteClipboard.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -310,12 +141,16 @@
       </list>
     </option>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="699" />
     <option name="height" value="744" />
   </component>
+  <component name="ProjectId" id="2EzCz2Gx8dNf9tgeT8vmQNzxBJc" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -381,40 +216,50 @@
       <pane id="FileSystemExplorer" />
     </panes>
   </component>
-  <component name="PropertiesComponent">
-    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
-    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="web.server" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Discover.Launch.Via.Unity": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor &amp; Play">
+    <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="C:\Program Files\Unity 2020.3.29f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath &quot;C:\Unity Projects\Prehistoric Platformer&quot; -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="C:\Unity Projects\Prehistoric Platformer" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="17044">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="17044" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
       <method v="2" />
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -439,12 +284,13 @@
       <workItem from="1663050269972" duration="14045000" />
       <workItem from="1663140551570" duration="9133000" />
       <workItem from="1663398087663" duration="16703000" />
-      <workItem from="1663487706293" duration="11666000" />
+      <workItem from="1663487706293" duration="12329000" />
+      <workItem from="1663589312620" duration="5077000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104906000" />
+    <option name="totallyTimeSpent" value="105569000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -490,10 +336,13 @@
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
-  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>

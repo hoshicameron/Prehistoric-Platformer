@@ -97,6 +97,11 @@ namespace PrehistoricPlatformer.Agent
             OnRespawnRequired?.Invoke();
         }
 
+        public void GetHIt()
+        {
+            currentState.GetHit();
+        }
+
 
 
     }// class

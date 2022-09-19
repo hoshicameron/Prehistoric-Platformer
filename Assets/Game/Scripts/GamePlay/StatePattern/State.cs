@@ -93,5 +93,9 @@ namespace PrehistoricPlatformer.StatePattern
 
         protected virtual void ExitState(){}
 
+        public virtual  void GetHit()
+        {
+            
+        }
     }// class
 }// namespace
