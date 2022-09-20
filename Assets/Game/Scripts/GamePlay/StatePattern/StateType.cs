@@ -2,6 +2,6 @@ namespace PrehistoricPlatformer.StatePattern
 {
     public enum StateType
     {
-        Idle, Move, Fall, Climbing, Attack, Jump
+        Idle, Move, Fall, Climbing, Attack, Jump, GetHit
     }
 }

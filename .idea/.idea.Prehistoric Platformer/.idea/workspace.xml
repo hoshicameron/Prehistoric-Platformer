@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2df2dc8b-c693-4024-b44b-fb136113924c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Animations/Player Animation/Agent_Animator.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Animations/Player Animation/Agent_Animator.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Sprites/characters/playable/caverman.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Sprites/characters/playable/caverman.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/StatePattern/GetHitState.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/StatePattern/GetHitState.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Prehistoric Platformer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Prehistoric Platformer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/Agent.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Prefabs/Agent.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/StatePattern/StateFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/StatePattern/StateFactory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/StatePattern/StateType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/StatePattern/StateType.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -272,7 +276,7 @@
       <workItem from="1663398087663" duration="16703000" />
       <workItem from="1663487706293" duration="12329000" />
       <workItem from="1663589312620" duration="5077000" />
-      <workItem from="1663658755617" duration="5780000" />
+      <workItem from="1663658755617" duration="6706000" />
     </task>
     <servers />
   </component>

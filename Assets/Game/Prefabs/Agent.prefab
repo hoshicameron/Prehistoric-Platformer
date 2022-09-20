@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 281279605320641050}
   - component: {fileID: 281279605320641051}
   - component: {fileID: 8272684920762425063}
+  - component: {fileID: 4019903023841353979}
   - component: {fileID: 8394185052168626029}
   m_Layer: 0
   m_Name: States
@@ -191,6 +192,24 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   showGizmos: 0
+--- !u!114 &4019903023841353979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 281279605320641041}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 251666722fd743309882a093f2b6ab2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  OnExit:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &8394185052168626029
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -209,6 +228,7 @@ MonoBehaviour:
   climbing: {fileID: 281279605320641051}
   attack: {fileID: 8272684920762425063}
   jump: {fileID: 281279605320641053}
+  getHit: {fileID: 4019903023841353979}
 --- !u!1 &281279605959961194
 GameObject:
   m_ObjectHideFlags: 0
