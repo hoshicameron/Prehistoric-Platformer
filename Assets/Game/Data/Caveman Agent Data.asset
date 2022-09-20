@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03fabdb5e28849e087422a4d60f4508a, type: 3}
   m_Name: Caveman Agent Data
   m_EditorClassIdentifier: 
+  health: 5
   acceleration: 50
   deacceleration: 40
   maxSpeed: 6

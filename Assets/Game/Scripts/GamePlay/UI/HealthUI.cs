@@ -9,11 +9,6 @@ namespace PrehistoricPlatformer.UI
         [SerializeField] private Sprite fullHealth, emptyHealth;
         [SerializeField] private LifeElementUI healthPrefab;
 
-        private void Start()
-        {
-            Initialize(4);
-        }
-
         public void Initialize(int maxHealth)
         {
             healthImages = new List<LifeElementUI>();
@@ -31,6 +26,7 @@ namespace PrehistoricPlatformer.UI
 
         public void SetHealth(int currentHealth)
         {
+            Debug.Log(currentHealth);
             for (int i = 0; i < healthImages.Count; i++)
             {
                 if (i < currentHealth)

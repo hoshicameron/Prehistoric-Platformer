@@ -5,6 +5,9 @@ namespace PrehistoricPlatformer
     [CreateAssetMenu(fileName = "Agent Data", menuName = "Agent/Data", order = 1)]
     public class AgentDataSO : ScriptableObject
     {
+        [Header("Move Data")] [Space] 
+        public int health = 2;
+    
         [Header("Move Data")][Space]
         public float acceleration= 50;
         public float deacceleration = 40;

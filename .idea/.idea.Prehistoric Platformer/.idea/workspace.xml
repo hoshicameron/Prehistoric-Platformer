@@ -2,22 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2df2dc8b-c693-4024-b44b-fb136113924c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Prehistoric Platformer/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Agent/Damagable.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Agent/Damagable.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Prehistoric Platformer/.idea/contentModel.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Prehistoric Platformer/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Prehistoric Platformer/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Prehistoric Platformer/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Prehistoric Platformer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Prehistoric Platformer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Prehistoric Platformer/riderModule.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/Agent.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Prefabs/Agent.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Data/Caveman Agent Data.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Data/Caveman Agent Data.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Prefabs/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/Scene_Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scenes/Scene_Level1.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Agent/Agent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Agent/Agent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/StatePattern/State.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/StatePattern/State.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/StatePattern/StateFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/StatePattern/StateFactory.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Agent/Damagable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Agent/Damagable.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/DestroyFallingObjects.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/DestroyFallingObjects.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/UI/HealthUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/UI/HealthUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/ScriptableObjects/AgentDataSO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/ScriptableObjects/AgentDataSO.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -220,15 +213,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Discover.Launch.Via.Unity": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Discover.Launch.Via.Unity&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor &amp; Play">
     <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity 2020.3.29f1\Editor\Unity.exe" />
@@ -286,6 +279,7 @@
       <workItem from="1663398087663" duration="16703000" />
       <workItem from="1663487706293" duration="12329000" />
       <workItem from="1663589312620" duration="5077000" />
+      <workItem from="1663658755617" duration="5165000" />
     </task>
     <servers />
   </component>

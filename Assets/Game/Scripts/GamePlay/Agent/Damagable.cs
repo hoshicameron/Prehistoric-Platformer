@@ -30,10 +30,10 @@ namespace PrehistoricPlatformer.Agent
             GetHit(weaponDamage);
         }
 
-        private void GetHit(int weaponDamage)
+        public void GetHit(int weaponDamage)
         {
-            currentHealth -= weaponDamage;
-            if(currentHealth<=0)    OnDie?.Invoke();
+            CurrentHealth -= weaponDamage;
+            if(CurrentHealth<=0)    OnDie?.Invoke();
             else                    OnGetHit?.Invoke();
 
             
@@ -41,7 +41,7 @@ namespace PrehistoricPlatformer.Agent
 
         public void AddHealth(int value)
         {
-            currentHealth = Mathf.Clamp(currentHealth + value, 0, maxHealth);
+            CurrentHealth = Mathf.Clamp(CurrentHealth + value, 0, maxHealth);
             OnAddHealth?.Invoke();
         }
 

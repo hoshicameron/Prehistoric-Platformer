@@ -1,3 +1,4 @@
+using PrehistoricPlatformer.Agent;
 using UnityEngine;
 
 namespace PrehistoricPlatformer
@@ -22,6 +23,9 @@ namespace PrehistoricPlatformer
                     return;
                 }
 
+                agent.TryGetComponent<Damagable>(out var damagable);
+                if(damagable!=null) damagable.GetHit(1);
+                
                 agent.AgentDie();
             }
         }

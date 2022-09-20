@@ -18,7 +18,8 @@ namespace PrehistoricPlatformer.Agent
         public ClimbingDetector ClimbingDetector { get; private set; }
         public AgentWeaponManager agentWeapon { get; private set; }
         public StateFactory StateFactory { get; private set; }
-
+        public Damagable Damagable { get; private set; }
+        
 
         private State currentState = null, previousState = null;
 
@@ -40,7 +41,7 @@ namespace PrehistoricPlatformer.Agent
             ClimbingDetector = GetComponentInChildren<ClimbingDetector>();
             agentWeapon = GetComponentInChildren<AgentWeaponManager>();
             StateFactory = GetComponentInChildren<StateFactory>();
-
+            Damagable = GetComponentInChildren<Damagable>();
             StateFactory.InitializeStates(this);
 
         }
@@ -51,6 +52,12 @@ namespace PrehistoricPlatformer.Agent
         }
 
         private void Start()
+        {
+            InitializeAgent();
+            Damagable.Initiallize(AgentData.health);
+        }
+
+        private void InitializeAgent()
         {
             TransitionToState(idleState);
         }

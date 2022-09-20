@@ -11362,6 +11362,17 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!114 &2102223803 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7621461683144383510, guid: e77ed9bb50520544681ab5fbb9f31785, type: 3}
+  m_PrefabInstance: {fileID: 1105439859065431830}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcf83d1f4b244ea7a13f68901c139fe8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &2103485620 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1573410687942127621, guid: a028adbe4787b1447a7b85256aa6e49d, type: 3}
@@ -11503,6 +11514,14 @@ PrefabInstance:
     - target: {fileID: 1105439858860599334, guid: e77ed9bb50520544681ab5fbb9f31785, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1105439858978141473, guid: e77ed9bb50520544681ab5fbb9f31785, type: 3}
+      propertyPath: <OnRespawnRequired>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2102223803}
+    - target: {fileID: 1105439858978141473, guid: e77ed9bb50520544681ab5fbb9f31785, type: 3}
+      propertyPath: <OnRespawnRequired>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: RespawnPlayer
       objectReference: {fileID: 0}
     - target: {fileID: 1105439859339298788, guid: e77ed9bb50520544681ab5fbb9f31785, type: 3}
       propertyPath: m_RootOrder
