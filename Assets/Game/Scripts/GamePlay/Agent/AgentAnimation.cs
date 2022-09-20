@@ -23,8 +23,10 @@ namespace PrehistoricPlatformer.Agent
             switch (animationType)
             {
                 case AnimationType.Die:
+                    Play(GameConstants.DieAnimation);
                     break;
                 case AnimationType.Hit:
+                    Play(GameConstants.HitAnimation);
                     break;
                 case AnimationType.Idle:
                     Play(GameConstants.IdleAnimation);
