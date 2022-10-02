@@ -1,4 +1,6 @@
 using PrehistoricPlatformer.Agent;
+using PrehistoricPlatformer.RespawnSystem;
+using PrehistoricPlatformer.Utilities;
 using UnityEngine;
 
 namespace PrehistoricPlatformer
@@ -24,7 +26,12 @@ namespace PrehistoricPlatformer
                 }
 
                 agent.TryGetComponent<Damagable>(out var damagable);
-                if(damagable!=null) damagable.GetHit(1);
+                if (damagable != null)
+                {
+                    damagable.GetHit(1);
+                    if(damagable.CurrentHealth == 0 && agent.CompareTag(GameConstants.PlayerTag))
+                        agent.GetComponent<RespawnHelper>().RespawnPlayer();
+                }
                 
                 agent.AgentDie();
             }

@@ -31,6 +31,8 @@ namespace PrehistoricPlatformer.Agent
 
         [field:SerializeField]
         private UnityEvent OnRespawnRequired { get; set; }
+        [field:SerializeField]
+        public UnityEvent OnAgentDie{ get; set; }
         private void Awake()
         {
             Rb2D = GetComponent<Rigidbody2D>();
@@ -101,7 +103,10 @@ namespace PrehistoricPlatformer.Agent
 
         public void AgentDie()
         {
-            OnRespawnRequired?.Invoke();
+            if(Damagable.CurrentHealth>0)
+                OnRespawnRequired?.Invoke();
+            else
+                currentState.Die();
         }
 
         public void GetHIt()

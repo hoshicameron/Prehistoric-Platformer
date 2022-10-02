@@ -5,7 +5,7 @@ namespace PrehistoricPlatformer.StatePattern
 {
     public class StateFactory : MonoBehaviour
     {
-        [SerializeField] private State idle, move, fall, climbing, attack, jump, getHit;
+        [SerializeField] private State idle, move, fall, climbing, attack, jump, getHit,die;
 
         public State GetState(StateType stateType)
         {
@@ -18,6 +18,7 @@ namespace PrehistoricPlatformer.StatePattern
                 StateType.Attack => attack,
                 StateType.Jump => jump,
                 StateType.GetHit => getHit,
+                StateType.Die =>die,
                 _ => throw new System.Exception("State Not Found:" + stateType.ToString())
             };
         }

@@ -8,6 +8,7 @@ namespace PrehistoricPlatformer.StatePattern
         protected Agent.Agent agent;
         public UnityEvent OnEnter, OnExit;
 
+        
         public void InitializeState(Agent.Agent agent)
         {
             this.agent = agent;
@@ -77,6 +78,16 @@ namespace PrehistoricPlatformer.StatePattern
 
             return false;
         }
+        
+        public virtual  void GetHit()
+        {
+            agent.TransitionToState(agent.StateFactory.GetState(StateType.GetHit));
+        }
+
+        public virtual void Die()
+        {
+            agent.TransitionToState(agent.StateFactory.GetState(StateType.Die));
+        }
 
 
         public void Exit()
@@ -93,9 +104,6 @@ namespace PrehistoricPlatformer.StatePattern
 
         protected virtual void ExitState(){}
 
-        public virtual  void GetHit()
-        {
-            
-        }
+      
     }// class
 }// namespace

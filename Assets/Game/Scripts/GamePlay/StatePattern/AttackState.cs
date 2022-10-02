@@ -47,6 +47,7 @@ namespace PrehistoricPlatformer.StatePattern
 
         protected override void ExitState()
         {
+            agent.AgentAnimation.ResetEvents();
             agent.agentWeapon.ToggleWeaponVisibility(false);
         }
 

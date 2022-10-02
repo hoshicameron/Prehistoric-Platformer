@@ -26,7 +26,7 @@ namespace PrehistoricPlatformer.Agent
                     Play(GameConstants.DieAnimation);
                     break;
                 case AnimationType.Hit:
-                    Play(GameConstants.HitAnimation);
+                    Play(GameConstants.GetHitAnimation);
                     break;
                 case AnimationType.Idle:
                     Play(GameConstants.IdleAnimation);
