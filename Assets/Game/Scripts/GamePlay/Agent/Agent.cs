@@ -11,7 +11,7 @@ namespace PrehistoricPlatformer.Agent
         [field:SerializeField]
         public AgentDataSO AgentData { get; private set; }
         public Rigidbody2D Rb2D { get; private set; }
-        public AgentInput AgentInput { get; private set; }
+        public IAgentInput AgentInput { get; private set; }
         public AgentAnimation AgentAnimation { get; private set; }
         public AgentRenderer AgentRenderer { get; private set; }
         public GroundDetector GroundDetector { get; private set; }
@@ -36,7 +36,7 @@ namespace PrehistoricPlatformer.Agent
         private void Awake()
         {
             Rb2D = GetComponent<Rigidbody2D>();
-            AgentInput = GetComponentInParent<AgentInput>();
+            AgentInput = GetComponentInParent<IAgentInput>();
             AgentAnimation = GetComponentInChildren<AgentAnimation>();
             AgentRenderer = GetComponentInChildren<AgentRenderer>();
             GroundDetector = GetComponentInChildren<GroundDetector>();

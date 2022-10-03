@@ -6,12 +6,15 @@ using UnityEngine.Events;
 
 namespace PrehistoricPlatformer.Agent
 {
-    public class AgentInput : MonoBehaviour
+    public class AgentInput : MonoBehaviour, IAgentInput
     {
         [field:SerializeField]
         public Vector2 MovementVector { get; private set; }
-        public Action OnAttack, OnJumpPressed, OnJumpReleased, OnWeaponChange;
-        public Action<Vector2> OnMovement;
+        public event Action OnAttack;
+        public event Action OnJumpPressed;
+        public event Action OnJumpReleased;
+        public event Action OnWeaponChange;
+        public event Action<Vector2> OnMovement;
         public KeyCode jumpKey, AttackKey,swapWeaponKey, menuKey;
 
         public UnityEvent OnMenuKeyPressed;

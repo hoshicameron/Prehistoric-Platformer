@@ -1062,6 +1062,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Agent
       objectReference: {fileID: 0}
+    - target: {fileID: 281279606191643397, guid: 28d77faa16a6b6f4a80f967aea288bee, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 1516962340246441600, guid: 28d77faa16a6b6f4a80f967aea288bee, type: 3}
       propertyPath: OnHealthValueChange.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -1144,11 +1148,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2506821320338699570, guid: 28d77faa16a6b6f4a80f967aea288bee, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4585907814766892990, guid: 28d77faa16a6b6f4a80f967aea288bee, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 5890914874986298329, guid: 28d77faa16a6b6f4a80f967aea288bee, type: 3}
       propertyPath: OutputAudioMixerGroup
@@ -1156,7 +1160,7 @@ PrefabInstance:
       objectReference: {fileID: 1169911936406143333, guid: f8cfbe42e1a6a5c4297d648f508bf0da, type: 2}
     - target: {fileID: 6292915533611386338, guid: 28d77faa16a6b6f4a80f967aea288bee, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7343364742254845417, guid: 28d77faa16a6b6f4a80f967aea288bee, type: 3}
       propertyPath: OnEnter.m_PersistentCalls.m_Calls.Array.size
