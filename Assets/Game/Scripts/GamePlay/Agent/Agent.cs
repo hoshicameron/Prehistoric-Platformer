@@ -45,7 +45,6 @@ namespace PrehistoricPlatformer.Agent
             StateFactory = GetComponentInChildren<StateFactory>();
             Damagable = GetComponentInChildren<Damagable>();
             StateFactory.InitializeStates(this);
-
         }
 
         private void OnEnable()
@@ -113,8 +112,5 @@ namespace PrehistoricPlatformer.Agent
         {
             currentState.GetHit();
         }
-
-
-
     }// class
 }// namespace
