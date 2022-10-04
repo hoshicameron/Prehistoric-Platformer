@@ -13,7 +13,7 @@ TagManager:
   - UI
   - Ground
   - CameraConfiner
-  - climbingStuff
+  - ClimbingStuff
   - Hittable
   - Weapons
   - Platforms

@@ -426,7 +426,7 @@ GameObject:
   - component: {fileID: 281279606191643393}
   - component: {fileID: 281279606191643406}
   - component: {fileID: 1516962340246441600}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: Agent
   m_TagString: Untagged
   m_Icon: {fileID: 0}

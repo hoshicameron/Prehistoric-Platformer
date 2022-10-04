@@ -9,15 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03fabdb5e28849e087422a4d60f4508a, type: 3}
-  m_Name: Lizard Agent Data
+  m_Script: {fileID: 11500000, guid: 19884423adde48918007fb3b19a08e42, type: 3}
+  m_Name: EnemyInvisibleMeleeWeaponData
   m_EditorClassIdentifier: 
-  health: 2
-  acceleration: 50
-  deacceleration: 40
-  maxSpeed: 2
-  jumpForce: 12
-  lowJumpMultiplier: 2
-  gravityModifier: 0.5
-  ClimbHorizontalSpeed: 2
-  ClimbVerticalSpeed: 5
+  weaponSprite: {fileID: 0}
+  weaponName: Tongue
+  weaponDamage: 1
+  weaponSwingSound: {fileID: 8300000, guid: 9b80ba1e34828c74582253352f7ebd52, type: 3}
+  attackRange: 1.1

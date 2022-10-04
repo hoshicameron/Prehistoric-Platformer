@@ -1063,8 +1063,48 @@ PrefabInstance:
       value: Agent
       objectReference: {fileID: 0}
     - target: {fileID: 281279606191643397, guid: 28d77faa16a6b6f4a80f967aea288bee, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 281279606191643397, guid: 28d77faa16a6b6f4a80f967aea288bee, type: 3}
       propertyPath: m_TagString
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 281279606191643407, guid: 28d77faa16a6b6f4a80f967aea288bee, type: 3}
+      propertyPath: m_Size.x
+      value: 1.0344219
+      objectReference: {fileID: 0}
+    - target: {fileID: 281279606191643407, guid: 28d77faa16a6b6f4a80f967aea288bee, type: 3}
+      propertyPath: m_Size.y
+      value: 1.4946152
+      objectReference: {fileID: 0}
+    - target: {fileID: 281279606191643407, guid: 28d77faa16a6b6f4a80f967aea288bee, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.053162575
+      objectReference: {fileID: 0}
+    - target: {fileID: 281279606191643407, guid: 28d77faa16a6b6f4a80f967aea288bee, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.13531572
+      objectReference: {fileID: 0}
+    - target: {fileID: 281279606191643407, guid: 28d77faa16a6b6f4a80f967aea288bee, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 281279606925815146, guid: 28d77faa16a6b6f4a80f967aea288bee, type: 3}
+      propertyPath: m_Size.x
+      value: 1.0344219
+      objectReference: {fileID: 0}
+    - target: {fileID: 281279606925815146, guid: 28d77faa16a6b6f4a80f967aea288bee, type: 3}
+      propertyPath: m_Size.y
+      value: 1.4946152
+      objectReference: {fileID: 0}
+    - target: {fileID: 281279606925815146, guid: 28d77faa16a6b6f4a80f967aea288bee, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.053162575
+      objectReference: {fileID: 0}
+    - target: {fileID: 281279606925815146, guid: 28d77faa16a6b6f4a80f967aea288bee, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.13531572
       objectReference: {fileID: 0}
     - target: {fileID: 1516962340246441600, guid: 28d77faa16a6b6f4a80f967aea288bee, type: 3}
       propertyPath: OnHealthValueChange.m_PersistentCalls.m_Calls.Array.size

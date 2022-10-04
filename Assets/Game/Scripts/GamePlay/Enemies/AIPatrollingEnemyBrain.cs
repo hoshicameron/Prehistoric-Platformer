@@ -17,7 +17,7 @@ namespace PrehistoricPlatformer.AI
         {
             if(!groundDetector.isGrounded)  return;
 
-            //attackBehaviour.PerformAction(this);
+            attackBehaviour.PerformAction(this);
             patrolBehaviour.PerformAction(this);
 
         }

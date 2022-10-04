@@ -1,5 +1,6 @@
 using System;
 using System.Collections;
+using PrehistoricPlatformer.Utilities;
 using UnityEngine;
 
 namespace PrehistoricPlatformer.AI
@@ -22,6 +23,8 @@ namespace PrehistoricPlatformer.AI
 
         private void OnTriggerEnter2D(Collider2D col)
         {
+            if(col.gameObject.layer== LayerMask.NameToLayer(GameConstants.ClimbingStuffLayer))  return;
+            
             OnPathBlocked?.Invoke();
         }
 

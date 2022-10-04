@@ -19,6 +19,11 @@ namespace PrehistoricPlatformer.AI
             OnAttack?.Invoke();
         }
 
+        public void CallAttack()
+        {
+            OnAttack?.Invoke();
+        }
+
         public void CallOnJumpPressed()
         {
             OnJumpPressed?.Invoke();

@@ -13,7 +13,7 @@ namespace PrehistoricPlatformer.AI
         private void Awake()
         {
             if (changeDirectionDetector == null)
-                changeDirectionDetector = GetComponentInChildren<AIEndPlatformDetector>();
+                changeDirectionDetector = FindObjectOfType<AIEndPlatformDetector>();
         }
 
         private void Start()
