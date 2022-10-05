@@ -89,6 +89,7 @@ GameObject:
   - component: {fileID: 2433572884322023266}
   - component: {fileID: 8371829351616529333}
   - component: {fileID: 8210462007065698889}
+  - component: {fileID: 6489355752916662316}
   m_Layer: 0
   m_Name: LizardEnemy
   m_TagString: Untagged
@@ -141,6 +142,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   weaponDataList:
   - {fileID: 11400000, guid: 0c6e0c30ab5e2c349b05ba4d68c226a4, type: 2}
+--- !u!114 &6489355752916662316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2433572884322023261}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5f52c5d30c04de992dacebc7312fcec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4269255373296544461
 GameObject:
   m_ObjectHideFlags: 0
@@ -327,6 +340,14 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 3148971304039954403, guid: 2be23681dab22b449a477957a963b3bc, type: 3}
+    - target: {fileID: 281279605959961192, guid: 28d77faa16a6b6f4a80f967aea288bee, type: 3}
+      propertyPath: m_SortingLayer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 281279605959961192, guid: 28d77faa16a6b6f4a80f967aea288bee, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -2019691229
+      objectReference: {fileID: 0}
     - target: {fileID: 281279605959961193, guid: 28d77faa16a6b6f4a80f967aea288bee, type: 3}
       propertyPath: m_Controller
       value: 
@@ -336,8 +357,60 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: a4d1fa44638352d49b936f2c201bb989, type: 2}
     - target: {fileID: 281279606191643393, guid: 28d77faa16a6b6f4a80f967aea288bee, type: 3}
+      propertyPath: <OnAgentDie>k__BackingField.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 281279606191643393, guid: 28d77faa16a6b6f4a80f967aea288bee, type: 3}
       propertyPath: <OnRespawnRequired>k__BackingField.m_PersistentCalls.m_Calls.Array.size
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 281279606191643393, guid: 28d77faa16a6b6f4a80f967aea288bee, type: 3}
+      propertyPath: <OnAgentDie>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 281279606191643393, guid: 28d77faa16a6b6f4a80f967aea288bee, type: 3}
+      propertyPath: <OnAgentDie>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 6489355752916662316}
+    - target: {fileID: 281279606191643393, guid: 28d77faa16a6b6f4a80f967aea288bee, type: 3}
+      propertyPath: <OnAgentDie>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 281279606191643393, guid: 28d77faa16a6b6f4a80f967aea288bee, type: 3}
+      propertyPath: <OnAgentDie>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: DestroySelf
+      objectReference: {fileID: 0}
+    - target: {fileID: 281279606191643393, guid: 28d77faa16a6b6f4a80f967aea288bee, type: 3}
+      propertyPath: <OnRespawnRequired>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 281279606191643393, guid: 28d77faa16a6b6f4a80f967aea288bee, type: 3}
+      propertyPath: <OnRespawnRequired>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 6489355752916662316}
+    - target: {fileID: 281279606191643393, guid: 28d77faa16a6b6f4a80f967aea288bee, type: 3}
+      propertyPath: <OnRespawnRequired>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 281279606191643393, guid: 28d77faa16a6b6f4a80f967aea288bee, type: 3}
+      propertyPath: <OnRespawnRequired>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: DestroySelf
+      objectReference: {fileID: 0}
+    - target: {fileID: 281279606191643393, guid: 28d77faa16a6b6f4a80f967aea288bee, type: 3}
+      propertyPath: <OnAgentDie>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PrehistoricPlatformer.Utilities.DestroyUtil, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 281279606191643393, guid: 28d77faa16a6b6f4a80f967aea288bee, type: 3}
+      propertyPath: <OnRespawnRequired>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PrehistoricPlatformer.Utilities.DestroyUtil, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 281279606191643393, guid: 28d77faa16a6b6f4a80f967aea288bee, type: 3}
+      propertyPath: <OnAgentDie>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 281279606191643393, guid: 28d77faa16a6b6f4a80f967aea288bee, type: 3}
+      propertyPath: <OnRespawnRequired>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 281279606191643394, guid: 28d77faa16a6b6f4a80f967aea288bee, type: 3}
       propertyPath: m_RootOrder
@@ -459,6 +532,10 @@ PrefabInstance:
       propertyPath: gizmoColorIsNotGrounded.r
       value: 0.46547508
       objectReference: {fileID: 0}
+    - target: {fileID: 3814601338997594889, guid: 28d77faa16a6b6f4a80f967aea288bee, type: 3}
+      propertyPath: clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 9b80ba1e34828c74582253352f7ebd52, type: 3}
     - target: {fileID: 4074701311343323213, guid: 28d77faa16a6b6f4a80f967aea288bee, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.46

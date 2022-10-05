@@ -1007,12 +1007,36 @@ PrefabInstance:
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 281279606191643393, guid: 28d77faa16a6b6f4a80f967aea288bee, type: 3}
+      propertyPath: <AgentData>k__BackingField
+      value: 
+      objectReference: {fileID: 11400000, guid: 7afec0fb48371c74ea9642800e512253, type: 2}
+    - target: {fileID: 281279606191643393, guid: 28d77faa16a6b6f4a80f967aea288bee, type: 3}
+      propertyPath: <OnRespawnRequired>k__BackingField.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 281279606191643393, guid: 28d77faa16a6b6f4a80f967aea288bee, type: 3}
+      propertyPath: <OnRespawnRequired>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 281279606191643393, guid: 28d77faa16a6b6f4a80f967aea288bee, type: 3}
       propertyPath: <OnRespawnRequired>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 7621461683144383510}
     - target: {fileID: 281279606191643393, guid: 28d77faa16a6b6f4a80f967aea288bee, type: 3}
+      propertyPath: <OnRespawnRequired>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 281279606191643393, guid: 28d77faa16a6b6f4a80f967aea288bee, type: 3}
       propertyPath: <OnRespawnRequired>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: RespawnPlayer
+      objectReference: {fileID: 0}
+    - target: {fileID: 281279606191643393, guid: 28d77faa16a6b6f4a80f967aea288bee, type: 3}
+      propertyPath: <OnRespawnRequired>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PrehistoricPlatformer.RespawnSystem.RespawnHelper, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 281279606191643393, guid: 28d77faa16a6b6f4a80f967aea288bee, type: 3}
+      propertyPath: <OnRespawnRequired>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 281279606191643394, guid: 28d77faa16a6b6f4a80f967aea288bee, type: 3}
       propertyPath: m_RootOrder
@@ -1190,6 +1214,10 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 3814601338997594889, guid: 28d77faa16a6b6f4a80f967aea288bee, type: 3}
+      propertyPath: clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 87a143a225abc304595d45f800b188a7, type: 3}
     - target: {fileID: 4585907814766892990, guid: 28d77faa16a6b6f4a80f967aea288bee, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -1258,10 +1286,18 @@ PrefabInstance:
       propertyPath: clip
       value: 
       objectReference: {fileID: 8300000, guid: bd43bb7a0b60f0643b3ad855f4fa304b, type: 3}
+    - target: {fileID: 8231082104070261358, guid: 28d77faa16a6b6f4a80f967aea288bee, type: 3}
+      propertyPath: clip
+      value: 
+      objectReference: {fileID: 8300000, guid: cfef44482033b0c4298afc069a3b9ddc, type: 3}
     - target: {fileID: 8272684920762425063, guid: 28d77faa16a6b6f4a80f967aea288bee, type: 3}
       propertyPath: hittableLayerMask.m_Bits
       value: 82432
       objectReference: {fileID: 0}
+    - target: {fileID: 8746644705679271759, guid: 28d77faa16a6b6f4a80f967aea288bee, type: 3}
+      propertyPath: clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 5da6423caab7e5a41b075dabedcdb6c0, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 28d77faa16a6b6f4a80f967aea288bee, type: 3}
 --- !u!114 &8489939483423017327 stripped
