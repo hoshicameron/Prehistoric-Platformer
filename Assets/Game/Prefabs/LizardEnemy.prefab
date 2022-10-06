@@ -337,6 +337,14 @@ PrefabInstance:
     m_TransformParent: {fileID: 2433572884322023266}
     m_Modifications:
     - target: {fileID: 281279605959961192, guid: 28d77faa16a6b6f4a80f967aea288bee, type: 3}
+      propertyPath: m_Size.x
+      value: 3.28125
+      objectReference: {fileID: 0}
+    - target: {fileID: 281279605959961192, guid: 28d77faa16a6b6f4a80f967aea288bee, type: 3}
+      propertyPath: m_Size.y
+      value: 1.59375
+      objectReference: {fileID: 0}
+    - target: {fileID: 281279605959961192, guid: 28d77faa16a6b6f4a80f967aea288bee, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 3148971304039954403, guid: 2be23681dab22b449a477957a963b3bc, type: 3}
@@ -348,6 +356,14 @@ PrefabInstance:
       propertyPath: m_SortingLayerID
       value: -2019691229
       objectReference: {fileID: 0}
+    - target: {fileID: 281279605959961192, guid: 28d77faa16a6b6f4a80f967aea288bee, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 281279605959961192, guid: 28d77faa16a6b6f4a80f967aea288bee, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b1c8f9eedf6edb2499c4838c52cfe792, type: 2}
     - target: {fileID: 281279605959961193, guid: 28d77faa16a6b6f4a80f967aea288bee, type: 3}
       propertyPath: m_Controller
       value: 

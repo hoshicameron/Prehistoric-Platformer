@@ -1007,6 +1007,22 @@ PrefabInstance:
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 281279605959961192, guid: 28d77faa16a6b6f4a80f967aea288bee, type: 3}
+      propertyPath: m_Size.x
+      value: 1.40625
+      objectReference: {fileID: 0}
+    - target: {fileID: 281279605959961192, guid: 28d77faa16a6b6f4a80f967aea288bee, type: 3}
+      propertyPath: m_Size.y
+      value: 1.78125
+      objectReference: {fileID: 0}
+    - target: {fileID: 281279605959961192, guid: 28d77faa16a6b6f4a80f967aea288bee, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -8505408481507216282, guid: 6a832c007b3f19a458b21caeed289a46, type: 3}
+    - target: {fileID: 281279605959961192, guid: 28d77faa16a6b6f4a80f967aea288bee, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 281279605959961192, guid: 28d77faa16a6b6f4a80f967aea288bee, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: b1c8f9eedf6edb2499c4838c52cfe792, type: 2}

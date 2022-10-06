@@ -222,6 +222,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 3169453583571108513}
+        m_TargetAssemblyTypeName: PrehistoricPlatformer.Feedback.FlashWhiteFeedback,
+          Assembly-CSharp
+        m_MethodName: PlayFeedback
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnExit:
     m_PersistentCalls:
       m_Calls: []
@@ -243,6 +256,19 @@ MonoBehaviour:
       - m_Target: {fileID: 8746644705679271759}
         m_TargetAssemblyTypeName: PrehistoricPlatformer.AudioFeedback, Assembly-CSharp
         m_MethodName: PlayClip
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 3046407102184004890}
+        m_TargetAssemblyTypeName: PrehistoricPlatformer.Feedback.FlashWhiteFeedback,
+          Assembly-CSharp
+        m_MethodName: PlayFeedback
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -330,7 +356,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 2100000, guid: b1c8f9eedf6edb2499c4838c52cfe792, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -351,7 +377,7 @@ SpriteRenderer:
   m_SortingLayerID: -1369526767
   m_SortingLayer: 10
   m_SortingOrder: 0
-  m_Sprite: {fileID: -8505408481507216282, guid: 6a832c007b3f19a458b21caeed289a46, type: 3}
+  m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -359,7 +385,7 @@ SpriteRenderer:
   m_Size: {x: 18.1875, y: 15.53125}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!95 &281279605959961193
@@ -835,6 +861,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4585907814766892990}
   - component: {fileID: 8231082104070261358}
+  - component: {fileID: 3169453583571108513}
   m_Layer: 0
   m_Name: GetHitFeedback
   m_TagString: Untagged
@@ -871,6 +898,20 @@ MonoBehaviour:
   clip: {fileID: 0}
   targetAudioSource: {fileID: 5890914874986298329}
   volume: 1
+--- !u!114 &3169453583571108513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2834628332490263909}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3e5f7656c465054cadb8e46cdc92c24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spriteRenderer: {fileID: 281279605959961192}
+  feedbackTime: 0.1
 --- !u!1 &4846421667222727367
 GameObject:
   m_ObjectHideFlags: 0
@@ -881,6 +922,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2506821320338699570}
   - component: {fileID: 8746644705679271759}
+  - component: {fileID: 3046407102184004890}
   m_Layer: 0
   m_Name: DieFeedback
   m_TagString: Untagged
@@ -917,6 +959,20 @@ MonoBehaviour:
   clip: {fileID: 0}
   targetAudioSource: {fileID: 5890914874986298329}
   volume: 1
+--- !u!114 &3046407102184004890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4846421667222727367}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3e5f7656c465054cadb8e46cdc92c24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spriteRenderer: {fileID: 281279605959961192}
+  feedbackTime: 0.1
 --- !u!1 &5167659878283868271
 GameObject:
   m_ObjectHideFlags: 0
