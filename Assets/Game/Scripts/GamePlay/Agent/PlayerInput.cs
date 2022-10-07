@@ -6,7 +6,7 @@ using UnityEngine.Events;
 
 namespace PrehistoricPlatformer.Agent
 {
-    public class AgentInput : MonoBehaviour, IAgentInput
+    public class PlayerInput : MonoBehaviour, IAgentInput
     {
         [field:SerializeField]
         public Vector2 MovementVector { get; private set; }
