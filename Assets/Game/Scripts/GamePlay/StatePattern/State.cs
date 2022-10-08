@@ -5,11 +5,11 @@ namespace PrehistoricPlatformer.StatePattern
 {
     public abstract class State:MonoBehaviour
     {
-        protected Agent.Agent agent;
+        protected Agents.Agent agent;
         public UnityEvent OnEnter, OnExit;
 
         
-        public void InitializeState(Agent.Agent agent)
+        public void InitializeState(Agents.Agent agent)
         {
             this.agent = agent;
         }

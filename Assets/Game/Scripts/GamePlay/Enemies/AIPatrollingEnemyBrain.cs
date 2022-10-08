@@ -1,4 +1,4 @@
-using PrehistoricPlatformer.Agent;
+using PrehistoricPlatformer.Agents;
 using UnityEngine;
 
 namespace PrehistoricPlatformer.AI

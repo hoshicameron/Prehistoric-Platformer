@@ -26,7 +26,6 @@ namespace PrehistoricPlatformer.UI
 
         public void SetHealth(int currentHealth)
         {
-            Debug.Log(currentHealth);
             for (int i = 0; i < healthImages.Count; i++)
             {
                 if (i < currentHealth)

@@ -12,7 +12,7 @@ namespace PrehistoricPlatformer.WeaponSystem
         public AudioClip weaponSwingSound;
 
         public abstract bool CanBeUsed(bool isGrounded);
-        public abstract void PerformAttack(Agent.Agent agent, LayerMask hittableMask, Vector3 direction);
+        public abstract void PerformAttack(Agents.Agent agent, LayerMask hittableMask, Vector3 direction);
 
         public bool Equals(WeaponData other)
         {

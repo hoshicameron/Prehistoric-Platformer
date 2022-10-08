@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace PrehistoricPlatformer.Agent
+namespace PrehistoricPlatformer.Agents
 {
     public interface IAgentInput
     {

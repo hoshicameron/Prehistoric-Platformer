@@ -1,4 +1,4 @@
-using PrehistoricPlatformer.Agent;
+using PrehistoricPlatformer.Agents;
 using UnityEngine.Events;
 
 namespace PrehistoricPlatformer.StatePattern

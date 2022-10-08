@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace PrehistoricPlatformer.Agent
+namespace PrehistoricPlatformer.Agents
 {
     public class ClimbingDetector:MonoBehaviour
     {

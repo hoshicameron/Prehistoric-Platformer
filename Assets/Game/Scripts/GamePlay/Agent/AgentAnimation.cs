@@ -3,7 +3,7 @@ using PrehistoricPlatformer.Utilities;
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace PrehistoricPlatformer.Agent
+namespace PrehistoricPlatformer.Agents
 {
     public class AgentAnimation:MonoBehaviour
     {

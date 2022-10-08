@@ -23,7 +23,7 @@ namespace PrehistoricPlatformer.StatePattern
             };
         }
 
-        public void InitializeStates(Agent.Agent agent)
+        public void InitializeStates(Agents.Agent agent)
         {
             State[] states = GetComponents<State>();
             foreach (State state in states)

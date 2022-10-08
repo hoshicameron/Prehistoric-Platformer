@@ -2,7 +2,7 @@ using PrehistoricPlatformer.WeaponSystem;
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace PrehistoricPlatformer.Agent
+namespace PrehistoricPlatformer.Agents
 {
     public class Damagable : MonoBehaviour,IHittable
     {

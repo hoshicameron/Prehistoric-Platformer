@@ -9,7 +9,7 @@ namespace PrehistoricPlatformer.WeaponSystem
 
         private void Start()
         {
-            Agent.Agent agent = GetComponentInChildren<Agent.Agent>();
+            Agents.Agent agent = GetComponentInChildren<Agents.Agent>();
 
             if(agent==null)    return;
 

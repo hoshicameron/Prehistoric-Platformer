@@ -1,6 +1,6 @@
 using System.Runtime.Serialization;
 using System.Security.Cryptography.X509Certificates;
-using PrehistoricPlatformer.Agent;
+using PrehistoricPlatformer.Agents;
 using UnityEngine;
 using UnityEngine.Events;
 

@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace PrehistoricPlatformer.Agent
+namespace PrehistoricPlatformer.Agents
 {
     public class PlayerInput : MonoBehaviour, IAgentInput
     {

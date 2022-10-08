@@ -1,4 +1,4 @@
-using PrehistoricPlatformer.Agent;
+using PrehistoricPlatformer.Agents;
 using PrehistoricPlatformer.RespawnSystem;
 using PrehistoricPlatformer.Utilities;
 using UnityEngine;
@@ -18,7 +18,7 @@ namespace PrehistoricPlatformer
             Collider2D collider = Physics2D.OverlapBox(transform.position, size, 0, objectToDestroyLayerMask);
             if (collider != null)
             {
-                collider.TryGetComponent<Agent.Agent>(out var agent);
+                collider.TryGetComponent<Agents.Agent>(out var agent);
                 if (agent == null)
                 {
                     Destroy(collider.gameObject);

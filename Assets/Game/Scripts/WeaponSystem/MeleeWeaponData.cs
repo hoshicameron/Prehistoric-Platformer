@@ -11,7 +11,7 @@ namespace PrehistoricPlatformer.WeaponSystem
             return isGrounded == true;
         }
 
-        public override void PerformAttack(Agent.Agent agent, LayerMask hittableMask, Vector3 direction)
+        public override void PerformAttack(Agents.Agent agent, LayerMask hittableMask, Vector3 direction)
         {
             RaycastHit2D hit =
                 Physics2D.Raycast(agent.agentWeapon.transform.position, direction, attackRange,hittableMask);
