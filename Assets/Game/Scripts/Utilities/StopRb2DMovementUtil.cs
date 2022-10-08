@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace PrehistoricPlatformer.Utilities
 {
-    public class StopRb2DMovementUtil : MonoBehaviour
+    public class StopRBb2DMovementUtil : MonoBehaviour
     {
         private Rigidbody2D rb2d;
 

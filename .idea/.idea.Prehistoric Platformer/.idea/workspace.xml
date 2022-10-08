@@ -9,6 +9,8 @@
       <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Pickables/Pickable.cs.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Utilities/OnTrigger2DUtil.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Utilities/OnTrigger2DUtil.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Utilities/StopRBb2DMovementUtil.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Utilities/StopRBb2DMovementUtil.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Prehistoric Platformer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Prehistoric Platformer/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/Scene_Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scenes/Scene_Level1.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Agent/Agent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Agent/Agent.cs" afterDir="false" />
@@ -35,7 +37,6 @@
       <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/StatePattern/State.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/StatePattern/State.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/StatePattern/StateFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/StatePattern/StateFactory.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/UI/HealthUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/UI/HealthUI.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Utilities/StopRb2DMovementUtil.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Utilities/StopRb2DMovementUtil.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/WeaponSystem/GiveAgentAWeapon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/WeaponSystem/GiveAgentAWeapon.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/WeaponSystem/MeleeWeaponData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/WeaponSystem/MeleeWeaponData.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/WeaponSystem/WeaponData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/WeaponSystem/WeaponData.cs" afterDir="false" />
@@ -348,7 +349,7 @@
       <workItem from="1664879501193" duration="12000" />
       <workItem from="1664880376137" duration="10772000" />
       <workItem from="1664985627656" duration="3080000" />
-      <workItem from="1665045782838" duration="18300000" />
+      <workItem from="1665045782838" duration="17775000" />
     </task>
     <servers />
   </component>
