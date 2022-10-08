@@ -943,8 +943,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2834628332490263909}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.58, y: 0.12, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 281279605320641054}
@@ -989,7 +989,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2506821320338699570}
   - component: {fileID: 8746644705679271759}
-  - component: {fileID: 3046407102184004890}
   m_Layer: 0
   m_Name: DieFeedback
   m_TagString: Untagged
@@ -1004,8 +1003,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4846421667222727367}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.58, y: 0.12, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 281279605320641054}
@@ -1026,20 +1025,6 @@ MonoBehaviour:
   clip: {fileID: 0}
   targetAudioSource: {fileID: 5890914874986298329}
   volume: 1
---- !u!114 &3046407102184004890
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4846421667222727367}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e3e5f7656c465054cadb8e46cdc92c24, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  spriteRenderer: {fileID: 281279605959961192}
-  feedbackTime: 0.1
 --- !u!1 &5167659878283868271
 GameObject:
   m_ObjectHideFlags: 0
