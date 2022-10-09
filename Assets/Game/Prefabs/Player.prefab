@@ -687,7 +687,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   weaponDataList:
-  - {fileID: 11400000, guid: df1b455f97c02de4bba824d797ad9117, type: 2}
+  - {fileID: 11400000, guid: 26513aeaaebff3348a347b3ec2dbca81, type: 2}
 --- !u!1 &2334800937323053171
 GameObject:
   m_ObjectHideFlags: 0

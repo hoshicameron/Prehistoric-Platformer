@@ -1,4 +1,5 @@
 using System;
+using PrehistoricPlatformer.Agents;
 using UnityEngine;
 
 namespace PrehistoricPlatformer.WeaponSystem
@@ -9,10 +10,11 @@ namespace PrehistoricPlatformer.WeaponSystem
         public Sprite weaponSprite;
         public string weaponName;
         public int weaponDamage = 1;
+        public float attackRange;
         public AudioClip weaponSwingSound;
 
         public abstract bool CanBeUsed(bool isGrounded);
-        public abstract void PerformAttack(Agents.Agent agent, LayerMask hittableMask, Vector3 direction);
+        public abstract void PerformAttack(Agent agent, LayerMask hittableMask, Vector3 direction);
 
         public bool Equals(WeaponData other)
         {

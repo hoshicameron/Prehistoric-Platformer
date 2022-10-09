@@ -2,10 +2,9 @@ using UnityEngine;
 
 namespace PrehistoricPlatformer.WeaponSystem
 {
-    [CreateAssetMenu(fileName = "New Melee Weapon Data", menuName = "Weapon/MeleeWeaponData")]
+    [CreateAssetMenu(fileName = "New Melee Weapon Data", menuName = "Weapons/MeleeWeaponData")]
     public class MeleeWeaponData:WeaponData
     {
-        public float attackRange = 2.0f;
         public override bool CanBeUsed(bool isGrounded)
         {
             return isGrounded == true;
