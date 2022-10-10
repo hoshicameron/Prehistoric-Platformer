@@ -1,8 +1,10 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
 namespace PrehistoricPlatformer.WeaponSystem
 {
+    [Serializable]
     public class WeaponStorage
     {
         private List<WeaponData> weaponDataList = new List<WeaponData>();
@@ -17,8 +19,8 @@ namespace PrehistoricPlatformer.WeaponSystem
         public WeaponData SwapWeapon()
         {
             if (currentWeaponIndex == -1) return null;
-
-            currentWeaponIndex = (currentWeaponIndex + 1) % (weaponDataList.Count-1);
+            
+            currentWeaponIndex = (currentWeaponIndex + 1) % weaponDataList.Count;
             return weaponDataList[currentWeaponIndex];
         }
 

@@ -44,8 +44,8 @@ namespace PrehistoricPlatformer.WeaponSystem
 
         public void SwapWeapon()
         {
-            if(weaponStorage.WeaponCount<=0)    return;
-
+            if(weaponStorage.WeaponCount<=1)    return;
+            
             SwapWeaponSprite(weaponStorage.SwapWeapon().weaponSprite);
         }
 

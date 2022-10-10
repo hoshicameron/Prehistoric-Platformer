@@ -45,7 +45,7 @@ namespace PrehistoricPlatformer.Agents
             OnAddHealth?.Invoke();
         }
 
-        public void Initiallize(int health)
+        public void Initialize(int health)
         {
             maxHealth = health;
             OnInitializeMaxHealth?.Invoke(maxHealth);

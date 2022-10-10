@@ -50,22 +50,35 @@ namespace PrehistoricPlatformer.Agents
         private void OnEnable()
         {
            AgentInput.OnMovement += AgentRenderer.faceDirection;
+           AgentInput.OnWeaponChange += SwapWeapon;
         }
 
         private void Start()
         {
             InitializeAgent();
-            Damagable.Initiallize(AgentData.health);
+
+            
+
+        }
+
+        private void SwapWeapon()
+        {
+            if(agentWeapon == null) return;
+            
+            agentWeapon.SwapWeapon();
         }
 
         private void InitializeAgent()
         {
             TransitionToState(idleState);
+            Damagable.Initialize(AgentData.health);
         }
 
         private void OnDisable()
         {
             AgentInput.OnMovement -= AgentRenderer.faceDirection;
+            AgentInput.OnWeaponChange -= SwapWeapon;
+            
         }
 
         public void TransitionToState(State desireState)
@@ -111,6 +124,14 @@ namespace PrehistoricPlatformer.Agents
         public void GetHIt()
         {
             currentState.GetHit();
+        }
+
+        public void PickUp(WeaponData weaponData)
+        {
+            if (agentWeapon == null)    return;
+            
+            agentWeapon.PickupWeapon(weaponData);
+            
         }
     }// class
 }// namespace

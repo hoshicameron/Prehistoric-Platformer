@@ -13,19 +13,13 @@ namespace PrehistoricPlatformer.UI
             pointsUI = GetComponentInChildren<PointsUI>();
         }
 
-        public void InitializeMaxHealth(int maxHealth)
-        {
-            healthUI.Initialize(maxHealth);
-        }
+        public void InitializeMaxHealth(int maxHealth) => healthUI.Initialize(maxHealth);
 
-        public void SetHealth(int currentHealth)
-        {
-            healthUI.SetHealth(currentHealth);
-        }
+        public void SetHealth(int currentHealth) => healthUI.SetHealth(currentHealth);
 
-        public void SetPoints(int currentPoints)
-        {
-            pointsUI.SetPoints(currentPoints);
-        }
+        public void SetPoints(int currentPoints) => pointsUI.SetPoints(currentPoints);
+
+        
+
     }
 }
