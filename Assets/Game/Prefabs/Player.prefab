@@ -247,9 +247,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e713a10c10844714aa5d383a5c80009d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pointsText: {fileID: 1105439858860599335}
   OnTextChange:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 4169863158300758786}
+        m_TargetAssemblyTypeName: PrehistoricPlatformer.UI.UIScaleTextFont, Assembly-CSharp
+        m_MethodName: PlayAnimation
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1105439858097241174
 GameObject:
   m_ObjectHideFlags: 0
@@ -498,6 +511,7 @@ GameObject:
   - component: {fileID: 1105439858860599334}
   - component: {fileID: 1105439858860599332}
   - component: {fileID: 1105439858860599335}
+  - component: {fileID: 4169863158300758786}
   m_Layer: 0
   m_Name: PointText
   m_TagString: Untagged
@@ -621,6 +635,21 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &4169863158300758786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1105439858860599353}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6de3c9632b6d4c4199bb7784d11160e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: {fileID: 1105439858860599335}
+  fontAnimationSize: 100
+  fontAnimationTime: 0.3
 --- !u!1 &1105439859339298790
 GameObject:
   m_ObjectHideFlags: 0
@@ -824,6 +853,7 @@ Transform:
   m_Children:
   - {fileID: 6374747970617725287}
   - {fileID: 476485102103889335}
+  - {fileID: 854422809751448680}
   m_Father: {fileID: 1105439858978141474}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -989,6 +1019,52 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: 8cc47c96bedcdf94da16c0a0dfceb1f5, type: 3}
+  targetAudioSource: {fileID: 6733086090308163065}
+  volume: 1
+--- !u!1 &5786043723204893203
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 854422809751448680}
+  - component: {fileID: 1046030674782416282}
+  m_Layer: 3
+  m_Name: Point Pickable Feedback
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &854422809751448680
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5786043723204893203}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2744804432264913148}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1046030674782416282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5786043723204893203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b365b1e610f743fe8ca834d34bd3f860, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clip: {fileID: 8300000, guid: 8d1e15041c4b0844183331aa3c5f8b43, type: 3}
   targetAudioSource: {fileID: 6733086090308163065}
   volume: 1
 --- !u!1 &6184944719799273449
@@ -2072,11 +2148,22 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: 5da6423caab7e5a41b075dabedcdb6c0, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 28d77faa16a6b6f4a80f967aea288bee, type: 3}
---- !u!4 &1105439858978141474 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 281279606191643394, guid: 28d77faa16a6b6f4a80f967aea288bee, type: 3}
+--- !u!82 &6733086090308163065 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 5890914874986298329, guid: 28d77faa16a6b6f4a80f967aea288bee, type: 3}
   m_PrefabInstance: {fileID: 914232915383971360}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &8489939483423017327 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8746644705679271759, guid: 28d77faa16a6b6f4a80f967aea288bee, type: 3}
+  m_PrefabInstance: {fileID: 914232915383971360}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b365b1e610f743fe8ca834d34bd3f860, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1105439858629903179 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 281279606925815147, guid: 28d77faa16a6b6f4a80f967aea288bee, type: 3}
@@ -2093,27 +2180,58 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 281279605320641054, guid: 28d77faa16a6b6f4a80f967aea288bee, type: 3}
   m_PrefabInstance: {fileID: 914232915383971360}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &1105439858978141474 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 281279606191643394, guid: 28d77faa16a6b6f4a80f967aea288bee, type: 3}
+  m_PrefabInstance: {fileID: 914232915383971360}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1105439858978141477 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 281279606191643397, guid: 28d77faa16a6b6f4a80f967aea288bee, type: 3}
   m_PrefabInstance: {fileID: 914232915383971360}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &8489939483423017327 stripped
+--- !u!114 &2012650058338585721
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8746644705679271759, guid: 28d77faa16a6b6f4a80f967aea288bee, type: 3}
-  m_PrefabInstance: {fileID: 914232915383971360}
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1105439858978141477}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b365b1e610f743fe8ca834d34bd3f860, type: 3}
+  m_Script: {fileID: 11500000, guid: ee62920f2aa643289c8e9039a458d37a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!82 &6733086090308163065 stripped
-AudioSource:
-  m_CorrespondingSourceObject: {fileID: 5890914874986298329, guid: 28d77faa16a6b6f4a80f967aea288bee, type: 3}
-  m_PrefabInstance: {fileID: 914232915383971360}
-  m_PrefabAsset: {fileID: 0}
+  OnPointsValueChange:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1105439858015278573}
+        m_TargetAssemblyTypeName: PrehistoricPlatformer.UI.PointsUI, Assembly-CSharp
+        m_MethodName: SetPoints
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  OnPickUpPoints:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1046030674782416282}
+        m_TargetAssemblyTypeName: PrehistoricPlatformer.AudioFeedback, Assembly-CSharp
+        m_MethodName: PlayClip
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &7621461683144383510
 MonoBehaviour:
   m_ObjectHideFlags: 0

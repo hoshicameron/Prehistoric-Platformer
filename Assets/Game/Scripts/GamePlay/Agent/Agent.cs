@@ -1,3 +1,4 @@
+using PrehistoricPlatformer.Player;
 using PrehistoricPlatformer.StatePattern;
 using PrehistoricPlatformer.WeaponSystem;
 using UnityEngine;
@@ -17,6 +18,7 @@ namespace PrehistoricPlatformer.Agents
         public GroundDetector GroundDetector { get; private set; }
         public ClimbingDetector ClimbingDetector { get; private set; }
         public AgentWeaponManager agentWeapon { get; private set; }
+        public PlayerPoints PlayerPoints { get; private set; }
         public StateFactory StateFactory { get; private set; }
         public Damagable Damagable { get; private set; }
         
@@ -44,6 +46,7 @@ namespace PrehistoricPlatformer.Agents
             agentWeapon = GetComponentInChildren<AgentWeaponManager>();
             StateFactory = GetComponentInChildren<StateFactory>();
             Damagable = GetComponentInChildren<Damagable>();
+            PlayerPoints = GetComponent<PlayerPoints>();
             StateFactory.InitializeStates(this);
         }
 
