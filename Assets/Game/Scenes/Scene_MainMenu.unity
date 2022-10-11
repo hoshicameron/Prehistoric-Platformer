@@ -425,6 +425,30 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 3828345392061654000, guid: 69f84613419935f4fac72ff3f4bd8d66, type: 3}
   m_PrefabInstance: {fileID: 381493408}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &381493410 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3828345392061654007, guid: 69f84613419935f4fac72ff3f4bd8d66, type: 3}
+  m_PrefabInstance: {fileID: 381493408}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &381493411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 381493410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d95517dc16b84cf999c80df40ce2bb14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  element: {fileID: 381493409}
+  animationTime: 2
+  shakeStrength: 3
+  randomness: 90
+  vibrato: 10
+  fadeOut: 1
+  delayBetweenShakes: 3
 --- !u!1 &896223842
 GameObject:
   m_ObjectHideFlags: 0
@@ -1101,11 +1125,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1823514840}
   m_CullTransparentMesh: 1
+--- !u!1 &1895251923 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3828345392061654007, guid: 69f84613419935f4fac72ff3f4bd8d66, type: 3}
+  m_PrefabInstance: {fileID: 3828345391798131748}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &1895251924 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 3828345392061654000, guid: 69f84613419935f4fac72ff3f4bd8d66, type: 3}
   m_PrefabInstance: {fileID: 3828345391798131748}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1895251925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1895251923}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d95517dc16b84cf999c80df40ce2bb14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  element: {fileID: 1895251924}
+  animationTime: 2
+  shakeStrength: 3
+  randomness: 90
+  vibrato: 10
+  fadeOut: 1
+  delayBetweenShakes: 3
 --- !u!1 &1915496132
 GameObject:
   m_ObjectHideFlags: 0
