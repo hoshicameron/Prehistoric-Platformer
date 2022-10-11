@@ -6,6 +6,11 @@ namespace PrehistoricPlatformer.AI
 {
     public class AIStaticEnemyBrain : AIEnemy
     {
-     
+        [SerializeField] private AIBehaviour attackBehaviour;
+
+        private void FixedUpdate()
+        {
+            attackBehaviour.PerformAction(this);
+        }
     }
 }

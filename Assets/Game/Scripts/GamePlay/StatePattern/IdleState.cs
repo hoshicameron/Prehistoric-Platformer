@@ -13,17 +13,20 @@ namespace PrehistoricPlatformer.StatePattern
                 agent.Rb2D.velocity=new Vector2(0,agent.Rb2D.velocity.y);
         }
 
-        protected override void HandleMovement(Vector2 input)
+        public override void StateFixedUpdate()
         {
-            if (agent.ClimbingDetector.CanClimb &&  Mathf.Abs(input.y) > 0)
+            if(TestFallState()) return;
+            
+            if (agent.ClimbingDetector.CanClimb &&  Mathf.Abs(agent.AgentInput.MovementVector.y) > 0)
             {
                 agent.TransitionToState(agent.StateFactory.GetState(StateType.Climbing));
             }
-            else if (Mathf.Abs(input.x) > 0)
+            else if (Mathf.Abs(agent.AgentInput.MovementVector.x) > 0)
             {
                 agent.TransitionToState(agent.StateFactory.GetState(StateType.Move));
             }
         }
+
     }// class
 
 }// namespace
