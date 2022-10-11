@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79b2b87454d743d3895b44b87d4a5e94, type: 3}
   m_Name: EnemyRangeWeaponData
   m_EditorClassIdentifier: 
-  weaponSprite: {fileID: 21300000, guid: db4f96bf5c153dd4fb1224bc5aa654c4, type: 3}
-  weaponName: Boomerang
+  weaponSprite: {fileID: 0}
+  weaponName: EnemyRangeWeapon
   weaponDamage: 1
   attackRange: 8
   weaponSwingSound: {fileID: 8300000, guid: 9b80ba1e34828c74582253352f7ebd52, type: 3}
-  weaponThrowSpeed: 20
-  rangeWeaponPrefab: {fileID: 6545690395978043411, guid: f9b0448df3e3d7e4a8ac2d35ee6f6a26, type: 3}
+  weaponThrowSpeed: 10
+  rangeWeaponPrefab: {fileID: 1182718958878485671, guid: 4e9d005c530202b4c8d4c08f8ed2d3cf, type: 3}
