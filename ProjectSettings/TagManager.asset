@@ -53,6 +53,9 @@ TagManager:
   - name: Ground
     uniqueID: 1185352871
     locked: 0
+  - name: Exits
+    uniqueID: 1521855963
+    locked: 0
   - name: Obstacle
     uniqueID: 4186679905
     locked: 0
@@ -79,4 +82,7 @@ TagManager:
     locked: 0
   - name: Foreground
     uniqueID: 3128307227
+    locked: 0
+  - name: UI
+    uniqueID: 1628144987
     locked: 0

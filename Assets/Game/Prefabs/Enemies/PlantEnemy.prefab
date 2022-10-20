@@ -284,7 +284,7 @@ MonoBehaviour:
   detectionLayerMask:
     serializedVersion: 2
     m_Bits: 8
-  gizmoIdleColor: {r: 0, g: 1, b: 0, a: 0.6666667}
+  gizmoIdleColor: {r: 0, g: 1, b: 0, a: 0.20784314}
   gizmoDetectedColor: {r: 1, g: 0, b: 0, a: 0.6666667}
   showGizmo: 1
 --- !u!1 &4892162981122930373
@@ -1107,8 +1107,8 @@ MonoBehaviour:
   boxCastXOffset: 0
   boxCastWidth: 0.94
   boxCastHeight: 0.15
-  gizmoColorIsNotGrounded: {r: 0.46547508, g: 1, b: 0, a: 1}
-  gizmoColorIsGrounded: {r: 0, g: 1, b: 0, a: 1}
+  gizmoColorIsNotGrounded: {r: 0.46547508, g: 1, b: 0, a: 0.7529412}
+  gizmoColorIsGrounded: {r: 0, g: 1, b: 0, a: 0.5529412}
 --- !u!114 &7559574672613318403
 MonoBehaviour:
   m_ObjectHideFlags: 0

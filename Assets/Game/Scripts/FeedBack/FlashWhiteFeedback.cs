@@ -23,7 +23,6 @@ namespace PrehistoricPlatformer.Feedback
         private void ToggleMaterial(int value)
         {
             value = Mathf.Clamp(value,0,1);
-            print(value);
             spriteRenderer.material.SetInt(MakeColorSolid,value);
         }
 

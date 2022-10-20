@@ -13,5 +13,11 @@ namespace PrehistoricPlatformer.Utilities
         public const string LandAnimation = "Land";
         public const string PlayerTag = "Player";
         public const string ClimbingStuffLayer = "ClimbingStuff";
+        
+        //Save 
+        public const string PointsKey = "Points";
+        public const string PlayerWeaponsKey = "PlayerWeapons";
+        public const string LevelKey = "LevelKey";
+        public const string SaveDataKey = "SaveDataKey";
     }
 }

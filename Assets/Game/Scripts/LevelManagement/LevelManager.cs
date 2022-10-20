@@ -17,11 +17,11 @@ namespace PrehistoricPlatformer.LevelManagement
         public void LoadWinScene() => LoadSceneWithIndex(winBuildIndex);
         
 
-        private void LoadSceneWithIndex(int levelIndex)
+        public void LoadSceneWithIndex(int levelIndex)
         {
             SceneManager.LoadScene(levelIndex);
         }
-        private int GetNextLevelIndex()
+        public int GetNextLevelIndex()
         {
             int index = SceneManager.GetActiveScene().buildIndex + 1;
 
