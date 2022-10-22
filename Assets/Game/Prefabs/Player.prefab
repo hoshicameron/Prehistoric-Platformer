@@ -2399,6 +2399,10 @@ PrefabInstance:
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7343364742254845417, guid: 28d77faa16a6b6f4a80f967aea288bee, type: 3}
+      propertyPath: timeToWaitBeforeRespawn
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7343364742254845417, guid: 28d77faa16a6b6f4a80f967aea288bee, type: 3}
       propertyPath: OnEnter.m_PersistentCalls.m_Calls.Array.size
       value: 2
       objectReference: {fileID: 0}
