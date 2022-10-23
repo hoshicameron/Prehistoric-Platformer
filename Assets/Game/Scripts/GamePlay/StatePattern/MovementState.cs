@@ -45,7 +45,7 @@ namespace PrehistoricPlatformer.StatePattern
             CalculateSpeed(agent.AgentInput.MovementVector, movementData);
             CalculateHorizontalDirection(movementData);
             movementData.currentVelocity =
-                Vector2.right * movementData.horizontalMovementDirection * movementData.currentSpeed;
+                Vector2.right * (movementData.horizontalMovementDirection * movementData.currentSpeed);
             movementData.currentVelocity.y = agent.Rb2D.velocity.y;
         }
 

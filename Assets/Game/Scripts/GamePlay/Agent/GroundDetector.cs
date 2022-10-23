@@ -4,6 +4,7 @@ namespace PrehistoricPlatformer.Agents
 {
     public class GroundDetector:MonoBehaviour
     {
+        [field: SerializeField] public bool Flying { get; set; } = false;
         public Collider2D agentCollider;
         public LayerMask groundMask;
 
@@ -24,8 +25,17 @@ namespace PrehistoricPlatformer.Agents
             }
         }
 
+        public bool ToggleFlying(bool value) => Flying = value;
+
         public void CheckIsGrounded()
         {
+            if (Flying)
+            {
+                isGrounded = true;
+                return;
+            }
+            
+            
             RaycastHit2D raycastHit = Physics2D.BoxCast(
                 agentCollider.bounds.center + new Vector3(boxCastXOffset, boxCastYOffset, 0),
                 new Vector3(boxCastWidth, boxCastHeight, 0), 0, Vector2.down, 0, groundMask
