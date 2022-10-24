@@ -2,66 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b6ce468-2087-4313-90d7-32fb3f129066" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Enemies/Behaviours.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Enemies/Behaviours/AIBehaviourPatrolPath.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Enemies/Behaviours/AIBehaviourPatrolPath.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Enemies/Brains.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Enemies/Detectors.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Enemies/PatrolPath.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Enemies/PatrolPath.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/StatePattern/FlyState.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/StatePattern/FlyState.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Enemies/Behaviours/Boss.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Enemies/Behaviours/Boss/AIBehaviourBossCharge.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Enemies/Behaviours/Boss/AIBehaviourBossCharge.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Enemies/Behaviours/Boss/AIBehaviourBossIdle.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Enemies/Behaviours/Boss/AIBehaviourBossIdle.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Enemies/Behaviours/Boss/AIBehaviourBossMeleeAttack.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Enemies/Behaviours/Boss/AIBehaviourBossMeleeAttack.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Enemies/Behaviours/Boss/AIBehaviourBossWait.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Enemies/Behaviours/Boss/AIBehaviourBossWait.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Enemies/Behaviours/Boss/AIBossEnemyBrain.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Enemies/Behaviours/Boss/AIBossEnemyBrain.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Enemies/Behaviours/Boss/AIDataBoard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Enemies/Behaviours/Boss/AIDataBoard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Enemies/Behaviours/Boss/AIDataTypes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Enemies/Behaviours/Boss/AIDataTypes.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Enemies/Detectors/AIPlayerEnterAreaDetector.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Enemies/Detectors/AIPlayerEnterAreaDetector.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/UI/BossHealthUI.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/UI/BossHealthUI.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Utilities/CmCameraConfineUtil.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Utilities/CmCameraConfineUtil.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Prehistoric Platformer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Prehistoric Platformer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Animations/Enemies/Lizard Animation.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Animations/Enemies/Lizard Animation/LizardAnimatorOverride.overrideController" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Animations/Enemies/Lizard Animation/LizardAnimatorOverride.overrideController.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Animations/Enemies/Lizard Animation/Lizard_Attack_Animation.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Animations/Enemies/Lizard Animation/Lizard_Attack_Animation.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Animations/Enemies/Lizard Animation/Lizard_Die_Animation.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Animations/Enemies/Lizard Animation/Lizard_Die_Animation.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Animations/Enemies/Lizard Animation/Lizard_GetHit_Animation.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Animations/Enemies/Lizard Animation/Lizard_GetHit_Animation.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Animations/Enemies/Lizard Animation/Lizard_Idle_Animation.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Animations/Enemies/Lizard Animation/Lizard_Idle_Animation.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Animations/Enemies/Lizard Animation/Lizard_Run_Animation.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Animations/Enemies/Lizard Animation/Lizard_Run_Animation.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Animations/Enemies/PlantEnemy.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Animations/Enemies/PlantEnemy/PlantAnimatorOverride.overrideController" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Animations/Enemies/PlantEnemy/PlantAnimatorOverride.overrideController.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Animations/Enemies/PlantEnemy/Plant_Attack_Animation.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Animations/Enemies/PlantEnemy/Plant_Attack_Animation.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Animations/Enemies/PlantEnemy/Plant_Die_Animation.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Animations/Enemies/PlantEnemy/Plant_Die_Animation.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Animations/Enemies/PlantEnemy/Plant_GetHit_Animation.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Animations/Enemies/PlantEnemy/Plant_GetHit_Animation.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Animations/Enemies/PlantEnemy/Plant_Idle_Animation.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Animations/Enemies/PlantEnemy/Plant_Idle_Animation.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Data/Weapons/BoomerangRangeWeaponData.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Data/Weapons/BoomerangRangeWeaponData.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Data/Weapons/ClubMeleeWeaponData.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Data/Weapons/ClubMeleeWeaponData.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Data/Weapons/EnemyInvisibleMeleeWeaponData.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Data/Weapons/EnemyInvisibleMeleeWeaponData.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Data/Weapons/EnemyRangeWeaponData.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Data/Weapons/EnemyRangeWeaponData.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Prefabs/Player.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/Scene_Level2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scenes/Scene_Level2.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Agent/GroundDetector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Agent/GroundDetector.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Enemies/AIBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Enemies/Behaviours/AIBehaviour.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Enemies/AIBehaviour.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Enemies/Behaviours/AIBehaviour.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Enemies/AIBehaviourMeleeAttack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Enemies/Behaviours/AIBehaviourMeleeAttack.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Enemies/AIBehaviourMeleeAttack.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Enemies/Behaviours/AIBehaviourMeleeAttack.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Enemies/AIBehaviourPatrol.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Enemies/Behaviours/AIBehaviourPatrol.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Enemies/AIBehaviourPatrol.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Enemies/Behaviours/AIBehaviourPatrol.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Enemies/AIEndPlatformDetector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Enemies/Detectors/AIEndPlatformDetector.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Enemies/AIEndPlatformDetector.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Enemies/Detectors/AIEndPlatformDetector.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Enemies/AIEnemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Enemies/Behaviours/AIEnemy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Enemies/AIEnemy.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Enemies/Behaviours/AIEnemy.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Enemies/AIMeleeAttackDetector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Enemies/Detectors/AIMeleeAttackDetector.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Enemies/AIMeleeAttackDetector.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Enemies/Detectors/AIMeleeAttackDetector.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Enemies/AIPatrollingEnemyBrain.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Enemies/Brains/AIPatrollingEnemyBrain.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Enemies/AIPatrollingEnemyBrain.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Enemies/Brains/AIPatrollingEnemyBrain.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Enemies/AIPlayerDetector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Enemies/Detectors/AIPlayerDetector.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Enemies/AIPlayerDetector.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Enemies/Detectors/AIPlayerDetector.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Enemies/AIShootBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Enemies/Behaviours/AIShootBehaviour.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Enemies/AIShootBehaviour.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Enemies/Behaviours/AIShootBehaviour.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Enemies/AIStaticEnemyBrain.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Enemies/Brains/AIStaticEnemyBrain.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Enemies/AIStaticEnemyBrain.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Enemies/Brains/AIStaticEnemyBrain.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/StatePattern/MovementState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/StatePattern/MovementState.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/UI/Animations/UIScaleElement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/UI/Animations/UIScaleElement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Enemies/Detectors/AIEndPlatformDetector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Enemies/Detectors/AIEndPlatformDetector.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/Utilities/GameConstants.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/Utilities/GameConstants.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Scripts/WeaponSystem/MeleeWeaponData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scripts/WeaponSystem/MeleeWeaponData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Sprites/monsters/bat-1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Sprites/monsters/bat-1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Sprites/monsters/tyrannosaurus-1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Sprites/monsters/tyrannosaurus-1.png.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,6 +79,10 @@
     <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Agent/PlayerInput.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/AudioFeedback.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/DestroyFallingObjects.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Enemies/Behaviours/Boss/AIBehaviourBossIdle.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Enemies/Behaviours/Boss/AIBossEnemyBrain.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Enemies/Behaviours/Boss/AIDataBoard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Enemies/Behaviours/Boss/AIDataTypes.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Obstacles/FragileBlock.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/ParallaxEffect.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/GamePlay/Pickables/PointPickable.cs" root0="FORCE_HIGHLIGHTING" />
@@ -379,7 +359,8 @@
       <workItem from="1666358685886" duration="3024000" />
       <workItem from="1666446066527" duration="5307000" />
       <workItem from="1666479040963" duration="77000" />
-      <workItem from="1666513575742" duration="5944000" />
+      <workItem from="1666513575742" duration="7134000" />
+      <workItem from="1666599838247" duration="13402000" />
     </task>
     <servers />
   </component>

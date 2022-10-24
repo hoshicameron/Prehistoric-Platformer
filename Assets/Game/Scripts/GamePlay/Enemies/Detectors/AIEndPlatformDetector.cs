@@ -23,8 +23,9 @@ namespace PrehistoricPlatformer.AI
 
         private void OnTriggerEnter2D(Collider2D col)
         {
-            if(col.gameObject.layer== LayerMask.NameToLayer(GameConstants.ClimbingStuffLayer))  return;
-            
+            if(col.gameObject.layer== LayerMask.NameToLayer(GameConstants.ClimbingStuffLayer)
+               || col.gameObject.layer== LayerMask.NameToLayer(GameConstants.DefaultLayer))  return;
+            Debug.Log(col.name);
             OnPathBlocked?.Invoke();
         }
 
@@ -38,8 +39,11 @@ namespace PrehistoricPlatformer.AI
             yield return new WaitForSeconds(groundRaycastDelay);
             var hit = Physics2D.Raycast(detectorCollider.bounds.center, 
                 Vector2.down, groundRaycastLength, groundLayer);
-            if(hit.collider==null)
+            if (hit.collider == null)
+            {
+                Debug.Log("Routine");
                 OnPathBlocked?.Invoke();
+            }
 
             PathBlocked = hit.collider == null;
             StartCoroutine(CheckGroundCoroutine());

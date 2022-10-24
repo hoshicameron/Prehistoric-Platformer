@@ -19,5 +19,6 @@ namespace PrehistoricPlatformer.Utilities
         public const string PlayerWeaponsKey = "PlayerWeapons";
         public const string LevelKey = "LevelKey";
         public const string SaveDataKey = "SaveDataKey";
+        public const string DefaultLayer = "Default";
     }
 }

@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 19884423adde48918007fb3b19a08e42, type: 3}
-  m_Name: EnemyInvisibleMeleeWeaponData
+  m_Name: BossInvisibleMeleeWeaponData
   m_EditorClassIdentifier: 
   weaponSprite: {fileID: 0}
-  weaponName: Tongue
+  weaponName: BossMelee
   weaponDamage: 1
+  attackRange: 2
   weaponSwingSound: {fileID: 8300000, guid: 9b80ba1e34828c74582253352f7ebd52, type: 3}
-  attackRange: 1.1
